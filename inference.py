@@ -5,11 +5,11 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--text", type=str, default="text à prédire", help="Texte à prédire")
 parser.add_argument("--top_k", type=int, default=10, help="Le nombre de tokens les plus probables à garder")
-parser.add_argument("--top_p", type=float, default=0.2, help="Compris entre 0.0 et 1.0 On prend les tokens les plus probable")
+parser.add_argument("--top_p", type=float, default=0.9, help="Compris entre 0.0 et 1.0 On prend les tokens les plus probable jusqu'à ce que leur sommes de probabilité arrive à top_p")
 parser.add_argument("--temperature", type=float, default=1.0, help="Si c'est < 1.0 les tokens seront plus prédictif sinon ça sera plus créatif")
 parser.add_argument("--max_tokens", type=int, default=10, help="Le nombre maximum de tokens à générer")
-
 args = parser.parse_args()
+
 model = torch.load("checkpoint.pt", weights_only=False)
 
 tokenizer = AutoTokenizer.from_pretrained("gpt2")

@@ -19,7 +19,11 @@ That will put all your data formated in a file named all-in-one.txt
 
 after that, you can launch :
 python train.py
-You can change epochs in the file
+You can change epochs in the file or in the command
+--epochs 100
+
+You can use arg --help to help you
+python inference.py --help
 
 # To infer
 
