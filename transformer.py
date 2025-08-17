@@ -1,9 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.optim as optim
 import math
-import preprocess
 
 class RoPEPositionalEncoding(nn.Module):
     def __init__(self, head_dim, max_seq_len=2048):
@@ -19,39 +17,6 @@ class RoPEPositionalEncoding(nn.Module):
         freqs = torch.einsum('i,j->ij', t, self.inv_freq)
         emb = torch.cat((freqs, freqs), dim=-1)
         return emb
-
-def apply_rope(x, rope_emb):
-    """Applique RoPE aux embeddings"""
-    # x shape: [batch, seq_len, num_heads, head_dim]
-    # rope_emb shape: [seq_len, head_dim]
-    
-    seq_len, head_dim = x.shape[1], x.shape[-1]
-    
-    # S'assurer que rope_emb a la bonne dimension
-    if rope_emb.shape[-1] != head_dim:
-        rope_emb = rope_emb[..., :head_dim]
-    
-    cos_emb = rope_emb.cos().unsqueeze(0).unsqueeze(2)  # [1, seq_len, 1, head_dim]
-    sin_emb = rope_emb.sin().unsqueeze(0).unsqueeze(2)  # [1, seq_len, 1, head_dim]
-    
-    # Séparer les dimensions paires et impaires
-    x1 = x[..., ::2]
-    x2 = x[..., 1::2]
-    
-    # S'assurer que cos_emb et sin_emb ont les bonnes dimensions
-    cos_half = cos_emb[..., ::2]
-    sin_half = sin_emb[..., ::2]
-    
-    # Appliquer la rotation
-    rotated_x1 = x1 * cos_half - x2 * sin_half
-    rotated_x2 = x2 * cos_half + x1 * sin_half
-    
-    # Recombiner
-    rotated_x = torch.zeros_like(x)
-    rotated_x[..., ::2] = rotated_x1
-    rotated_x[..., 1::2] = rotated_x2
-    
-    return rotated_x
 
 class SwiGLU(nn.Module):
     def __init__(self, d_model, d_ff):
@@ -89,8 +54,8 @@ class MultiHeadAttention(nn.Module):
         
         # Appliquer RoPE
         rope_emb = self.rope(seq_len, x.device)
-        q = apply_rope(q, rope_emb)
-        k = apply_rope(k, rope_emb)
+        q = self.apply_rope(q, rope_emb)
+        k = self.apply_rope(k, rope_emb)
         
         # Transposer pour l'attention
         q = q.transpose(1, 2)  # [batch, num_heads, seq_len, head_dim]
@@ -115,6 +80,39 @@ class MultiHeadAttention(nn.Module):
         )
         
         return self.out_proj(attn_output)
+    
+    def apply_rope(self, x, rope_emb):
+        """Applique RoPE aux embeddings"""
+        # x shape: [batch, seq_len, num_heads, head_dim]
+        # rope_emb shape: [seq_len, head_dim]
+        
+        seq_len, head_dim = x.shape[1], x.shape[-1]
+        
+        # S'assurer que rope_emb a la bonne dimension
+        if rope_emb.shape[-1] != head_dim:
+            rope_emb = rope_emb[..., :head_dim]
+        
+        cos_emb = rope_emb.cos().unsqueeze(0).unsqueeze(2)  # [1, seq_len, 1, head_dim]
+        sin_emb = rope_emb.sin().unsqueeze(0).unsqueeze(2)  # [1, seq_len, 1, head_dim]
+        
+        # Séparer les dimensions paires et impaires
+        x1 = x[..., ::2]
+        x2 = x[..., 1::2]
+        
+        # S'assurer que cos_emb et sin_emb ont les bonnes dimensions
+        cos_half = cos_emb[..., ::2]
+        sin_half = sin_emb[..., ::2]
+        
+        # Appliquer la rotation
+        rotated_x1 = x1 * cos_half - x2 * sin_half
+        rotated_x2 = x2 * cos_half + x1 * sin_half
+        
+        # Recombiner
+        rotated_x = torch.zeros_like(x)
+        rotated_x[..., ::2] = rotated_x1
+        rotated_x[..., 1::2] = rotated_x2
+        
+        return rotated_x
 
 class TransformerBlock(nn.Module):
     def __init__(self, d_model, num_heads, d_ff, dropout=0.1):
@@ -202,7 +200,7 @@ class TransformerDecoder(nn.Module):
             'predictions': torch.argmax(logits, dim=-1)
         }
     
-    def generate(self, input_ids, max_new_tokens=50, temperature=1.0, top_k=10, top_p=None):
+    def generate(self, input_ids, max_new_tokens=50, temperature=1.0, top_k=1, top_p=0.5):
         """Génération de texte"""
         self.eval()
         with torch.no_grad():
@@ -244,59 +242,3 @@ class TransformerDecoder(nn.Module):
                 input_ids = torch.cat([input_ids, next_token], dim=1)
         
         return input_ids
-
-# Exemple d'utilisation
-if __name__ == "__main__":
-    # Paramètres du modèle
-    tokenizer = preprocess.tokenize()
-    vocab_size = len(tokenizer)  # Taille du vocabulaire GPT-2
-    model = TransformerDecoder(
-        vocab_size=vocab_size,
-        d_model=768,
-        num_heads=32,
-        num_layers=32,
-        d_ff=4096,
-        dropout=0.2
-    )
-
-    optimizer = optim.AdamW(model.parameters(), lr=4.2e-4, weight_decay=0.01)
-    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=1000)
-    
-    dataset = preprocess.load_data()
-    datas = preprocess.encode_data(tokenizer, dataset)
-
-    # Forward pass
-    for epochs in range(2):
-        print("Epochs : ", epochs)
-        for i in range(0, len(datas["input"]["input_ids"])):
-            input_tensor = datas["input"]["input_ids"][i].unsqueeze(0)
-            labels_tensor = datas["output"]["input_ids"][i].unsqueeze(0)
-
-            outputs = model(input_tensor, labels=labels_tensor)
-            loss = outputs['loss']
-            predictions = outputs['predictions']
-            logits = outputs['logits']
-            print(f"Loss: {loss.item():.4f}")
-            print(f"Logits shape: {outputs['logits'].shape}")
-            print(f"Predictions shape: {predictions.shape}")
-            print(f"Nombre de paramètres: {sum(p.numel() for p in model.parameters()):,}")
-
-            probs = F.softmax(logits, dim=-1)
-            preds = torch.argmax(probs, dim=-1)
-            print("prédiction : ", preds[0])
-            print("Mot prédit : ",  preprocess.decode_data(tokenizer, preds[0].tolist()))
-            # Backward pass
-            optimizer.zero_grad()
-            loss.backward()
-        print("Mise à jour des gardients")
-        # Mise à jour des poids
-        optimizer.step()
-        scheduler.step()
-        print("Sauvegarde du modèle")
-        checkpoint = {
-            "epoch": epochs,
-            "model_state_dict": model.state_dict(),
-            "optimizer_state_dict": optimizer.state_dict(),
-            "loss": loss.item(),
-        }
-        torch.save(checkpoint, "checkpoint.pt")

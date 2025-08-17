@@ -38,6 +38,6 @@ def transform_dataset():
         dataset = dataset["train"]["lines"]
         dataset = [line.strip() for line in dataset[0] if line.strip() != ""]
         make_fim_examples(dataset)
-        with open('all-in-one.txt', 'w', encoding='utf-8') as f:
+        with open('all-in-one.txt', 'a', encoding='utf-8') as f:
             for row in dataset:
                 f.write(row + '\n')
