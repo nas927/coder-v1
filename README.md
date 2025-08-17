@@ -26,3 +26,13 @@ You can change epochs in the file
 Open the file inference.py and change the text
 python inference.py
 output will be the prediction
+
+You can now define the text and top_k, top_p, temperature and max_tokens to generate
+--text you "Your text"
+--top_k 20
+--top_p 1.0
+--temperature 1.0
+--max_tokens 100
+
+You can use arg --help to help you
+python inference.py --help

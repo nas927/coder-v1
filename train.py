@@ -2,6 +2,12 @@ import preprocess
 import torch.optim as optim
 import torch.nn.functional as F
 from transformer import *
+import argparse
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--epochs", type=int, default=3, help="Nombre d'epochs default 3")
+args = parser.parse_args()
 
 def init_model():
     tokenizer = preprocess.tokenize()
@@ -26,7 +32,7 @@ def launch_training(model, optimizer, scheduler, tokenizer):
 
     print(f"Nombre de paramètres: {sum(p.numel() for p in model.parameters()):,}")
     # Forward pass
-    for epochs in range(2):
+    for epochs in range(args.epochs):
         print("Epochs : ", epochs)
         for i in range(0, len(datas["input"]["input_ids"])):
             input_tensor = datas["input"]["input_ids"][i].unsqueeze(0)
