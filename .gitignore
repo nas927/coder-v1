@@ -1,2 +1,5 @@
 __pycache__/
+.venv
 checkpoint.pt
+datasets/
+all-in-one.txt

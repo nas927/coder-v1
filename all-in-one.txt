@@ -1,7 +1,0 @@
-<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
-<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
-<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
-<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
-<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
-<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
-<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
