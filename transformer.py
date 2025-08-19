@@ -136,6 +136,7 @@ class TransformerBlock(nn.Module):
         return x
 
 class TransformerDecoder(nn.Module):
+
     def __init__(self, vocab_size, d_model=512, num_heads=8, num_layers=6, d_ff=2048, max_seq_len=2048, dropout=0.1):
         super().__init__()
         self.d_model = d_model
