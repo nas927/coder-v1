@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer
+from tokenizers import Tokenizer
 from datasets import load_dataset
 import unicodedata
 
@@ -7,11 +7,6 @@ def normalize_text(text):
 
 def split_data(batch):
     return {"lines": [doc.split("\n") for doc in batch["text"]]}
-
-def check_data(dataset):
-    for data in dataset:
-        print(type(data))
-        print(data)
 
 def split_input_prediction(dataset):
     fim_end_token = "<fim_end>"
@@ -30,6 +25,11 @@ def split_input_prediction(dataset):
 
     return input_output
 
+def check_data(dataset):
+    for data in dataset:
+        print(type(data))
+        print(data)
+
 def load_data():
     dataset = load_dataset(            
         "text",
@@ -43,11 +43,8 @@ def load_data():
     return dataset
 
 def tokenize():
-    # GPT-2 qui utilise BPE
-    tokenizer = AutoTokenizer.from_pretrained("gpt2")
-    special_tokens = ["<fim_start>", "<fim_hole>", "<fim_end>", "<eos_token>", "<PAD>"]
-    tokenizer.add_special_tokens({"additional_special_tokens": special_tokens})
-    tokenizer.pad_token = "<PAD>"
+    # coderv1 qui utilise BPE sur notre vocabulaire
+    tokenizer = Tokenizer.from_file("./coder-v1.json")
 
     return tokenizer
 
@@ -60,23 +57,33 @@ def encode_data(tokenizer, dataset):
     for in_out in input_output:
         inp.append(str(in_out["input"]))
         out.append(str(in_out["output"]))
-    
+
+    if len(inp) != len(out):
+        raise("Erreur les deux listes ne sont pas de même taille !") 
     all_strings = inp + out
     max_length = len(max(all_strings, key=len))
-    input_output_tokenized["input"] = tokenizer(out, padding='max_length', truncation=True, return_tensors="pt", max_length=max_length)
-    input_output_tokenized["output"] = tokenizer(inp, padding='max_length', truncation=True, return_tensors="pt", max_length=max_length)
+    # Configurer le padding
+    tokenizer.enable_padding(length=max_length, pad_id=tokenizer.token_to_id("<PAD>"), pad_token="<PAD>")
+    input_output_tokenized["input"] = tokenizer.encode_batch(inp)
+    input_output_tokenized["output"] = tokenizer.encode_batch(out)
 
     return input_output_tokenized
 
 def decode_data(tokenizer, tokens_ids):
-    decode = tokenizer.decode(tokens_ids)
+    decode = tokenizer.decode_batch(tokens_ids)
+
     return decode
 
-def ret_batch(input_ids, batch_size=3):
+def ret_batch(input_output_tokenized, batch_size=3):
     batches = []
-
-    for i in range(0, len(input_ids), batch_size):
-        batch = input_ids[i:i+batch_size]  # récupère 3 séquences
+    inputs = input_output_tokenized["input"]
+    outputs = input_output_tokenized["output"]
+    
+    for i in range(0, len(inputs), batch_size):
+        batch = {
+            "input": inputs[i:i + batch_size],
+            "output": outputs[i:i + batch_size]
+        }
         batches.append(batch)
-
+    
     return batches
