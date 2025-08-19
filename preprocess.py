@@ -74,7 +74,7 @@ def decode_data(tokenizer, tokens_ids):
 
     return decode
 
-def ret_batch(input_output_tokenized, batch_size=3):
+def ret_batch(input_output_tokenized, batch_size):
     batches = []
     inputs = input_output_tokenized["input"]
     outputs = input_output_tokenized["output"]

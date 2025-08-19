@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from transformer import *
 import argparse
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = "cpu"  # torch.device("cuda" if torch.cuda.is_available() else "cpu")
 parser = argparse.ArgumentParser()
 parser.add_argument("--epochs", type=int, default=3, help="Nombre d'epochs default 3")
 parser.add_argument("--batch_size", type=int, default=5, help="Nombre de batch dans 1 epoch default 5")

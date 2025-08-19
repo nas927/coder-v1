@@ -1,7 +1,9 @@
 __pycache__/
 .venv
 checkpoint.pt
-datasets/
 all-in-one.txt
+datasets/
 other_datasets/*.csv
-huggingf/
+coder-v1.json
+huggingf/*
+!/huggingf/CoderConfig.py
