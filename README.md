@@ -76,3 +76,23 @@ You can use arg --help to help you
 ```sh
 python inference.py --help
 ```
+
+Or 
+
+```sh
+python hf_infer.py --help
+```
+
+For hugging face inference
+
+# Convert the model to huggingface model 
+
+First of all train the model and then when you have your pt file launch 
+
+```sh
+python convert_to_hf.py --help
+```
+
+# Convert to gguf
+
+Check here to see how you can do that : (https://github.com/ggml-org/llama.cpp/discussions/2948)[https://github.com/ggml-org/llama.cpp/discussions/2948]
