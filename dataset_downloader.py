@@ -55,6 +55,3 @@ if __name__ == "__main__":
     #     limit=100
     # )
     download_dataset(name="sib200_french", path="mteb/sib200", dataset_name="fra_Latn", column="text")
-    download_dataset(name="sib200_french2", path="mteb/sib200", dataset_name="fra_Latn", column="text")
-    download_dataset(name="sib200_french3", path="mteb/sib200", dataset_name="fra_Latn", column="text")
-    download_dataset(name="sib200_french4", path="mteb/sib200", dataset_name="fra_Latn", column="text")

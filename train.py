@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from transformer import *
 import argparse
 
-
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 parser = argparse.ArgumentParser()
 parser.add_argument("--epochs", type=int, default=3, help="Nombre d'epochs default 3")
 parser.add_argument("--batch_size", type=int, default=5, help="Nombre de batch dans 1 epoch default 5")
@@ -21,6 +21,7 @@ def init_model():
         d_ff=4096,
         dropout=0.2
     )
+    model.to(device)
     optimizer = optim.AdamW(model.parameters(), lr=4.2e-4, weight_decay=0.01)
     scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=1000)
 
@@ -38,8 +39,8 @@ def launch_training(model, optimizer, scheduler, tokenizer):
         for index_batch, batch in enumerate(batches):
             print("Mise à jour des gardients batch n° : ", index_batch)
             for i in range(len(batch['input'])):
-                input_tensor = torch.tensor([batch['input'][i].ids])
-                output_tensor = torch.tensor([batch['output'][i].ids])
+                input_tensor = torch.tensor([batch['input'][i].ids]).to(device)
+                output_tensor = torch.tensor([batch['output'][i].ids]).to(device)
                 outputs = model(input_tensor, output_tensor)
                 loss = outputs['loss']
                 predictions = outputs['predictions']

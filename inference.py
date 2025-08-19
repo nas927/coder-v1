@@ -2,6 +2,7 @@ import torch
 from tokenizers import Tokenizer
 import argparse
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 parser = argparse.ArgumentParser()
 parser.add_argument("--text", type=str, default="Aujourd’hui, les chercheurs en intelligence artificielle ", help="Texte à prédire")
 parser.add_argument("--top_k", type=int, default=10, help="Le nombre de tokens les plus probables à garder")
@@ -11,6 +12,7 @@ parser.add_argument("--max_tokens", type=int, default=1, help="Le nombre maximum
 args = parser.parse_args()
 
 model = torch.load("checkpoint.pt", weights_only=False)
+model.to(device)
 
 tokenizer = Tokenizer.from_file("./coder-v1.json")
 inputs = tokenizer.encode(args.text)
