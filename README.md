@@ -14,7 +14,7 @@ Each line should contain 1 data
 > # Download dataset
 
 > Open file dataset_downloader.py
-> Change the dataset_name and column name in function download_dataset
+> Change the path, dataset_name and column name in function download_dataset
 > Search the data in [huggingface](https://huggingface.co/datasets)
 > Repeat that for each dataset you want to have 
 > And then launch
