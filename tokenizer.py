@@ -1,23 +1,14 @@
 import os
-from tokenizers import Tokenizer
-from tokenizers.models import BPE
-from tokenizers.trainers import BpeTrainer
-from tokenizers.pre_tokenizers import Whitespace
+from transformers import AutoTokenizer
 
 # Créer le tokenizer BPE
-tokenizer = Tokenizer(BPE(unk_token="<unk>"))
-tokenizer.pre_tokenizer = Whitespace()
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1", token="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")
 
-# Entraîner
-trainer = BpeTrainer(vocab_size=32000, 
-                    special_tokens=["<fim_start>", "<fim_hole>", "<fim_end>", "<eos_token>", "<PAD>"])
-
-# Sur tes fichiers texte
+# Préparer les fichiers
 folder = "./datasets/"
-files = os.listdir(folder)
-for file in files:
-    files[files.index(file)] = folder + file
-tokenizer.train(files, trainer)
+files = [os.path.join(folder, f) for f in os.listdir(folder)]
+
+print("Vocab size : ", len(tokenizer))
 
 # Sauvegarder
-tokenizer.save("coder-v1.json")
+tokenizer.save_pretrained("huggingf_compatible")

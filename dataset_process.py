@@ -98,8 +98,8 @@ def transform_dataset():
             for row in dataset:
                 f.write(row + '\n')
 
-convert_to_txt(["French"], "csv")
-convert_to_txt(["English"], "csv")
-convert_to_txt(["prompt"], "csv")
+# convert_to_txt(["French"], "csv")
+# convert_to_txt(["English"], "csv")
+# convert_to_txt(["prompt"], "csv")
 transform_dataset()
 #convert_each_file("humaneval-js.jsonl", ["prompt"])

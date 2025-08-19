@@ -1,5 +1,5 @@
 import torch
-from tokenizers import Tokenizer
+from transformers import AutoTokenizer
 import argparse
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -14,16 +14,17 @@ args = parser.parse_args()
 model = torch.load("checkpoint.pt", weights_only=False)
 model.to(device)
 
-tokenizer = Tokenizer.from_file("./coder-v1.json")
-inputs = tokenizer.encode(args.text)
-inputs = torch.tensor(inputs.ids).unsqueeze(0)
+tokenizer = AutoTokenizer.from_pretrained("huggingf_compatible")
+inputs = tokenizer(args.text, return_tensors="pt")
+print(inputs)
 
 print("Prédiction pour : ", args.text)
-tokens_generated = model.generate(inputs,
+tokens_generated = model.generate(inputs['input_ids'],
                                       top_k=args.top_k,
                                       top_p=args.top_p,
                                       temperature=args.temperature,
                                       max_new_tokens=args.max_tokens
                                 )
-tokenized_text = tokenizer.decode(tokens_generated[0].tolist())
+
+tokenized_text = tokenizer.decode(tokens_generated[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
 print(tokenized_text)

@@ -23,10 +23,10 @@ Each line should contain 1 data
 > ```
 
 > # Transform whole dataset in one file
-Open file dataset_process.py
-Uncomment transform_dataset only if your datasets is in the good format txt and all in datasets folder
-else
-Put your datasets in other_datasets folder if you are sure that every file with the same extension have same columns name then use convert_to_txt specify first arg is all the column you want to put in a line second arg is the extension name 
+> Open file dataset_process.py
+> Uncomment transform_dataset only if your datasets is in the good format txt and all in datasets folder
+> else
+> Put your datasets in other_datasets folder if you are sure that every file with the same extension have same columns name then use convert_to_txt specify first arg is all the column you want to put in a line second arg is the extension name 
 > ```sh
 > python dataset_process.py
 > ```
@@ -87,3 +87,19 @@ python convert_to_hf.py --help
 # Convert to gguf
 
 Check here to see how you can do that : (https://github.com/ggml-org/llama.cpp/discussions/2948)[https://github.com/ggml-org/llama.cpp/discussions/2948]
+
+# Use it in ollama
+
+```sh
+ollama serve
+```
+On an other terminal
+```sh
+cd folder where is Modelfile
+```
+```sh
+ollama create name
+```
+```sh
+ollama run name
+```

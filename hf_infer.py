@@ -1,6 +1,8 @@
 from transformers import AutoTokenizer
-from convert_to_hf import CustomCoderModel 
+from transformers import LlamaForCausalLM 
 import argparse
+import torch
+import torch.nn.functional as F
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--text", type=str, default="Aujourd’hui, les chercheurs en intelligence artificielle ", help="Texte à prédire")
@@ -10,19 +12,16 @@ parser.add_argument("--temperature", type=float, default=1.0, help="Si c'est < 1
 parser.add_argument("--max_tokens", type=int, default=2, help="Le nombre maximum de tokens à générer")
 args = parser.parse_args()
 
-Huggin_face_MODEL = "./huggingf/"
+Huggin_face_MODEL = "./huggingf_compatible/"
 # chemin vers ton tokenizer.json
 
-model = CustomCoderModel.from_pretrained(Huggin_face_MODEL)
+model = LlamaForCausalLM.from_pretrained(Huggin_face_MODEL)
 tokenizer = AutoTokenizer.from_pretrained(Huggin_face_MODEL)
 encoded = tokenizer(args.text, return_tensors="pt")
-output = model.generate(encoded['input_ids'],
-                        top_k=args.top_k,
-                        top_p=args.top_p,
-                        temperature=args.temperature,
-                        max_new_tokens=args.max_tokens
-)
+output = model(**encoded).logits
+predicted_ids = torch.argmax(output, dim=-1)
 
-decoded = tokenizer.decode(output[0], skip_special_tokens=True, clean_up_tokenization_spaces=False)
+
+decoded = tokenizer.decode(predicted_ids[0].tolist(), skip_special_tokens=True, clean_up_tokenization_spaces=False)
 
 print(decoded)

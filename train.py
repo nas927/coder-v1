@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 def init_model():
     tokenizer = preprocess.tokenize()
-    vocab_size = tokenizer.get_vocab_size()  # Taille du vocabulaire GPT-2
+    vocab_size = tokenizer.vocab_size  # Taille du vocabulaire GPT-2
     model = TransformerDecoder(
         vocab_size=vocab_size,
         d_model=768,
@@ -37,10 +37,11 @@ def launch_training(model, optimizer, scheduler, tokenizer):
     for epochs in range(args.epochs):
         print("Epochs : ", epochs)
         for index_batch, batch in enumerate(batches):
-            print("Mise à jour des gardients batch n° : ", index_batch)
-            for i in range(len(batch['input'])):
-                input_tensor = torch.tensor([batch['input'][i].ids]).to(device)
-                output_tensor = torch.tensor([batch['output'][i].ids]).to(device)
+            print("batch n° : ", index_batch)
+            for index_data, data in enumerate(batch['input']):
+                input_tensor = torch.tensor([batch['input'][index_data].ids]).to(device)
+                output_tensor = torch.tensor([batch['input'][index_data].ids]).to(device)
+
                 outputs = model(input_tensor, output_tensor)
                 loss = outputs['loss']
                 predictions = outputs['predictions']
@@ -51,12 +52,13 @@ def launch_training(model, optimizer, scheduler, tokenizer):
 
                 last_logits = logits[0, -1, :]   # shape = [vocab_size]
                 pred_id = torch.argmax(last_logits).item()
-                print("Token décodé : ", preprocess.decode_data(tokenizer, [[pred_id]]))
+                print("Token décodé : ", preprocess.decode_data(tokenizer, pred_id))
 
                 # Backward pass
                 optimizer.zero_grad()
                 loss.backward()
             # Mise à jour des poids
+            print("Mise à jour des gradients")
             optimizer.step()
             scheduler.step()
             print("Sauvegarde du modèle")
