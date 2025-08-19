@@ -10,6 +10,7 @@ class RoPEPositionalEncoding(nn.Module):
         
         # Créer les fréquences pour RoPE
         inv_freq = 1.0 / (10000 ** (torch.arange(0, head_dim, 2).float() / head_dim))
+        # on le stocke comme buffer → non entraînable mais transférable sur GPU/CPU
         self.register_buffer('inv_freq', inv_freq)
         
     def forward(self, seq_len, device):
@@ -42,7 +43,7 @@ class MultiHeadAttention(nn.Module):
         self.v_proj = nn.Linear(d_model, d_model, bias=False)
         self.out_proj = nn.Linear(d_model, d_model, bias=False)
         
-        self.rope = RoPEPositionalEncoding(self.head_dim)
+        self.rope = RoPEPositionalEncoding(self.head_dim, 4096)
         
     def forward(self, x, mask=None):
         batch_size, seq_len, d_model = x.shape

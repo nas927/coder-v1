@@ -5,3 +5,809 @@
 <fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
 <fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
 <fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent de nouvelles approches pour améliorer la <fim_hole> des modèles.<fim_end>compréhension contextuelle<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment des solutions innovantes afin de réduire la <fim_hole> de vie.<fim_end>pollution et améliorer leur qualité<eos_token>
+<fim_start>Les <fim_hole> meilleure capacité à résoudre des problèmes complexes.<fim_end>étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une<eos_token>
+<fim_start>Lorsque le soleil se couche derrière les montagnes, le ciel prend <fim_hole> poètes et les peintres.<fim_end>des teintes magnifiques qui inspirent souvent les<eos_token>
+<fim_start>Les entreprises modernes investissent de plus en plus dans la formation continue pour <fim_hole> marché actuel.<fim_end>permettre à leurs employés d’acquérir des compétences adaptées au<eos_token>
+<fim_start>Voyager dans un pays étranger offre l’opportunité unique de <fim_hole> cultures, goûter des plats traditionnels et élargir ses horizons personnels.<fim_end>découvrir de nouvelles<eos_token>
+<fim_start>Le développement durable repose <fim_hole> déchets, l’utilisation d’énergies renouvelables et la protection de la biodiversité mondiale.<fim_end>sur des actions concrètes comme la réduction des<eos_token>
+<fim_start>Aujourd’hui, les chercheurs en intelligence artificielle explorent <fim_hole> la compréhension contextuelle des modèles.<fim_end>de nouvelles approches pour améliorer<eos_token>
+<fim_start>Dans les grandes villes, les habitants recherchent constamment <fim_hole> afin de réduire la pollution et améliorer leur qualité de vie.<fim_end>des solutions innovantes<eos_token>
+<fim_start>Les étudiants qui travaillent régulièrement en groupe développent non seulement des compétences sociales mais aussi une meilleure capacité <fim_hole> problèmes complexes.<fim_end>à résoudre des<eos_token>
+<fim_start>Lorsque le <fim_hole> et les peintres.<fim_end>soleil se couche derrière les montagnes, le ciel prend des teintes magnifiques qui inspirent souvent les poètes<eos_token>
+<fim_start>Les entreprises modernes investissent <fim_hole> leurs employés d’acquérir des compétences adaptées au marché actuel.<fim_end>de plus en plus dans la formation continue pour permettre à<eos_token>
+<fim_start>Voyager dans un pays étranger offre <fim_hole> et élargir ses horizons personnels.<fim_end>l’opportunité unique de découvrir de nouvelles cultures, goûter des plats traditionnels<eos_token>
+<fim_start>Le développement durable repose sur des actions concrètes <fim_hole> renouvelables et la protection de la biodiversité mondiale.<fim_end>comme la réduction des déchets, l’utilisation d’énergies<eos_token>
+<fim_start>La Turquie est entourée par des mers <fim_hole> mer Égée à l'ouest, la mer Noire au nord et la mer Méditerranée au sud.<fim_end>sur trois côtés : la<eos_token>
+<fim_start>Au début de la guerre, ils voguaient essentiellement sur <fim_hole> Mais au vu des progrès réalisés en matière de radars, et étant donné leur précision sans cesse grandissante, les sous-marins étaient obligé de passer sous l'eau pour ne pas être repérés.<fim_end>la mer.<eos_token>
+<fim_start>Avec le déclin de la connaissance du grec, l'Occident s'est retrouvé coupé de ses racines <fim_hole> scientifiques grecques.<fim_end>philosophiques et<eos_token>
+<fim_start>Cependant, leur beauté et leur charme évoluent en hiver, avec de nombreuses stations de montagne pourvues de bonnes quantités de neige et <fim_hole> telles que le ski et le snowboard.<fim_end>proposant des activités<eos_token>
+<fim_start>Ces hôtels accueillaient les nantis et les célébrités de <fim_hole> y donnait régulièrement de somptueux dîners et de superbes réceptions.<fim_end>l'époque, et on<eos_token>
+<fim_start>En 1994, ce conflit a débouché sur la création de la république autoproclamée de Transnistrie en Moldavie orientale, dotée de son <fim_hole> par aucun pays membre des Nations Unies.<fim_end>propre gouvernement et de sa propre monnaie, mais reconnue<eos_token>
+<fim_start>Danielle Lantagne, experte de l'ONU sur la maladie, a déclaré que l'épidémie <fim_hole> les Casques bleus.<fim_end>avait probablement été causée par<eos_token>
+<fim_start>De grandes zones plus <fim_hole> à l'état sauvage.<fim_end>au nord sont assez peu peuplées et certaines sont presque inhabitées<eos_token>
+<fim_start>Les organisateurs de la <fim_hole> 100 000 personnes se sont présentées dans plusieurs villes allemandes telles que Berlin, Cologne, Hambourg et Hanovre.<fim_end>manifestation ont affirmé qu'environ<eos_token>
+<fim_start>Ces agents ont la responsabilité de prévoir les services gouvernementaux et <fim_hole> de la Constitution pakistanaise.<fim_end>judiciaires prévus sous l'Article 247<eos_token>
+<fim_start>Peu après le début des hostilités, la Grande-Bretagne a mis en <fim_hole> blocus naval contre l’Allemagne.<fim_end>place un<eos_token>
+<fim_start>« Elle est très jolie, et <fim_hole> de la conférence de presse.<fim_end>elle chante très bien aussi », a-t-il déclaré selon une transcription<eos_token>
+<fim_start>Aucune ville sur les îles Cook mais elles sont composées de 15 îles <fim_hole> et Aitutaki.<fim_end>différentes. Les principales s’appellent Rarotonga<eos_token>
+<fim_start>Des manifestations ont eu lieu un peu partout dans le monde, il y a eu plusieurs poursuites pénales, et les dirigeants des <fim_hole> pakistanais ont tous deux démissionné.<fim_end>gouvernements islandais et<eos_token>
+<fim_start>Les ions d'hydrogène <fim_hole> d'hydrogène sont constitués d'un proton et d'un électron).<fim_end>sont des protons qui ont été dépouillés de leur électron (puisque les atomes<eos_token>
+<fim_start>Les <fim_hole> est limité feraient mieux d'aller le passer ailleurs.<fim_end>visiteurs dont le temps<eos_token>
+<fim_start>L'atome peut être considéré comme étant l'une des <fim_hole> constitue toute matière.<fim_end>unités qui<eos_token>
+<fim_start>Un peu comme si on faisait gravir une colline à une charrette lourde. En divisant le noyau à <fim_hole> peu de cette énergie.<fim_end>nouveau, puis en libérant un<eos_token>
+<fim_start>Ils offrent <fim_hole> largeur de bande et une meilleure qualité de service. Elles sont cryptées et donc plus difficiles à espionner.<fim_end>normalement une plus grande<eos_token>
+<fim_start>Mais le <fim_hole> Tasmanie, en donnant 45 millions de dollars australiens supplémentaires.<fim_end>Premier ministre John Howard a déclaré que cette loi visait uniquement à éviter que les installations de l'hôpital ne soient déclassées par le gouvernement de<eos_token>
+<fim_start>Les athlètes peuvent avoir le sentiment qu'ils préfèrent un produit même <fim_hole> n'apporte aucun réel avantage.<fim_end>si celui-ci<eos_token>
+<fim_start>Avant l'arrivée des troupes, Haïti n'avait pas rencontré de problèmes liés à la <fim_hole> années 1800.<fim_end>maladie depuis les<eos_token>
+<fim_start>La police a déclaré que Lo Piccolo avait le dessus parce qu'il avait été le bras droit de Provenzano à Palerme et que sa plus grande expérience lui avait valu <fim_hole> que possible tout en renforçant leur réseau de pouvoir.<fim_end>le respect de l'ancienne génération de patrons qui poursuivaient la politique de Provenzano consistant à rester aussi bas<eos_token>
+<fim_start>De plus, sachez que les odeurs attirent les ours et autres animaux sauvages, alors <fim_hole> camp propre.<fim_end>évitez de transporter ou de cuisiner des aliments odorants et gardez le<eos_token>
+<fim_start>Il est <fim_hole> au moins jusqu'à la fin de la saison 2019.<fim_end>prévu que Massa soit absent<eos_token>
+<fim_start>La réservation à l'avance donne au voyageur la tranquillité d'esprit de savoir qu'il aura <fim_hole> une fois arrivé à destination.<fim_end>un endroit où dormir<eos_token>
+<fim_start>Eléments et composants <fim_hole> se modifier pour autant.<fim_end>sont capables de passer d'un état à l'autre sans<eos_token>
+<fim_start>Le demi-fond est un <fim_hole> fausse que la plupart des mythes qui entourent ce sport.<fim_end>sport relativement peu coûteux. L'idée qu'il nécessiterait un équipement basique est aussi<eos_token>
+<fim_start>La surface totale du parc est de 19 500 km², celle-ci est divisée en 14 <fim_hole> chacune une faune spécifique.<fim_end>écozones, abritant<eos_token>
+<fim_start>Le fleuve Amazone est le deuxième plus <fim_hole> grand fleuve sur Terre. Il charrie plus de huit fois le volume d'eau du deuxième plus gros fleuve.<fim_end>long et le plus<eos_token>
+<fim_start>La Grande-Bretagne mina les eaux <fim_hole> menace même pour les navires neutres.<fim_end>internationales afin d'empêcher les navires de s'aventurer dans des zones maritimes entières, représentant ainsi une<eos_token>
+<fim_start>La vision, ou la capacité de voir, dépend du système visuel, des organes <fim_hole> des yeux.<fim_end>sensoriels ou<eos_token>
+<fim_start>Les caractéristiques distinctes d'Internet conduisent à des dimensions <fim_hole> des gratifications.<fim_end>supplémentaires en termes d'approche des usages et<eos_token>
+<fim_start>Toutefois, les premiers <fim_hole> la fin du XVIe siècle.<fim_end>vrais télescopes furent fabriqués en Europe à<eos_token>
+<fim_start>Ottawa est <fim_hole> qui mettent en valeur le passé et le présent du Canada.<fim_end>la charmante capitale bilingue du Canada et dispose d'un grand nombre de galeries d'art et de musées<eos_token>
+<fim_start>La composition de ces cristaux correspond à <fim_hole> spectroscopie infrarouge (IRTF).<fim_end>ce qui est trouvé dans l’urine des animaux domestiques affectés lorsqu’on compare par<eos_token>
+<fim_start>Le PDG d'Apple, Steve Jobs, <fim_hole> évoluait sur la scène.<fim_end>a dévoilé l'appareil en sortant l'iPhone de la poche de son jean, tandis qu'il<eos_token>
+<fim_start>Alonso a profité que les voitures positionnées devant se sont arrêtées pour faire le plein de carburant durant la présence <fim_hole> et remporter la victoire.<fim_end>de la safety car, pour remonter le peloton<eos_token>
+<fim_start>Pendant la guerre révolutionnaire, les treize États ont d’abord formé un gouvernement central faible — le Congrès étant sa seule <fim_hole> vertu des articles de la Confédération.<fim_end>composante — en<eos_token>
+<fim_start>Nadal a amassé 88 % de <fim_hole> premier service.<fim_end>points nets dans le match, remportant 76 points au<eos_token>
+<fim_start>Les larges boulevards, les bâtiments vitrés et les centres commerciaux modernes sont parsemés de toits traditionnels en tuiles rouges, du marché du XVIIIe siècle, et de vieilles mosquées et églises, bien <fim_hole> ville ait une atmosphère qui rappelle plus l'Europe méditerranéenne que la Turquie traditionnelle.<fim_end>que la<eos_token>
+<fim_start>Whistler (à une heure et demi de route <fim_hole> d'hiver de 2010.<fim_end>partant de Vancouver) est cher, mais s'est fait connaître grâce aux Jeux olympiques<eos_token>
+<fim_start>Emplissez votre maison avec l'arôme d'un café intense le matin et le soir, <fim_hole> à la camomille.<fim_end>avec celui d'une relaxante tisane<eos_token>
+<fim_start>L’Antarctique, qui entoure le <fim_hole> est l’endroit le plus froid sur Terre.<fim_end>pôle Sud,<eos_token>
+<fim_start>Après <fim_hole> par brûler et l'ampoule électrique ne marche plus.<fim_end>des centaines d'heures de fonctionnement, le filament dans l'ampoule finit<eos_token>
+<fim_start>Consultez <fim_hole> connaître les instructions de premiers secours spécifiques à ce poison.<fim_end>l'étiquette pour<eos_token>
+<fim_start>Dans tous les cas, vous devez réserver par <fim_hole> compagnie aérienne.<fim_end>téléphone directement auprès de la<eos_token>
+<fim_start>L'état de santé <fim_hole> confiné chez lui pendant plusieurs jours.<fim_end>du Président est stable, bien qu'il reste<eos_token>
+<fim_start>La plupart des télévisions sont fabriquées de <fim_hole> plaire au grand public.<fim_end>manière à<eos_token>
+<fim_start>Sur approximativement 24 <fim_hole> sur Terre, seules 34 environ ont une origine martienne démontrée.<fim_end>000 météorites recensées tombées<eos_token>
+<fim_start>Après que les agents ont vérifié son identité, l’électeur jette l’enveloppe dans <fim_hole> signe sa carte d’électeur.<fim_end>l’urne et<eos_token>
+<fim_start>Ils ont annulé la tournée après que le chanteur Steven Tyler se soit blessé en tombant de <fim_hole> 5 août dernier.<fim_end>scène lors d'un concert le<eos_token>
+<fim_start>Peter Costello, <fim_hole> John Howard à la tête du parti libéral, s'est déclaré favorable à l'idée d'une industrie nucléaire australienne.<fim_end>ministre des Finances australien et probable successeur du Premier ministre<eos_token>
+<fim_start>La manifestation a commencé vers 11 h heure locale <fim_hole> Whitehall, en face de l'entrée gardée par la police de Downing Street, la résidence officielle du Premier ministre.<fim_end>(UTC+1) sur<eos_token>
+<fim_start>La Fédération américaine de gymnastique soutient <fim_hole> Comité olympique des États-Unis et accepte la nécessité absolue de la famille olympique de promouvoir un environnement sûr pour tous nos athlètes.<fim_end>la lettre du<eos_token>
+<fim_start>Le match <fim_hole> mettant fin à la série de 15 victoires des All Blacks.<fim_end>s'est joué à un point, 21 à 20,<eos_token>
+<fim_start>Selon le procès, les déchets du camp de l'ONU n'ont pas été bien assainis, provoquant l'entrée de bactéries dans l'affluent du fleuve <fim_hole> plus grands fleuves d'Haïti.<fim_end>Artibonite, l'un des<eos_token>
+<fim_start>Il n’existe aucune alliance <fim_hole> trois océans de l’hémisphère sud (et SkyTeam ne couvre aucune d’entre elles).<fim_end>de compagnies aériennes couvrant les jonctions des<eos_token>
+<fim_start>La lame d'un patin à glace moderne est dotée de deux extrémités avec un creux concave situé entre les <fim_hole> une meilleure adhérence à la glace, même lorsqu'elles sont inclinées.<fim_end>deux. Ces deux extrémités permettent<eos_token>
+<fim_start>Ces sites ont des côtés bénéfiques, y compris de pouvoir facilement mettre en place des types de page qui comprennent des <fim_hole> et d'autres fonctionnalités.<fim_end>blogs, des vidéos, des photos,<eos_token>
+<fim_start>Il repose sur les technologies satellitaires, et non sur les systèmes radars au sol utilisés auparavant, ce qui permet aux contrôleurs aériens de localiser les avions avec davantage <fim_hole> fournir aux pilotes des informations plus détaillées.<fim_end>de précision et de<eos_token>
+<fim_start>L'Afrique du Sud a <fim_hole> Blacks (Nouvelle-Zélande) lors d'un match de rugby du Tri-nations au Royal Bafokeng Stadium de Rustenburg, en Afrique du Sud.<fim_end>battu les All<eos_token>
+<fim_start>Les Vikings ont utilisé les voies navigables russes pour atteindre la mer Noire et la mer Caspienne. Certaines parties de ces itinéraires peuvent toujours être utilisées. <fim_hole> peuvent être difficiles à obtenir.<fim_end>Vérifiez la nécessité éventuelle de permis spéciaux, qui<eos_token>
+<fim_start>USA Gymnastics soutient une enquête indépendante <fim_hole> pendant si longtemps et adopte tout changement nécessaire et approprié.<fim_end>qui pourrait faire la lumière sur la façon dont l’abus de la proportion décrite si courageusement par les survivants de Larry Nassar a pu passer inaperçu<eos_token>
+<fim_start>Plus de 60 bateaux de croisière sillonnent les eaux <fim_hole> de 8 à 100 passagers.<fim_end>des Galápagos, dont la taille varie<eos_token>
+<fim_start>Deux théories de contenu populaires sont la théorie de la hiérarchie des besoins de Maslow <fim_hole> théorie des deux facteurs de Herzberg.<fim_end>et la<eos_token>
+<fim_start>Il a toutefois réitéré sa précédente déclaration selon laquelle Roe v. Wade était le « droit établi du pays », soulignant l’importance <fim_hole> cohérence des décisions de la Cour suprême.<fim_end>de la<eos_token>
+<fim_start>Quatre ans plus tard, un brevet a été accordé, ce qui était le premier brevet au monde <fim_hole> domaine de l'IRM.<fim_end>délivré dans le<eos_token>
+<fim_start>Les îles de l'Afrique de l'Est se situent dans l'océan Indien, <fim_hole> la côte est africaine.<fim_end>au large de<eos_token>
+<fim_start>Le tout <fim_hole> a deux millions d'années avec l'arrivée de l'Homo Erectus (« homme droit »).<fim_end>premier moyen de locomotion était la marche : les humains se mirent à marcher debout il y<eos_token>
+<fim_start>Victoria Falls est une ville située dans la partie occidentale du Zimbabwe, de l'autre côté de la frontière avec Livingstone, <fim_hole> du Botswana.<fim_end>en Zambie, et près<eos_token>
+<fim_start>Le <fim_hole> la formation d'un consensus aux États-Unis sur la politique à l'égard du Moyen-Orient.<fim_end>rapport s'ouvre par un appel à un débat ouvert et à<eos_token>
+<fim_start>Il s’agit d’une entité très complexe qui consiste, selon un modèle de Bohr simplifié, en un noyau central orbité par des électrons, un peu comme les <fim_hole> orbite autour du soleil — cf. illustration 1.1.<fim_end>planètes en<eos_token>
+<fim_start>Le Brésilien <fim_hole> de Hongrie.<fim_end>a subi de graves blessures à la tête lors d'un accident survenu en 2009, pendant le GP<eos_token>
+<fim_start>Le résultat de l'analyse du tracé <fim_hole> un site Web public.<fim_end>sera publié sur<eos_token>
+<fim_start>Dans l'essai PALM, le ZMapp a servi de témoin, ce qui signifie que les scientifiques l'ont utilisé comme <fim_hole> trois autres traitements.<fim_end>base de référence et lui ont comparé les<eos_token>
+<fim_start>Hsieh a laissé entendre pendant les élections que Ma pourrait fuir <fim_hole> l'occasion d'une crise.<fim_end>le pays à<eos_token>
+<fim_start>Aux femmes : Il est recommandé à toute femme qui voyage de dire qu’elle est <fim_hole> son état civil.<fim_end>mariée, quel que soit<eos_token>
+<fim_start>L'essor des nouvelles technologies nous permet de voir et d'étudier des structures <fim_hole> processus cérébraux jamais vus auparavant.<fim_end>et des<eos_token>
+<fim_start>Les appels étant acheminés par l'internet, vous n'avez pas besoin d'utiliser une compagnie de téléphone située où vous vivez <fim_hole> vous voyagez.<fim_end>ou où<eos_token>
+<fim_start>On s'attend à ce que la plupart des billets d'événements coûtent <fim_hole> 000 yens, les billets typiques coûtant environ 7 000 yens.<fim_end>entre 2 500 et 130<eos_token>
+<fim_start>L'actuelle sénatrice et Première Dame d'Argentine Cristina Fernandez de Kirchner <fim_hole> à 50 kilomètres (31 miles) de Buenos Aires.<fim_end>a annoncé sa candidature présidentielle, hier soir, à La Plata, une ville située<eos_token>
+<fim_start>Au nord, la région est délimitée par le <fim_hole> l'ouest par l'océan Atlantique.<fim_end>Sahel, et au sud et à<eos_token>
+<fim_start>Par ailleurs, selon le bureau météorologique islandais, la région de Hekla n’a pas connu de tremblement <fim_hole> des dernières 48 heures.<fim_end>de terre au cours<eos_token>
+<fim_start>La première lecture publique du document a été faite par <fim_hole> cour de l'Independence Hall le 8 juillet.<fim_end>John Nixon dans la<eos_token>
+<fim_start>Tout dans l’Univers est fait de matière. Toute la <fim_hole> faite de minuscules particules appelées atomes.<fim_end>matière est<eos_token>
+<fim_start>Toutefois, si cela devait se produire, ce ne serait sûrement pas avant très longtemps. Les étoiles sont si éloignées les unes des autres qu'il y <fim_hole> étoiles dites voisines.<fim_end>a des milliards de kilomètres entre des<eos_token>
+<fim_start>Le flux de trafic est l'étude des mouvements des conducteurs et des véhicules <fim_hole> et des interactions qu'ils exercent entre eux.<fim_end>particuliers entre deux points,<eos_token>
+<fim_start>La visite du site peut être agréablement associée à une promenade <fim_hole> le lac.<fim_end>en bateau sur<eos_token>
+<fim_start>Le chauffeur du camion, âgé de 64 ans, n’a pas <fim_hole> dans l’accident.<fim_end>été blessé<eos_token>
+<fim_start>Il y a quelques milliers d’années, <fim_hole> appelé Aristarque a affirmé que le système solaire se déplaçait autour du Soleil.<fim_end>un homme<eos_token>
+<fim_start>Étant <fim_hole> à Santa Fe.<fim_end>donné l’éloignement de nombreux pueblos, vous ne pourrez pas trouver une vie nocturne importante sans vous rendre à Albuquerque ou<eos_token>
+<fim_start>Un point de contrôle d'immigration est habituellement la première <fim_hole> autre véhicule.<fim_end>étape lorsque vous débarquez d'un avion, d'un bateau ou d'un<eos_token>
+<fim_start>Les opinions d'Aristote sur toutes <fim_hole> ont été acceptées.<fim_end>les questions scientifiques, y compris la psychologie,<eos_token>
+<fim_start>Les <fim_hole> les cas les plus graves, provoquer des réactions allergiques, répandre du venin ou transmettre des infections.<fim_end>parasites peuvent contaminer la nourriture, provoquer des irritations ou, dans<eos_token>
+<fim_start>Elle a d'abord participé au slalom, où elle a obtenu <fim_hole> 36 des 116 concurrents ont obtenu le même résultat dans cette course.<fim_end>un « did not finish » (DNF) lors de sa première course.<eos_token>
+<fim_start>Cela nous a <fim_hole> train, la voiture et de nombreux autres moyens de transport.<fim_end>apporté le<eos_token>
+<fim_start>Le gaz <fim_hole> à mesure que l'on s'éloigne du centre du Soleil.<fim_end>se raréfie<eos_token>
+<fim_start>Les vitesses de la norme Wi-Fi 802.11n sont sensiblement plus rapides <fim_hole> de 600 Mbit/s.<fim_end>que celles de ses prédécesseurs, avec un débit théorique maximum<eos_token>
+<fim_start>Ces impulsions nerveuses peuvent être envoyées très rapidement dans tout <fim_hole> contribue à le protéger contre toute menace potentielle.<fim_end>le corps, ce qui<eos_token>
+<fim_start>La structure des plumes suggère <fim_hole> régulation ou l’affichage de la température. Les chercheurs ont suggéré que, même s’il s’agit de la queue d’un jeune dinosaure, l’échantillon montre un plumage d’adulte et non le duvet d’un poussin.<fim_end>qu’elles n’étaient pas utilisées en vol mais plutôt pour la<eos_token>
+<fim_start>Les premiers <fim_hole> ont été déclarés fin juillet.<fim_end>cas de cette maladie saisonnière<eos_token>
+<fim_start>Les sous-marins sont des navires conçus <fim_hole> une longue période.<fim_end>pour voyager sous l'eau et y rester pendant<eos_token>
+<fim_start>La société de gestion du groupe, HK Management Inc, n’a pas donné de raison initiale à <fim_hole> a invoqué des raisons logistiques dès le lendemain.<fim_end>l’annulation le 20 septembre, mais<eos_token>
+<fim_start>Qu’est-ce qu’une cellule ? Le mot « cellule » vient du mot latin « cella », qui signifie « petite pièce », et a été <fim_hole> la structure du liège.<fim_end>inventé par un microscopiste qui observait<eos_token>
+<fim_start>Les agences de <fim_hole> petit déjeuner, le service de transport depuis/vers l'aéroport ou même des forfaits combinant le vol et l'hébergement.<fim_end>voyage proposent généralement des forfaits comprenant le<eos_token>
+<fim_start>Ils peuvent également retenir la réservation pour vous si vous avez besoin de temps pour réfléchir à <fim_hole> un visa).<fim_end>l'offre ou vous procurer d'autres documents nécessaires pour votre destination (par exemple,<eos_token>
+<fim_start>Les visites touristiques sont coûteuses, exigent une bonne condition physique, ne <fim_hole> largement limitées à la péninsule, aux îles, et à la mer de Ross.<fim_end>peuvent avoir lieu qu'en été (de novembre à février) et sont<eos_token>
+<fim_start>Le président américain George W. <fim_hole> débutant une tournée d’une semaine en Asie.<fim_end>Bush est arrivé à Singapour le matin du 16 novembre,<eos_token>
+<fim_start>Sejong le <fim_hole> les plus respectés.<fim_end>Grand fut le quatrième roi de la dynastie Joseon et demeure l’un des souverains coréens<eos_token>
+<fim_start>De plus, des tournois et <fim_hole> ici à d'autres moments de l'année.<fim_end>des matchs de moindre envergure sont parfois organisés<eos_token>
+<fim_start>De même, en ayant un visa Schengen, vous n'avez pas besoin de demander séparément un visa pour chacun des pays membres de l'espace, ce qui permet d'économiser du temps, de l'argent <fim_hole> formalités administratives.<fim_end>et des<eos_token>
+<fim_start>La ville est située juste à côté des chutes, qui constituent l’attraction principale, mais <fim_hole> bien qu’aux touristes de nombreuses possibilités pour un séjour prolongé.<fim_end>cette destination touristique populaire offre aux amateurs d’aventure aussi<eos_token>
+<fim_start>Cela contredit les rapports précédents, <fim_hole> du ruissellement aurait été contraire à la constitution.<fim_end>selon lesquels l'annulation<eos_token>
+<fim_start>Dans les endroits <fim_hole> téléphonie par satellite.<fim_end>reculés, sans réseau de téléphonie cellulaire, vous n'aurez peut-être pas d'autre choix que de recourir à la<eos_token>
+<fim_start>En 1895, <fim_hole> signe le traité de Shimonoseki, par lequel il cède la souveraineté de Taïwan au Japon, qui dirige alors l'île jusqu'en 1945.<fim_end>après sa défaite lors de la première guerre sino-japonaise (1894–1895), le gouvernement Qing<eos_token>
+<fim_start>Les femmes <fim_hole> des autres, leur famille étant composée d'un grand nombre de sœurs et de filles.<fim_end>sont généralement très proches les unes<eos_token>
+<fim_start>Ensuite, Lakkha Singh <fim_hole> les bhajans.<fim_end>a pris l'initiative de chanter<eos_token>
+<fim_start>Le travail effectué était principalement théorique, mais le programme <fim_hole> observations faites de la galaxie du Sagittaire.<fim_end>a été écrit pour simuler les<eos_token>
+<fim_start>Les plantes produisent leur nourriture à <fim_hole> Elles fournissent également de l’ombre.<fim_end>l'aide du soleil par photosynthèse.<eos_token>
+<fim_start>Mercredi, la ligue américaine de basket-ball, la NBA, a suspendu la saison professionnelle <fim_hole> soulevés par la COVID-19.<fim_end>de basket-ball, en raison des problèmes<eos_token>
+<fim_start>Le moyen le plus évident de voyager en première classe ou en classe <fim_hole> entreprise de le faire pour vous).<fim_end>affaires est de débourser une grosse somme d'argent pour ce privilège (ou, mieux encore, de demander à votre<eos_token>
+<fim_start>Internet allie des éléments de communication <fim_hole> de communication interpersonnelle.<fim_end>de masse et<eos_token>
+<fim_start>La photographie de la vie sauvage nécessite souvent un long téléobjectif. Toutefois, d'autres scènes comme une <fim_hole> minuscule créature exigent l'utilisation d'autres objectifs.<fim_end>volée d'oiseaux ou une<eos_token>
+<fim_start>Mais la Royal Navy était encore beaucoup plus forte que la marine <fim_hole> toute flotte d'invasion envoyée à travers la Manche anglaise.<fim_end>allemande (« Kriegsmarine ») et aurait pu détruire<eos_token>
+<fim_start>En bref, utiliser votre voiture est un excellent moyen de faire un voyage <fim_hole> camper ».<fim_end>par la route, mais rarement en soi un moyen de «<eos_token>
+<fim_start>Nombreux sont les voyageurs stables et compétents qui ont été dépassés par la nouveauté des voyages dans les pays en développement, <fim_hole> vite s'accumuler.<fim_end>où de nombreux petits ajustements culturels peuvent<eos_token>
+<fim_start>La surface de la lune est constituée de pierres et de <fim_hole> appelée la croûte.<fim_end>poussière. Sa couche extérieure est<eos_token>
+<fim_start>Le site web de la station décrit l’émission comme un « théâtre radiophonique de la vieille école avec une nouvelle <fim_hole> geek ! ».<fim_end>et scandaleuse tournure<eos_token>
+<fim_start>La volonté des gouvernements étrangers d’honorer ces documents <fim_hole> aussi variable.<fim_end>est tout<eos_token>
+<fim_start>La défaillance de la deuxième phrase, qui propose d'interdire les <fim_hole> entre personnes de même sexe, pourrait éventuellement ouvrir la porte à des unions civiles à l'avenir.<fim_end>unions civiles<eos_token>
+<fim_start>Aux <fim_hole> en fait la principale maladie neurologique chez les jeunes et les adultes d’âge moyen.<fim_end>États-Unis, il y a environ 400 000 cas connus de sclérose en plaques (SEP), ce qui<eos_token>
+<fim_start>L’un d’eux a été envoyé à George Washington le 6 juillet, qui l’a fait lire à ses troupes à New York le 9 juillet. Une copie est parvenue <fim_hole> le 10 août.<fim_end>à Londres<eos_token>
+<fim_start>Étant donné que les plumes de dinosaure n'ont pas une tige entièrement développée, que l'on appelle rachis, mais montrent cependant d'autres caractéristiques propres aux plumes – barbes et barbules – <fim_hole> ultérieur à ces autres caractéristiques.<fim_end>les chercheurs en ont déduit que le rachis était probablement un développement évolutif<eos_token>
+<fim_start>La partie extérieure que nous voyons lorsque nous regardons le Soleil s’appelle la photosphère, ce qui signifie « <fim_hole> lumière ».<fim_end>boule de<eos_token>
+<fim_start>Un <fim_hole> est l’organisation qui met en relation les voyageurs avec les habitants des villes qu’ils vont visiter.<fim_end>réseau d’échange d’hospitalité<eos_token>
+<fim_start>Les scientifiques ont pu conclure que la matière noire affecte les autres matières <fim_hole> la matière normale.<fim_end>noires de la même manière que<eos_token>
+<fim_start>Cependant, Star Alliance couvre tout sauf le Pacifique Sud oriental de Santiago du Chili <fim_hole> vol LATAM Oneworld.<fim_end>à Tahiti, qui est un<eos_token>
+<fim_start>Elle est arrivée à cette conclusion grâce aux multiples commentaires positifs et encouragements qu’elle a reçus aussi bien des <fim_hole> de considérer la contraception comme une nécessité.<fim_end>femmes que des hommes sur l’importance<eos_token>
+<fim_start>Une dentition de tricératops aurait été capable d'écraser non seulement <fim_hole> très dures.<fim_end>des feuilles, mais également des branches et des racines<eos_token>
+<fim_start>Heureusement, les conducteurs ont tendance à agir dans une <fim_hole> raisonnable et peuvent être représentés mathématiquement de manière approximative.<fim_end>fourchette raisonnablement cohérente; ainsi, les flux de circulation ont tendance à avoir une cohérence<eos_token>
+<fim_start>Dans cette résonance, le champ magnétique et les ondes radio font que les <fim_hole> de minuscules signaux radio.<fim_end>atomes émettent<eos_token>
+<fim_start>À la <fim_hole> cette exposition constante aux germes locaux, les chances sont très élevées que vous soyez déjà immunisé contre eux.<fim_end>maison, en raison de<eos_token>
+<fim_start>Ces exigences visent à assurer un <fim_hole> deux pays.<fim_end>flux migratoire organisé entre les<eos_token>
+<fim_start>L'ancien président de la Chambre des représentants <fim_hole> position avec 32 %.<fim_end>des États-Unis, Newt Gingrich, est arrivé en deuxième<eos_token>
+<fim_start>Plusieurs personnes ont vérifié la découverte à l'aide de différents <fim_hole> logiciels au début du mois de février, et elle a été annoncée mardi.<fim_end>matériels et<eos_token>
+<fim_start>Les scientifiques <fim_hole> possible de l’anneau E glacé de Saturne.<fim_end>ont soupçonné Encelade d’être géologiquement actif et d’être une source<eos_token>
+<fim_start>La luminosité et la rotation sont utilisées conjointement afin de <fim_hole> flux de plasma.<fim_end>déterminer le nombre de Rossby d'une étoile, qui est lié au<eos_token>
+<fim_start>La <fim_hole> Tanzanie, ainsi que la réserve nationale du Masai Mara au Kenya.<fim_end>région du Serengeti comprend le parc national du Serengeti, la zone de conservation de Ngorongoro et la réserve de chasse des Maswa en<eos_token>
+<fim_start>Parmi les autres nominations <fim_hole> sonore, du meilleur mixage et du meilleur scénario original.<fim_end>figurent celles du meilleur film, du meilleur réalisateur, de la meilleure cinématographie, des meilleurs costumes, du meilleur montage, de la meilleure musique originale, des meilleurs décors, du meilleur montage<eos_token>
+<fim_start>Son deuxième but de la soirée était son <fim_hole> Mario Lemieux ont chacun atteint ce chiffre.<fim_end>60e de la saison, devenant ainsi le premier joueur à marquer 60 buts ou plus en une saison depuis 1995-96, date à laquelle Jaromir Jagr et<eos_token>
+<fim_start>Dans le cadre d’un partenariat entre NPWS et le Sporting Shooters Association of Australia (NSW) inc., des bénévoles qualifiés ont été recrutés, dans le cadre du programme de chasse de <fim_hole> Shooters Association.<fim_end>la Sporting<eos_token>
+<fim_start>Les croisières à Saint-Pétersbourg incluent du temps passé dans la ville. Les passagers des croisières sont exemptés de l'obligation de <fim_hole> les conditions).<fim_end>visa (voir<eos_token>
+<fim_start>Assurez-vous de savoir ce que vous pouvez et ne <fim_hole> ce qui dépasse les limites légales.<fim_end>pouvez pas apporter, et déclarez tout<eos_token>
+<fim_start>Jérusalem est <fim_hole> autres pays et les Nations Unies ne la reconnaissent pas comme telle.<fim_end>la capitale et la plus grande ville d’Israël, bien que la plupart des<eos_token>
+<fim_start>Il peut généralement être réapprovisionné <fim_hole> d'épuisement et offre une résolution à peu près comparable à celle d'un reflex numérique actuel.<fim_end>assez facilement en cas<eos_token>
+<fim_start>Selon l'ONG Mangola, Médecins <fim_hole> le pays.<fim_end>Sans Frontières et l'Organisation mondiale de la santé, il s'agit de la pire épidémie enregistrée dans<eos_token>
+<fim_start>Le directeur des poursuites publiques, Kier Starmer QC, <fim_hole> ce matin annonçant la poursuite de Huhne et Pryce.<fim_end>a fait une déclaration<eos_token>
+<fim_start>Le ski est une activité de voyage majeure qui compte <fim_hole> endroits spécifiques.<fim_end>de nombreux aficionados, parfois appelés « ski bums », qui organisent leurs vacances entières en fonction du ski dans des<eos_token>
+<fim_start>Seules quelques compagnies aériennes proposent encore des tarifs de deuil, qui réduisent légèrement le coût des voyages <fim_hole> dernière minute.<fim_end>funéraires de<eos_token>
+<fim_start>Faire <fim_hole> pas illégal dans votre région.<fim_end>voler un drone près d’un aéroport ou au-dessus d’une foule est presque toujours une mauvaise idée, même si ce n’est<eos_token>
+<fim_start>La randonnée est une activité de plein air <fim_hole> de randonnée.<fim_end>qui consiste à marcher dans des environnements naturels, souvent sur des sentiers<eos_token>
+<fim_start>La Lettonie <fim_hole> deux retardé le processus d'adhésion à l'ACTA.<fim_end>et la Slovaquie ont toutes<eos_token>
+<fim_start>Le jus de <fim_hole> (alcalinité) du produit chimique.<fim_end>chou change de couleur en fonction de l’acidité ou de la basicité<eos_token>
+<fim_start>Sur les routes glacées et enneigées, le frottement est faible et vous ne pouvez pas conduire comme si <fim_hole> l'asphalte nu.<fim_end>vous étiez sur<eos_token>
+<fim_start>Cette commission a été la réponse de Martelly aux <fim_hole> ont commencé en octobre.<fim_end>vastes protestations contre le régime qui<eos_token>
+<fim_start>Il avertit que personne ne peut <fim_hole> glissement vers le chaos.<fim_end>garantir que toute action en Irak à ce stade mettra fin à la guerre sectaire, à la violence croissante ou au<eos_token>
+<fim_start>La principale force d'assaut, composée de 2 400 hommes, franchit la rivière à neuf miles au nord de Trenton, puis se divisa en deux groupes, <fim_hole> et l'autre sous Sullivan, afin de lancer une attaque avant l'aube.<fim_end>l'un sous Greene<eos_token>
+<fim_start>Fluke a écrit que les efforts <fim_hole> pour empêcher les femmes de parler de leur santé ont échoué.<fim_end>de certains<eos_token>
+<fim_start>L'ACMA a également conclu que, même si la vidéo était diffusée en continu sur Internet, Big Brother n'avait pas enfreint la législation <fim_hole> censure du contenu en ligne, car le contenu multimédia n'avait pas été stocké sur le site de Big Brother.<fim_end>sur la<eos_token>
+<fim_start>Les plans de livraison de vaccins dans les zones historiquement les plus touchées cette année ont été retardés en raison du manque de fonds et de la <fim_hole> ces maladies par rapport à d’autres.<fim_end>faible priorité accordée à<eos_token>
+<fim_start>Comme cette tactique n'a suscité qu'une timide réaction, l'Allemagne s'attendait à une réaction <fim_hole> sa guerre sous-marine sans limites.<fim_end>semblable face à<eos_token>
+<fim_start>Dans certains trains transfrontaliers, les inspections sont menées dans le train en <fim_hole> vous lorsque vous voyagez dans l'un de ces trains.<fim_end>marche et vous devez avoir une pièce d'identité valide sur<eos_token>
+<fim_start>Les voyageurs à destination de pays où les taxes sont élevées peuvent <fim_hole> alcoolisées ou le tabac.<fim_end>parfois faire des économies considérables, en particulier sur des produits comme les boissons<eos_token>
+<fim_start>Les autres possibilités fondées sur le <fim_hole> diurétiques), ce qui vous contraint à vous réveiller pour uriner.<fim_end>biorythme incluent le fait de boire beaucoup de liquides avant de s'endormir (notamment de l'eau ou du thé, réputés pour être<eos_token>
+<fim_start>La <fim_hole> connue sous le nom de hanami, fait partie de la culture japonaise depuis le VIIIe siècle.<fim_end>contemplation des fleurs de cerisier,<eos_token>
+<fim_start>Les longues journées estivales peuvent provoquer des troubles du sommeil et d'autres problèmes de santé <fim_hole> ces troubles.<fim_end>en lien avec<eos_token>
+<fim_start>Rassurez-vous : une fois que vous aurez atteint les ports de plaisance, <fim_hole> de leurs informations.<fim_end>tout sera clair. Vous rencontrerez d'autres auto-stoppeurs, qui vous feront part<eos_token>
+<fim_start>Quand vous rentrez chez vous <fim_hole> vous êtes déjà adapté à la nouvelle culture et avez perdu certaines habitudes de votre culture d'origine.<fim_end>après avoir vécu à l'étranger, vous<eos_token>
+<fim_start>Casablanca est l’un des endroits les moins intéressants de tout le <fim_hole> des achats.<fim_end>Maroc pour faire<eos_token>
+<fim_start>Les Sundarbans sont la plus grande ceinture de mangroves côtières du monde, s’étendant <fim_hole> côte jusqu’à l’arrière-pays bangladais et indien.<fim_end>sur 80 km (50 miles) depuis la<eos_token>
+<fim_start>Pratiquement tous les ordinateurs utilisés aujourd'hui sont <fim_hole> sous forme de nombres binaires.<fim_end>basés sur la manipulation d'informations qui sont codées<eos_token>
+<fim_start>Le passe Angkor est obligatoire pour pénétrer dans le temple, alors n'oubliez pas <fim_hole> vous rendant au Tonlé Sap.<fim_end>de prendre votre passeport en<eos_token>
+<fim_start>Toutes les entrées des grottes, qui ont été baptisées « Les sept sœurs », ont <fim_hole> 100 à 250 mètres.<fim_end>un diamètre d’au moins<eos_token>
+<fim_start>Tokyo sera la seule ville asiatique à avoir accueilli deux Jeux olympiques d'été, après avoir accueilli <fim_hole> en 1964.<fim_end>les Jeux<eos_token>
+<fim_start>Le projet de <fim_hole> législation proposée, après avoir été modifiée, est maintenant entre les mains de Roberto Jefferson.<fim_end>loi original a été rédigé par l'ancienne maire de São Paulo, Marta Suplicy. La<eos_token>
+<fim_start>Il a qualifié les rumeurs <fim_hole> de bêtises politiques ».<fim_end>de « bavardages et<eos_token>
+<fim_start>Entre chaque dynastie, il y a également eu un âge instable de provinces divisées. <fim_hole> l’époque des Trois Royaumes qui s’est déroulée pendant 60 ans entre la dynastie Han et la dynastie Jin.<fim_end>La plus connue de ces périodes est<eos_token>
+<fim_start>En 1970, Raymond Damadian, docteur en médecine <fim_hole> de diagnostic médical.<fim_end>et chercheur en sciences, a découvert les bases permettant d'utiliser l'imagerie par résonance magnétique comme outil<eos_token>
+<fim_start>Parmi les exemples figurent le contrôle, la planification et la programmation, la capacité à répondre aux diagnostics et aux <fim_hole> la reconnaissance de l'écriture, de la voix et du visage.<fim_end>questions des clients, ainsi que<eos_token>
+<fim_start>Si vous avez vu le film Benjamin Gates et le Trésor des Templiers, vous pensez peut-être qu'une carte au trésor a été <fim_hole> Déclaration d'indépendance.<fim_end>dessinée au dos de la<eos_token>
+<fim_start>Dans cette navette de transport dynamique, chacun est en quelque sorte relié à un système de transport basé <fim_hole> voitures particulières et le soutient.<fim_end>sur les<eos_token>
+<fim_start>Même si vous conduisez dans la forêt tropicale, quelques secondes avec les portes ouvertes pendant que vous <fim_hole> avec vous.<fim_end>montez dans le véhicule suffisent pour que les moustiques montent dans le véhicule<eos_token>
+<fim_start>L'organe principal du système cardio-vasculaire est <fim_hole> le sang.<fim_end>le cœur, celui-ci pompe<eos_token>
+<fim_start>Les théories du contenu sont centrées sur la <fim_hole> sentent bien ou qu'ils sont attirés.<fim_end>recherche de ce qui fait que les gens se<eos_token>
+<fim_start>Après, et seulement après <fim_hole> et la révision en ligne, vous pourrez créer votre propre site internet.<fim_end>avoir maîtrisé le formatage<eos_token>
+<fim_start>Pour ceux qui <fim_hole> » et « contagieux » ont un sens distinct.<fim_end>ne connaissent pas bien le jargon médical, les mots « infectieux<eos_token>
+<fim_start>Sa représentation fréquente dans la musique, les films, la littérature et la culture populaire a contribué à <fim_hole> dans le monde entier.<fim_end>faire connaître la ville et ses monuments<eos_token>
+<fim_start>Plusieurs millions de flacons de vaccin contre <fim_hole> sanitaires pour l'année prochaine.<fim_end>l'encéphalite ont également été promis par le gouvernement, ce qui aidera à préparer les agences<eos_token>
+<fim_start>Cuomo, 53 ans, a commencé son mandat de gouverneur <fim_hole> même sexe.<fim_end>au début de cette année et a signé le mois dernier un projet de loi légalisant le mariage entre personnes du<eos_token>
+<fim_start>Mme Kirchner a annoncé son intention de se <fim_hole> de Buenos Aires.<fim_end>présenter à la présidence au Théâtre argentin, le même endroit où elle a commencé sa campagne 2005 pour le Sénat en tant que membre de la délégation de la province<eos_token>
+<fim_start>N'oubliez pas que vous visitez essentiellement un charnier, ainsi qu'un site <fim_hole> une signification presque incalculable pour une partie importante de la population mondiale.<fim_end>qui a<eos_token>
+<fim_start>L’accès à ces <fim_hole> le biais d’un numéro de téléphone gratuit qui peut être appelé sans frais depuis presque tous les téléphones.<fim_end>services se fait souvent par<eos_token>
+<fim_start>L'épave a été retrouvée à l'aide <fim_hole> cartographie des fonds marins.<fim_end>d'un véhicule sous-marin téléguidé en se référant à la<eos_token>
+<fim_start>Tout comme la lune exerce une traction sur la terre, provoquant des marées, la Voie lactée exerce une <fim_hole> galaxie du Sagittaire.<fim_end>force sur la<eos_token>
+<fim_start>Les scientifiques espèrent <fim_hole> comment la Terre s'est formée, puisque des comètes sont entrées en collision avec elle il y a longtemps.<fim_end>comprendre comment les planètes se forment, et plus particulièrement<eos_token>
+<fim_start>Les applications <fim_hole> vers une autre.<fim_end>de traduction en temps réel sont des applis capable de traduire automatiquement des segments entiers de texte, ceci d'une langue<eos_token>
+<fim_start>C'est ce <fim_hole> pH d'un produit chimique. Vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge.<fim_end>qu'on appelle le<eos_token>
+<fim_start>Pour terminer, le groupe de danse turc Fire of <fim_hole> le spectacle « Troy ».<fim_end>Anatolia a présenté<eos_token>
+<fim_start>Fin <fim_hole> est apparu sur la chaîne de télé-achat QVC.<fim_end>2017, Siminoff<eos_token>
+<fim_start>La corrélation entre la <fim_hole> et le comportement soutient les scientifiques dans leurs recherches.<fim_end>pathologie du cerveau<eos_token>
+<fim_start>Hershey et Chase ont utilisé des phages, ou <fim_hole> leur propre ADN dans une bactérie.<fim_end>des virus, pour implanter<eos_token>
+<fim_start>Même si l'administration d'un cocktail d'anticorps, ZMapp, avait d'abord montré <fim_hole> démontré que sa capacité à limiter les décès ne répondait pas aux attentes.<fim_end>des signes prometteurs sur le terrain, des études formelles ont<eos_token>
+<fim_start>Lorsqu'il travaillait à <fim_hole> a commencé à enquêter sur les accouchements prématurés pendant son temps libre.<fim_end>l'hôpital, Liggins<eos_token>
+<fim_start>La visite « typique » consiste à prendre l’avion pour l’aéroport international d’Orlando, se rendre en bus à un hôtel Disney situé sur le site, y séjourner environ une semaine sans quitter les installations <fim_hole> rentrer chez soi.<fim_end>Disney et<eos_token>
+<fim_start>En plus de contenir trois instruments scientifiques importants, la sonde lunaire arborait également l'image <fim_hole> national indien, peint sur toutes ses faces.<fim_end>du drapeau<eos_token>
+<fim_start>Cette flotte était commandée par Olaf Trygvasson, un <fim_hole> domination danoise.<fim_end>Norvégien qui avait l'ambition de soustraire son pays à la<eos_token>
+<fim_start>En 2014 la compagnie Turkish Airlines <fim_hole> dans 30 pays d'Afrique.<fim_end>dessert 39 destinations<eos_token>
+<fim_start>Celles-ci peuvent <fim_hole> énergie précieuse et l’eau restante.<fim_end>être dangereuses si le voyageur poursuit le mirage, gaspillant ainsi une<eos_token>
+<fim_start>Le vote doit encore être ratifié par l'ensemble du CIO lors de sa <fim_hole> à Copenhague.<fim_end>réunion d'octobre<eos_token>
+<fim_start>Au cours <fim_hole> Iwasaki a eu des problèmes à de nombreuses occasions.<fim_end>de son voyage,<eos_token>
+<fim_start>La sclérose en plaques <fim_hole> maladie qui affecte le système nerveux central, composé du cerveau, de la moelle épinière et du nerf optique.<fim_end>est une<eos_token>
+<fim_start>Les batteurs d'ordre moyen, Sachin Tendulkar et Rahul Dravid, ont obtenu de bons résultats et <fim_hole> un century ensemble.<fim_end>ont accompli<eos_token>
+<fim_start>Cela rend les objectifs zoom peu coûteux difficiles à <fim_hole> de faible luminosité sans flash.<fim_end>utiliser dans des conditions<eos_token>
+<fim_start>Dans les trains-couchettes qui roulent de nuit, <fim_hole> chef de train afin de ne pas interrompre votre sommeil.<fim_end>les passeports peuvent être collectés par le<eos_token>
+<fim_start>Malgré ses commentaires, il a déclaré qu'il <fim_hole> aux Jeux olympiques de 2012 qui se tiendront à Londres.<fim_end>soutiendrait les concurrents britanniques<eos_token>
+<fim_start>Suite à l’accident, Gibson <fim_hole> immédiatement après.<fim_end>a été transporté à l’hôpital, mais a succombé<eos_token>
+<fim_start>Il peut y avoir plus de maria sur le côté proche parce que la croûte est plus fine. Il était plus facile pour <fim_hole> remonter à la surface.<fim_end>la lave de<eos_token>
+<fim_start>Pour une randonnée <fim_hole> peu difficile, il suffit de quelques préparatifs et toute personne relativement en bonne santé peut en profiter.<fim_end>d'une journée sur un sentier<eos_token>
+<fim_start>Il faut une fusée géante de plus de 30 mètres de haut <fim_hole> ou un télescope dans l’espace.<fim_end>pour mettre un satellite<eos_token>
+<fim_start>S'il <fim_hole> quelque chose, il ne faut même pas penser à en enregistrer une vidéo.<fim_end>est interdit de prendre une simple photo de<eos_token>
+<fim_start>L'ASUS Eee PC, lancé précédemment à l'échelle mondiale pour des raisons d'économies et de fonctionnalités, est devenu <fim_hole> lors du Taipei IT Month de 2007.<fim_end>un sujet brûlant<eos_token>
+<fim_start>On craint que les patients <fim_hole> quotidiennes si les symptômes de la grippe restent légers.<fim_end>puissent continuer à infecter davantage de personnes en vaquant à leurs occupations<eos_token>
+<fim_start>Le lac Onega est également relié <fim_hole> sorte qu'il est encore possible de venir de la mer Caspienne en passant par la Russie.<fim_end>à la Volga, de<eos_token>
+<fim_start>Bachmann, <fim_hole> terme à sa campagne.<fim_end>qui avait gagné le « vote de paille » d’Âmes en août, décida de mettre un<eos_token>
+<fim_start>Et depuis, le gouvernement fédéral <fim_hole> en Tasmanie. Le gouvernement d'état et certains parlementaires ont qualifié cet acte de farce à l'approche des élections de novembre.<fim_end>a pris les devants en se chargeant du financement du Mersey Hospital à Devonport,<eos_token>
+<fim_start>Ils devinrent des experts de l’amputation en sauvant des patients de la gangrène, ainsi qu’en <fim_hole> de pinces artérielles servant à juguler le flux sanguin.<fim_end>matière de pinces à ligature et<eos_token>
+<fim_start>La Finlande est une destination de choix pour <fim_hole> plaisance. Le « Pays des mille lacs » compte aussi des milliers d’îles, dans les lacs et dans les archipels côtiers.<fim_end>la navigation de<eos_token>
+<fim_start>L'image suivante montre les atomes qui émettent des photons. Bien entendu en réalité les photons sont bien plus petits <fim_hole> représentés sur l'image.<fim_end>que ceux<eos_token>
+<fim_start>Au même moment, la marine allemande, utilisant principalement des <fim_hole> d'arrêter ce trafic.<fim_end>U-Boots, tentait<eos_token>
+<fim_start>Le bus se dirigeait vers le parc de Six Flags St. Louis, dans le Missouri, pour <fim_hole> une salle comble.<fim_end>que le groupe joue devant<eos_token>
+<fim_start>Robert Hooke, <fim_hole> dans du liège avec un microscope.<fim_end>un biologiste anglais, a vu de petits carrés<eos_token>
+<fim_start>Un navire de contre-mesures anti-mines de <fim_hole> pour Puerto Princesa à Palawan.<fim_end>classe Avenger, le navire était en route<eos_token>
+<fim_start>Si l'objectif de la visite d'un lieu particulier est de connaître son histoire et <fim_hole> tourisme culturel.<fim_end>sa culture, ce type de tourisme s'appelle alors<eos_token>
+<fim_start>Cela est dû au fait que le courant électrique qui circule dans la douille, où s'encastre la partie <fim_hole> en contact avec son intérieur ou sa base métallique alors que l'ampoule est encore partiellement insérée dans la douille.<fim_end>métallique de l'ampoule, peut entraîner des chocs électriques graves si vous entrez<eos_token>
+<fim_start>L'utilisation d'applications de navigation par GPS sur votre smartphone peut être le moyen <fim_hole> pratique pour vos déplacements en dehors de votre pays de résidence.<fim_end>le plus simple et le plus<eos_token>
+<fim_start>Cela peut également être un bon moyen d'étirer un budget pour permettre un séjour plus long quelque part, car de nombreux emplois <fim_hole> versent un petit salaire.<fim_end>de bénévoles offrent le gîte et le couvert et certains<eos_token>
+<fim_start>Tant que vous restez dans cette zone, vous pouvez généralement traverser les frontières sans repasser par <fim_hole> des passeports.<fim_end>les points de contrôle<eos_token>
+<fim_start>A 11 h 29, la manifestation s'est déplacée vers Whitehall, devant Trafalgar Square, le long du Strand, en passant par Aldwych et en remontant Kingsway vers Holborn, où le <fim_hole> de printemps à l'hôtel Grand Connaught Rooms.<fim_end>Parti Conservateur tenait son Forum<eos_token>
+<fim_start>Ces derniers ne sont pas très agiles, de sorte que la piste doit faire une longue embardée autour des montagnes transantarctiques pour <fim_hole> le plateau.<fim_end>arriver sur<eos_token>
+<fim_start>Des manifestations ont également eu lieu à Paris, Sofia en <fim_hole> Édimbourg et Glasgow en Écosse.<fim_end>Bulgarie, Vilnius en Lituanie, La Valette à Malte, Tallinn en Estonie, et<eos_token>
+<fim_start>Les troupes de lions agissent <fim_hole> et aussi très mortels pour leurs proies.<fim_end>comme des meutes de loups ou de chiens, des animaux étonnamment semblables aux lions (mais pas aux autres grands félins) dans leur comportement,<eos_token>
+<fim_start>Le golf <fim_hole> frapper des balles et les envoyer dans des trous.<fim_end>est un jeu dans lequel les joueurs utilisent des clubs pour<eos_token>
+<fim_start>Cette <fim_hole> bateaux-taxis qui partent régulièrement de Granville Island, dans le centre-ville de Vancouver.<fim_end>communauté authentique se trouve à Howe Sound, juste à côté de Vancouver, et elle est facilement accessible par des<eos_token>
+<fim_start>Toutefois, presque tous les casinos cités ci-dessus servent des boissons, et plusieurs d'entre eux proposent des <fim_hole> grands casinos situés à proximité d'Albuquerque et de Santa Fe)<fim_end>distractions de haute qualité (principalement les<eos_token>
+<fim_start>L'Équateur exige que les ressortissants cubains obtiennent une lettre de recommandation avant de <fim_hole> les aéroports internationaux ou les postes-frontières.<fim_end>pouvoir entrer en Équateur par<eos_token>
+<fim_start>Si vous n'avez pas l'habitude de <fim_hole> ouvert : les pentes raides, les voies étroites et les courbes serrées prédominent.<fim_end>conduire sur des routes de campagne, gardez l'esprit<eos_token>
+<fim_start>Il a été immédiatement pris en charge par le personnel médical sur la <fim_hole> local où il est mort par la suite.<fim_end>piste et transporté dans un hôpital<eos_token>
+<fim_start>Son existence n’est connue qu’à cause de ses effets <fim_hole> de l’univers.<fim_end>sur l’expansion<eos_token>
+<fim_start>Il a marqué 2 buts et fait 2 passes décisives <fim_hole> par Washington.<fim_end>durant le match contre les Atlanta Trashers, remporté 5-3<eos_token>
+<fim_start>Son millième timbre a été le magnifique « Great Deeds by Swedish Kings » de David Klöcker Ehrenstrahl en 2000, qui <fim_hole> Livre Guinness des records.<fim_end>figure dans le<eos_token>
+<fim_start>N'oubliez pas que même si les spectacles musicaux sont terminés sur les scènes principales, d'autres spectacles musicaux peuvent se poursuivre jusqu'à tard dans la nuit sur <fim_hole> du festival.<fim_end>d'autres sites<eos_token>
+<fim_start>Entrer en Afrique australe <fim_hole> routes touristiques normales.<fim_end>en voiture est un moyen incroyable de voir toute la beauté de la région, aussi bien que pour se rendre à des endroits hors des<eos_token>
+<fim_start>Cependant, le pourcentage de TB-UR dans l’ensemble du groupe de personnes atteintes <fim_hole> infectées à un moment donné en Afrique du Sud.<fim_end>de tuberculose semble encore faible ; 6 000 personnes sur un total de 330 000 ont été<eos_token>
+<fim_start>Il <fim_hole> fanions. Il ne peut être parcouru que par des tracteurs spécialisés, tirant des traîneaux transportant carburant et fournitures.<fim_end>s'agit de neige compactée, avec des crevasses comblées et marquées par des<eos_token>
+<fim_start>Puis, quelques années plus tard, en 1639, un astronome anglais du <fim_hole> de Vénus.<fim_end>nom de Jeremiah Horrocks a observé un transit<eos_token>
+<fim_start>Chaque magasin du coin est rempli d'une panoplie déroutante de cartes téléphoniques prépayées qui peuvent être utilisées à partir de téléphones <fim_hole> téléphones ordinaires.<fim_end>payants ou de<eos_token>
+<fim_start>Les manifestants espèrent recueillir 1,2 million de signatures pour leur pétition à présenter <fim_hole> national en novembre.<fim_end>au Congrès<eos_token>
+<fim_start>Il n’est pas non plus obligatoire d’obtenir un numéro local de la collectivité dans laquelle vous vivez; vous pouvez obtenir une connexion <fim_hole> qui indique que vous êtes dans l’Arizona ensoleillée.<fim_end>Internet par satellite dans les contrées sauvages de Chicken, en Alaska, et sélectionner un numéro<eos_token>
+<fim_start>Ces plateaux sont souvent appelés « vidde », pour <fim_hole> arbre, une étendue sans limites.<fim_end>désigner un vaste espace sans<eos_token>
+<fim_start>Lorsque vous voyagez, attendez-vous à ce que les choses ne soient pas comme « chez vous ». Les manières, les lois, la nourriture, la <fim_hole> normes, la langue, etc. diffèrent dans une certaine mesure de l’endroit où vous vivez.<fim_end>circulation, le logement, les<eos_token>
+<fim_start>Donnez également des exemplaires de la réglementation et des contacts aux <fim_hole> prêts à vous aider.<fim_end>compagnons de voyage et aux parents ou amis à la maison qui sont<eos_token>
+<fim_start>En ce qui concerne les inversions magnétiques, <fim_hole> est active .<fim_end>plus le nombre de Rossby est petit, moins l’étoile<eos_token>
+<fim_start>Des chanteurs célèbres dans tout le pays ont présenté des bhajans, ou <fim_hole> pieds de Shri Shyam.<fim_end>chants de dévotion, aux<eos_token>
+<fim_start>Ceci <fim_hole> itérations 802.11a, b et g, sous réserve que la station possède deux radios.<fim_end>autorisera la rétro-compatibilité avec les<eos_token>
+<fim_start>Les plantes produisent de l’oxygène <fim_hole> les humains exhalent (c’est-à-dire expirent).<fim_end>que les humains respirent, et elles absorbent le dioxyde de carbone que<eos_token>
+<fim_start>Une exposition internationale (communément appelée exposition universelle <fim_hole> expo) est un grand festival international des arts et des sciences.<fim_end>ou tout simplement<eos_token>
+<fim_start>Sirena <fim_hole> repas chauds en plus du camping. La Leona, San Pedrillo et Los Patos n'offrent que des emplacements de camping sans service de restauration.<fim_end>est le seul poste de gardes forestiers qui offre un hébergement en dortoir et des<eos_token>
+<fim_start>Lorsque vous appelez une personne qui se trouve à des milliers de kilomètres, <fim_hole> un satellite.<fim_end>vous utilisez<eos_token>
+<fim_start>En <fim_hole> le composent, le Japon est souvent désigné, d'un point de vue géographique, comme un « archipel ».<fim_end>raison du groupe d'îles qui<eos_token>
+<fim_start>L'écotourisme <fim_hole> dans le but de profiter du paysage, notamment de la faune et de la flore.<fim_end>intéresse les personnes désireuses de visiter des zones naturelles<eos_token>
+<fim_start>Les politiques d'annulation varient, mais à partir de fin mars, la plupart des politiques d'annulation basées sur les coronavirus ne <fim_hole> laquelle les Jeux olympiques avaient été prévus.<fim_end>s'étendent pas jusqu'en juillet 2020, date à<eos_token>
+<fim_start>Depuis lors, le Brésilien a disputé 53 matches pour le club toutes compétitions <fim_hole> a marqué 24 buts.<fim_end>confondues et<eos_token>
+<fim_start>Cela signifie que <fim_hole> la ville historique pendant quelques journées entières tout en revenant dormir sur le bateau la nuit.<fim_end>vous pouvez visiter<eos_token>
+<fim_start>De <fim_hole> exemple) sont égaux à ce rapport d’aspect ou s’en approchent de près.<fim_end>nombreux formats courants (famille de formats APS, par<eos_token>
+<fim_start>L’enregistrement est une exigence supplémentaire pour la procédure de visa. Dans certains pays, vous devez vous faire enregistrer et indiquer l’adresse de votre <fim_hole> autorités locales.<fim_end>lieu de séjour auprès des<eos_token>
+<fim_start>Le chef suprême <fim_hole> en ville, durant la luttee de l’indépendance organisée par le mouvement Mau.<fim_end>Tupua Tamasese Lealofi III fut assassiné lors un rassemblement pacifique qui se tenait<eos_token>
+<fim_start>L'annonce d'aujourd'hui prolonge également l'engagement pris par le gouvernement en mars de cette année de <fim_hole> voitures supplémentaires.<fim_end>financer des<eos_token>
+<fim_start>Si vous avez plus de temps pour voyager, comparez le <fim_hole> le prix d'un billet pour faire le tour du monde.<fim_end>prix total du billet vers l'Afrique avec<eos_token>
+<fim_start>Jonny Reid, copilote de l’équipe néo-zélandaise A1GP, est entré dans l’histoire <fim_hole> pont du port d’Auckland (Nouvelle-Zélande), vieux de 48 ans, en toute légalité.<fim_end>aujourd’hui en franchissant le<eos_token>
+<fim_start>La <fim_hole> GHz et 5,0 GHz.<fim_end>norme 802.11n fonctionne à la fois sur les fréquences 2,4<eos_token>
+<fim_start>L'arme d'Uka s'est enrayée alors qu'elle était pointée sur la tête d'un cinquième homme. Schneider souffre d'une douleur lancinante, ne voit plus d'un <fim_hole> à partir de titane.<fim_end>œil, a perdu une partie de son crâne, et son visage a été reconstruit<eos_token>
+<fim_start>Le Japon compte près de 7 000 îles (la plus <fim_hole> au monde !<fim_end>grande étant Honshu), ce qui en fait la 7e plus grande île<eos_token>
+<fim_start>Les scènes sont affichées sur les <fim_hole> différentes pyramides sont éclairées.<fim_end>pyramides et les<eos_token>
+<fim_start>Certaines études suggèrent que la maladie doit devenir moins mortelle <fim_hole> épidémie mondiale, a-t-il noté.<fim_end>avant de pouvoir provoquer une<eos_token>
+<fim_start>Vivre et faire du bénévolat dans un pays étranger est une <fim_hole> d'apprendre à se connaître soi-même, à acquérir de nouvelles perspectives et même de nouvelles compétences.<fim_end>excellente façon de découvrir une culture différente, de rencontrer de nouvelles personnes,<eos_token>
+<fim_start>Les soldats de la paix de l'ONU, qui sont arrivés en Haïti après le tremblement de terre de 2010, sont accusés de la propagation de la maladie qui a <fim_hole> campement de la troupe.<fim_end>commencé près du<eos_token>
+<fim_start>L'affaire a été jugée en Virginie <fim_hole> d'accès à Internet AOL, la société à l'origine des accusations.<fim_end>puisque c'est le domicile du fournisseur<eos_token>
+<fim_start>Aux alentours de <fim_hole> trouver des endroits où acheter des produits marocains traditionnels, comme des tajines, des poteries, des articles de maroquinerie, des narguilés et des bibelots de toutes sortes, mais c'est tout pour les touristes.<fim_end>la vieille médina, on peut facilement<eos_token>
+<fim_start>De nos jours, il est rare que les gens réservent leur vol directement via la compagnie aérienne sans avoir <fim_hole> les prix.<fim_end>préalablement recherché et comparé<eos_token>
+<fim_start>Dans <fim_hole> si importante.<fim_end>le climat chaud du Moyen-Orient, la maison n'était pas<eos_token>
+<fim_start>La chanteuse <fim_hole> Jai Shankar Choudhary. Lakkha Singh a également présenté le bhajan de Chhappan Bhog. Le chanteur Raju Khandelwal l’accompagnait.<fim_end>Sanju Sharma a commencé la soirée, suivie par<eos_token>
+<fim_start>Ces télescopes utilisaient une <fim_hole> plus proches.<fim_end>combinaison de deux lentilles afin que les objets distants paraissent à la fois plus gros et<eos_token>
+<fim_start>Madagascar est de loin le plus grand pays, et même un continent à lui tout <fim_hole> de faune.<fim_end>seul, s'agissant<eos_token>
+<fim_start>Parmi les problèmes de santé possibles à long terme dus à l’alcoolisme, on peut citer les dégâts sur le foie, mais aussi la cécité et la mort. Le danger potentiel est <fim_hole> d’alcool fabriqué illégalement.<fim_end>accru en cas de consommation<eos_token>
+<fim_start>La volonté des gouvernements de délivrer des passeports dont le sexe n'est pas indiqué (X) ou des documents <fim_hole> jour pour correspondre au nom et au sexe souhaités varie.<fim_end>mis à<eos_token>
+<fim_start>Ses longues mâchoires étaient dotées de plus de 70 dents acérées comme des lames de rasoir, ainsi que d'une série supplémentaire de <fim_hole> qui croisait son chemin ne pouvait pas s'échapper.<fim_end>dents dans le palais, de sorte que tout ce<eos_token>
+<fim_start>Si les Alliés avaient échoué, l'Allemagne aurait probablement pu conquérir la Grande-Bretagne comme elle l'a fait <fim_hole> de l'Europe.<fim_end>pour le reste<eos_token>
+<fim_start>Ont suivi l'Istanbul State Symphony Orchestra, un groupe <fim_hole> les chanteurs Fatih Erkoç et Müslüm Gürses.<fim_end>janissaire, puis<eos_token>
+<fim_start>La République dominicaine (República Dominicana en <fim_hole> pays des Caraïbes qui occupe la moitié est de l'île d'Hispaniola, qu'il partage avec Haïti.<fim_end>espagnol) est un<eos_token>
+<fim_start>De nombreux voyages sur le récif sont effectués tout au long de l'année, et les blessures dues à l'une de ces <fim_hole> récif sont rares.<fim_end>causes sur le<eos_token>
+<fim_start>Si un cavalier est projeté d’un cheval, mais a un pied <fim_hole> le cheval s’enfuit. Pour minimiser ce risque, un certain nombre de mesures de sécurité peuvent être prises.<fim_end>pris dans l’étrier, il pourrait être traîné si<eos_token>
+<fim_start>L'idée était que toutes les nations <fim_hole> pourquoi les gouvernements nationaux changeaient souvent d'alliances afin de maintenir l'équilibre.<fim_end>européennes empêchent une nation de devenir puissante, c'est<eos_token>
+<fim_start>Il s'agissait plutôt des quatre états de la matière (dans le même ordre) : <fim_hole> ces derniers se transforment en nouvelles substances pour former ce que nous voyons.<fim_end>solide, liquide, gazeux et plasma, bien qu'il ait également émis la théorie selon laquelle<eos_token>
+<fim_start>Les enquêteurs ont découvert que <fim_hole> la présence de ces substances supplémentaires, la mélamine et l'acide cyanurique.<fim_end>des cristaux s'étaient formés dans l'urine des chats en raison de<eos_token>
+<fim_start>Il existe toutefois aujourd'hui des graffeurs reconnus, des événements consacrés à la discipline <fim_hole> les graffitis ressemblent plus souvent à de véritables œuvres d'art qu'à de vulgaires tags indéchiffrables.<fim_end>et des surfaces « autorisées » pour s'y adonner. Dans ces conditions,<eos_token>
+<fim_start>Il y a beaucoup de vins français à <fim_hole> peut-être mieux.<fim_end>déguster, mais les vins néo-zélandais et australiens voyageront<eos_token>
+<fim_start>Du haut des sommets, les panoramas <fim_hole> praticables sur les pentes, où les possibilités sont illimitées.<fim_end>sur les montagnes sont imprenables. Les alpinistes du monde entier ne cessent de découvrir de nouveaux chemins<eos_token>
+<fim_start>L'Afrique du Sud, qui semblait décidément rouillée lors de son match contre ses consœurs du sud, s'est cependant graduellement <fim_hole> du tournoi.<fim_end>améliorée au fil<eos_token>
+<fim_start>Le débat a été déclenché par la controverse sur les dépenses liées aux secours et à la reconstruction à la suite de l'ouragan Katrina ; ce <fim_hole> humour « l'accord Bush pour la Nouvelle-Orléans ».<fim_end>que certains conservateurs en matière budgétaire ont appelé avec<eos_token>
+<fim_start>Les critères varient selon <fim_hole> vigueur en Europe.<fim_end>le lieu où l'on se trouve ; dans certaines parties du monde, comme en Amérique du Nord, la limite d'âge peut être inférieure à celle en<eos_token>
+<fim_start>Même si un vaccin expérimental semble jusqu'ici capable de réduire le taux de mortalité d'Ebola, aucun remède n'a <fim_hole> pour traiter l'infection existante.<fim_end>encore été suffisamment efficace<eos_token>
+<fim_start>Le porte-parole de Bush, Gordon Johndroe, a qualifié <fim_hole> la dénucléarisation vérifiable de la péninsule coréenne ».<fim_end>la promesse de la Corée du Nord « d'étape majeure vers l'objectif de<eos_token>
+<fim_start>Les satellites, qui pesaient <fim_hole> environ 28000 km/h, sont entrés en collision à 790 km au-dessus de la Terre.<fim_end>tous les deux plus de 450 kg et se déplaçaient à<eos_token>
+<fim_start>Les scientifiques <fim_hole> la collision a été massive.<fim_end>affirment que l'explosion causée par<eos_token>
+<fim_start>Le sang s'éloigne du cœur <fim_hole> appelés veines. Les plus petits tubes sont appelés capillaires.<fim_end>dans des tubes appelés artères et revient au cœur dans des tubes<eos_token>
+<fim_start>La plupart des festivals du temple sont célébrés dans le cadre de l'anniversaire du temple, de la divinité qui le préside, ou à l'occasion de tout autre <fim_hole> associé au temple.<fim_end>événement majeur<eos_token>
+<fim_start>En tant qu'état où le vainqueur remporte tout, <fim_hole> nomination du parti républicain.<fim_end>la Floride a décerné à Romney ses cinquante délégués, le poussant ainsi en tête de liste pour la<eos_token>
+<fim_start>Pour retourner au niveau d'énergie précédent, il <fim_hole> au contact de la lumière.<fim_end>leur faut se débarrasser de l'excès d'énergie emmagasiné<eos_token>
+<fim_start>Si vous voyagez avec un ordinateur portable ou une tablette, conservez une <fim_hole> son disque (accessibles hors connexion).<fim_end>copie dans sa mémoire ou<eos_token>
+<fim_start>Aucun blessé grave n’a été <fim_hole> moment de l’explosion ont été traitées pour des symptômes d’état de choc.<fim_end>signalé, mais au moins cinq personnes présentes sur les lieux au<eos_token>
+<fim_start>Sur le plan international, il existe près de 200 organisations de <fim_hole> d’entre elles fonctionnent indépendamment.<fim_end>visite en course à pied. La plupart<eos_token>
+<fim_start>Pour autant que nous sachions, il n’y a qu’un seul corps planétaire qui <fim_hole> s’agit de la Terre », ajouta Stofan.<fim_end>montre plus de dynamisme que Titan, et il<eos_token>
+<fim_start>Des <fim_hole> sûr, il y a aussi des métaux comme l’argent et l’or.<fim_end>éléments comme le calcium et le potassium sont considérés comme des métaux. Bien<eos_token>
+<fim_start>Une liste des hôtes disponibles est ensuite fournie soit en version imprimée et / ou <fim_hole> et des avis d'autres voyageurs.<fim_end>en ligne, parfois avec des références<eos_token>
+<fim_start>La recherche en intelligence artificielle a pour objet l'automatisation par des <fim_hole> tâches requérant une approche intelligente.<fim_end>machines de<eos_token>
+<fim_start>En réalité, la plupart des boomerangs disponibles en <fim_hole> pas essayer de faire de lancers dans le vent.<fim_end>Australie ne reviennent pas. Il est préférable pour les débutants de ne<eos_token>
+<fim_start>Selon cette théorie, la majeure partie de la matière noire autour d’une galaxie se trouve dans <fim_hole> halo, et est constituée d’un grand nombre de petites particules.<fim_end>une sorte de<eos_token>
+<fim_start>Moins d'un millier de cas ont été rapportés chez les humains, <fim_hole> été mortels.<fim_end>mais certains ont<eos_token>
+<fim_start>Le judoka japonais Hitoshi Saito, vainqueur de deux médailles d'or <fim_hole> l'âge de 54 ans.<fim_end>olympiques, est mort à<eos_token>
+<fim_start>Jérusalem compte de nombreux sites historiques, archéologiques et culturels ainsi que <fim_hole> commerciaux, cafés et restaurants animés et très fréquentés.<fim_end>des centres<eos_token>
+<fim_start>En gros, on peut les classer en deux catégories : soit vous travaillez pendant <fim_hole> Le présent article porte essentiellement sur cette dernière catégorie.<fim_end>votre voyage, soit vous essayez de limiter vos dépenses.<eos_token>
+<fim_start>On sait depuis longtemps que différents types de dommages, lésions, tumeurs et traumatismes cérébraux affectent le comportement <fim_hole> certaines fonctions mentales.<fim_end>et provoquent des changements dans<eos_token>
+<fim_start>Les plages, les parcs à thème et les terrains <fim_hole> par les touristes de loisirs.<fim_end>de camping sont souvent les lieux les plus fréquentés<eos_token>
+<fim_start>Votre opérateur téléphonique local devrait pouvoir vous en dire plus <fim_hole> ce service.<fim_end>au sujet de la connexion à<eos_token>
+<fim_start>Les ordinateurs peuvent générer des animations complexes, de plus en <fim_hole> la télévision et au cinéma.<fim_end>plus utilisées à<eos_token>
+<fim_start>À l'issue <fim_hole> avec 2 250 points.<fim_end>de la course, Keselowski reste en tête du Championnat des pilotes<eos_token>
+<fim_start>Martelly a <fim_hole> composé de neuf membres.<fim_end>intronisé hier un nouveau Conseil électoral provisoire (CEP)<eos_token>
+<fim_start>D'autre part, la présence de glace et <fim_hole> la circulation est pratiquement ininterrompue toute l'année.<fim_end>de neige est normale dans de nombreux pays, et<eos_token>
+<fim_start>Les scientifiques appellent ce <fim_hole> car les atomes sont stimulés par la lumière vive, ce qui provoque l’émission d’un photon de lumière (la lumière étant un type de rayonnement).<fim_end>processus « émission stimulée de rayonnement »,<eos_token>
+<fim_start>La loi française a été modifiée. Son militantisme remonte à l’âge de 15 ans, lorsqu’il a rejoint <fim_hole> Guerre mondiale.<fim_end>la Résistance française pendant la Seconde<eos_token>
+<fim_start>Cela devient moins problématique à mesure que les <fim_hole> élevées dans la production de lentilles.<fim_end>fabricants de lentilles atteignent des normes plus<eos_token>
+<fim_start>La première passe <fim_hole> en faveur du but gagnant du bleu Nicklas Backstrom ;<fim_end>décisive d’Ovechkin dans la soirée a été<eos_token>
+<fim_start>La science montre désormais que cette économie massivement basée sur le carbone a délogé la biosphère de son état de stabilité qui a soutenu <fim_hole> pendant deux millions d'années.<fim_end>l'évolution humaine<eos_token>
+<fim_start>Les deux équipes se sont affrontées lors de la grande demi-finale lors de laquelle <fim_hole> à 11 points.<fim_end>Noosa l'a emporté<eos_token>
+<fim_start>Même si vous pensez qu’il est intuitif de rejoindre la compagnie aérienne avec laquelle vous voyagez le plus, vous devez savoir que les privilèges offerts sont souvent différents et <fim_hole> même alliance.<fim_end>que le système de points de fidélité peut être plus généreux avec une autre compagnie de la<eos_token>
+<fim_start>Les compagnies aériennes qui les proposent sont notamment Air Canada, <fim_hole> du Canada, et WestJet.<fim_end>Delta Air Lines, Lufthansa pour les vols en provenance des États-Unis ou<eos_token>
+<fim_start>La tour de contrôle russe a activé les jets, ce qui a permis à la station de <fim_hole> attitude normale.<fim_end>retrouver une<eos_token>
+<fim_start>La décision de M. Rudd de signer <fim_hole> ratifié cet accord.<fim_end>le protocole de Kyoto isole les États-Unis, qui est désormais le seul pays développé à ne pas avoir<eos_token>
+<fim_start>Le rapport est très critique envers presque tous les aspects de la politique actuelle du gouvernement à l'égard de l'Irak et plaide vivement pour <fim_hole> de direction immédiat.<fim_end>un changement<eos_token>
+<fim_start>Pourquoi les systèmes de transport engendrent-ils de telles plaintes, pourquoi tombent-ils en panne quotidiennement ? Les ingénieurs des transports sont-ils simplement incompétents <fim_hole> se passe-t-il quelque chose de plus fondamental ?<fim_end>? Ou bien,<eos_token>
+<fim_start>Les autres lutteurs <fim_hole> hommage à Luna.<fim_end>ont également rendu<eos_token>
+<fim_start>L'important <fim_hole> sommet du volcan.<fim_end>tremblement de terre ayant entraîné le changement de phase a eu lieu le 10 mars sur la face nord-est de la caldeira du<eos_token>
+<fim_start>Les premiers rapports indiquent que l’avion a été détourné <fim_hole> un atterrissage d’urgence à Ürümqi.<fim_end>vers l’Afghanistan après s’être vu refuser<eos_token>
+<fim_start>À part l'événement de mercredi, <fim_hole> courses individuelles lors des Championnats.<fim_end>Carpanedo a participé à deux<eos_token>
+<fim_start>San Francisco est aussi l'une <fim_hole> et japonaise.<fim_end>des meilleures destinations du pays pour découvrir la cuisine asiatique : coréenne, thaï, indienne<eos_token>
+<fim_start>Lodin a également déclaré que les responsables ont décidé d'annuler le second tour afin d'épargner aux <fim_hole> sécurité d'une autre élection.<fim_end>Afghans les dépenses et les risques de<eos_token>
+<fim_start>Un tricératops aurait pu utiliser son <fim_hole> avant de manger le tronc.<fim_end>bec puissant pour enlever les feuilles<eos_token>
+<fim_start>Certains animaux, tels que les éléphants et les girafes, ont tendance à s’approcher <fim_hole> l’équipement standard permet de bien les observer.<fim_end>de près des voitures et<eos_token>
+<fim_start>Si vous n’avez pas besoin de visa pour des séjours de courte durée dans certains pays en tant que touriste ou pour le voyage d'affaires, <fim_hole> plus long que celui d’un simple touriste.<fim_end>le fait d’y aller en tant qu’étudiant étranger nécessite généralement un séjour<eos_token>
+<fim_start>Piquet <fim_hole> de Hongrie 2009.<fim_end>Jr. a été limogé après le Grand Prix<eos_token>
+<fim_start>Des scientifiques <fim_hole> de diagnostic, qui permettrait de différencier les cellules en fonction de leur type. Il s'agit d'une petit puce imprimable, qui peut être produite au moyen d'une imprimante à jet d'encre standard, pour un coût d'environ un cent de dollar pièce.<fim_end>de l’école de médecine de l’université de Stanford ont annoncé ce lundi la création d'un nouvel outil<eos_token>
+<fim_start>Le cyclone Felicia, après avoir atteint le niveau 4 sur l'échelle de Saffir-Simpson, s'est transformé en dépression <fim_hole> se dissiper mardi.<fim_end>tropicale avant de<eos_token>
+<fim_start>Si vous vous sentez d'humeur <fim_hole> préparer un jus ou mélanger des smoothies :<fim_end>plus aventureuse, profitez de l'occasion pour<eos_token>
+<fim_start>Les expositions horticoles internationales sont des <fim_hole> et tout ce qui concerne les plantes.<fim_end>événements spécialisés qui présentent des vitrines florales, des jardins botaniques<eos_token>
+<fim_start>Nous fabriquons nos maisons et nos vêtements à base <fim_hole> La plupart des aliments que nous mangeons sont des plantes. Sans les plantes, les animaux ne survivraient pas.<fim_end>de plantes.<eos_token>
+<fim_start>Une partie des <fim_hole> d’orages et de fréquents éclairs.<fim_end>précipitations a été accompagnée<eos_token>
+<fim_start>Le rugissement du tigre ne ressemble pas au rugissement <fim_hole> à une phrase dont les mots seraient des cris et des grondements.<fim_end>ample du lion, mais plutôt<eos_token>
+<fim_start>C’était le dernier match <fim_hole> a deux semaines.<fim_end>des All Blacks, qui avaient déjà remporté le trophée il y<eos_token>
+<fim_start>De nombreux gouvernements exigent que les <fim_hole> toute une série de maladies.<fim_end>visiteurs qui entrent dans leur pays ou les résidents qui le quittent soient vaccinés contre<eos_token>
+<fim_start>Stardust établira un nouveau record historique pour être le vaisseau spatial le plus rapide à revenir sur Terre, <fim_hole> lors du retour du module de commande d'Apollo X.<fim_end>battant le précédent record établi en mai 1969<eos_token>
+<fim_start>L'agriculture de subsistance est un système simple, souvent biologique, utilisant des semences conservées originaires de <fim_hole> pour maximiser le rendement.<fim_end>l'écorégion, combinées à la rotation des cultures ou à d'autres techniques relativement simples<eos_token>
+<fim_start>L’effet que l’équipe recherchait serait causé par les forces de marée entre la matière noire de <fim_hole> et la matière noire de la Voie lactée.<fim_end>la galaxie<eos_token>
+<fim_start>L'Amazone est également le fleuve le plus large de la planète, <fim_hole> de large.<fim_end>atteignant parfois 10 km<eos_token>
+<fim_start>Le groupe de rock devait faire une <fim_hole> et au Canada jusqu'au 16 septembre.<fim_end>tournée aux États-Unis<eos_token>
+<fim_start>En outre, il existe de nombreux petits <fim_hole> nombreuses, comme les insectes, les rongeurs, les lézards et les oiseaux.<fim_end>chats (y compris les chats de compagnie en liberté) qui mangent les petites proies, bien plus<eos_token>
+<fim_start>Le squash, le karaté et les sports de patinage à roulettes ont essayé d'être intégrés au programme olympique, tout comme le baseball et le softball, dont le retrait du statut de <fim_hole> en 2005.<fim_end>sport olympique a été voté<eos_token>
+<fim_start>Né à Zagreb, la capitale croate, Bobek s'est fait connaître en <fim_hole> le Partizan Belgrade.<fim_end>jouant pour<eos_token>
+<fim_start>L'ancien <fim_hole> avec plus de 46 % des voix.<fim_end>gouverneur du Massachusetts, Mitt Romney, a remporté les élections primaires présidentielles du Parti républicain de Floride mardi<eos_token>
+<fim_start>Le territoire de la Turquie est long de plus de 1600 kilomètres (1000 miles) et large <fim_hole> moins rectangulaire.<fim_end>de 800 kilomètres (500 miles), avec une forme plus ou<eos_token>
+<fim_start>Goma est une ville touristique située à l'extrême est <fim_hole> Démocratique du Congo, près du Rwanda.<fim_end>de la République<eos_token>
+<fim_start>Ceux qui participent à une activité régulière ont besoin de plus de soutien <fim_hole> et le mouvement physique normal.<fim_end>en termes de perception négative de la douleur, en distinguant les différences entre la douleur chronique et la sensation d'inconfort<eos_token>
+<fim_start>Bien que plus petite, elle rappelle à certains visiteurs âgés l'île d'Hawaii avant <fim_hole> nombreux grands hôtels touristiques et aménagements.<fim_end>qu'elle ne devienne un État avec de<eos_token>
+<fim_start>Une partie se joue ordinairement en dix-huit trous : les joueurs commencent en règle générale par le premier trou du parcours <fim_hole> par le dix-huitième.<fim_end>et terminent<eos_token>
+<fim_start>Bowen <fim_hole> boutiques, des restaurants, et plus encore.<fim_end>Island est une excursion populaire d'une journée ou d'un week-end qui propose du kayak, des randonnées, des<eos_token>
+<fim_start>Par exemple, le format de photographie le plus courant au monde est le 35 mm ; c'était le format de <fim_hole> de l'ère des films analogiques.<fim_end>pellicule le plus répandu à la fin<eos_token>
+<fim_start>Comme pour les problèmes respiratoires dans les climats plus froids, les problèmes intestinaux dans les climats chauds sont assez courants et, dans la plupart des cas, sont <fim_hole> mais pas vraiment dangereux.<fim_end>particulièrement gênants<eos_token>
+<fim_start>Environ dix minutes avant de devoir atterrir, <fim_hole> lors de sa deuxième tentative d’approche.<fim_end>il a disparu<eos_token>
+<fim_start>Une personne qui pèse 200 livres (90kg) sur <fim_hole> bien sûr, vous attire moins.<fim_end>Terre pèserait environ 36 livres (16kg) sur Io. Donc la gravité,<eos_token>
+<fim_start>La politique de Komen a disqualifié le Planning familial en raison d'une enquête en cours sur <fim_hole> enquête menée par le député Cliff Stearns.<fim_end>la manière dont le Planning familial dépense et déclare son argent,<eos_token>
+<fim_start>Les voies navigables intérieures peuvent être <fim_hole> thème pour des vacances.<fim_end>un excellent<eos_token>
+<fim_start>Les scientifiques travaillent à la création d'un réacteur qui peut produire <fim_hole> même manière.<fim_end>de l'énergie de la<eos_token>
+<fim_start>Curtis Cooper, mathématicien et professeur d'informatique à la University of Central Missouri, a découvert <fim_hole> plus grand nombre premier connu à ce jour.<fim_end>le 25 janvier le<eos_token>
+<fim_start>L'Europe est un continent relativement petit, mais comportant de <fim_hole> de devoir procéder à plusieurs demandes de visa et de subir plusieurs vérifications de passeport.<fim_end>nombreux pays indépendants. Dans des circonstances classiques, voyager à travers plusieurs pays implique donc<eos_token>
+<fim_start>Le canal de la <fim_hole> via le lac Onega, le lac Ladoga et Saint-Pétersbourg, passant principalement par les rivières et les lacs.<fim_end>mer Blanche relie l'océan Arctique à la mer Baltique,<eos_token>
+<fim_start>« Il est maintenant important, tant du point de vue de la santé publique que de la <fim_hole> promulguée le plus rapidement possible », a déclaré un porte-parole du gouvernement.<fim_end>justice pénale, que la législation soit<eos_token>
+<fim_start>D'après la fuite, le document portera sur le différend à la frontière que la Palestine revendique sur la <fim_hole> existantes avant la guerre du Moyen-Orient de 1967.<fim_end>base des frontières<eos_token>
+<fim_start>Les atomes sont si incroyablement petits que des milliards d’entre eux pourraient entrer dans la période à la <fim_hole> cette phrase.<fim_end>fin de<eos_token>
+<fim_start>Le groupe a annulé le spectacle au stade du mémorial de guerre de <fim_hole> 9 000 personnes, et s’est excusé auprès des fans.<fim_end>Maui, qui devait accueillir<eos_token>
+<fim_start>Il a récemment perdu <fim_hole> durant l'Open de Brisbane.<fim_end>un match contre Raonic<eos_token>
+<fim_start>Le trouble déficitaire de l'attention « est un syndrome neurologique dont les trois symptômes caractéristiques <fim_hole> d'énergie) ».<fim_end>sont l'impulsivité, la difficulté à se concentrer et l'hyperactivité (ou excès<eos_token>
+<fim_start>Si vous traversez le nord de la Baltique en hiver, veillez à vérifier l'emplacement de <fim_hole> la traversée de la glace peut provoquer des bruits insupportables au niveau des cabanes les plus exposées.<fim_end>la cabane, car<eos_token>
+<fim_start>De nombreux billets vendus en <fim_hole> des billets valables dans les parcs pendant plusieurs jours mais déjà partiellement utilisés.<fim_end>ligne sur des sites d'enchères tels que eBay ou Craigslist sont<eos_token>
+<fim_start>Nombre de leurs écrivains ont eu une grande <fim_hole> les nouveaux spectacles parodiques de Jon Steward et Stephen Colbert.<fim_end>influence sur<eos_token>
+<fim_start>Giancarlo Fisichella <fim_hole> après le démarrage.<fim_end>a perdu le contrôle de sa voiture et a terminé la course peu<eos_token>
+<fim_start>Stewart, Gordon, Kenseth et Harvick complètent les dix premières places du championnat des pilotes à quatre courses de la <fim_hole> la saison.<fim_end>fin de<eos_token>
+<fim_start>Les Sundarbans couvrent une superficie de 3 850 km², <fim_hole> est couvert de zones d’eau/marécages.<fim_end>dont environ un tiers<eos_token>
+<fim_start>Ce qui fut l'antique cité de Smyrne est aujourd'hui un centre commercial moderne, développé et vivant, installé autour <fim_hole> de montagnes.<fim_end>d'une immense baie, entourée<eos_token>
+<fim_start>L'émission de PBS a reçu <fim_hole> rue Sésame et Mister Rogers.<fim_end>plus d'une vingtaine d'Emmy Awards, et elle a uniquement duré moins longtemps que 1,<eos_token>
+<fim_start>On peut trouver <fim_hole> de restaurants autour du jardin, et des concerts gratuits ont souvent lieu l'après-midi et le soir depuis le kiosque central.<fim_end>un grand nombre<eos_token>
+<fim_start>Les soutiens peuvent être à la fois virtuels et réels. Autrement dit, <fim_hole> de soutien, mais le petit homme trombone de Microsoft Office en est un aussi.<fim_end>un professeur est une forme<eos_token>
+<fim_start>Dustin « Goldust » Runnels a commenté que « Luna était aussi bizarre que moi… voire même encore <fim_hole> manquer… j'espère qu'elle repose dans un meilleur endroit. »<fim_end>plus… je l'aime et elle va me<eos_token>
+<fim_start>Des phases se produisent parce que seul le côté de Vénus (ou de la Lune) qui fait face au Soleil est éclairé. Les phases de Vénus ont justifié la théorie de Copernic selon <fim_hole> autour du Soleil.<fim_end>laquelle les planètes tournent<eos_token>
+<fim_start>Son coéquipier Fernando Alonso a dominé pendant toute la course, mais son arrêt au stand a mis fin à cette domination, sans doute en raison <fim_hole> avant droite mal fixée.<fim_end>d'une roue<eos_token>
+<fim_start>Le Soleil ne possède pas de croûte comme <fim_hole> de gaz, de feu et de plasma.<fim_end>la Terre sur laquelle on peut se tenir debout. Le Soleil tout entier est fait<eos_token>
+<fim_start>La plupart <fim_hole> sont confortables et robustes.<fim_end>des districts sont desservis par de petits caboteurs japonais, qui<eos_token>
+<fim_start>Le type <fim_hole> associent au voyage : Le tourisme récréatif.<fim_end>de tourisme le plus répandu est peut-être celui que la plupart des gens<eos_token>
+<fim_start>M. Reid est <fim_hole> à dépasser à 7 reprises une vitesse de 160 km/h au dessus du pont.<fim_end>parvenu au volant de la voiture néo-zélandaise de l'A1 GP dénommée Black Beauty,<eos_token>
+<fim_start>Depuis l'indépendance du <fim_hole> domination britannique en 1947, le président pakistanais a nommé des « agents politiques » pour gouverner les zones tribales, ceux-ci exerçant un contrôle indépendant quasi complet sur ces régions.<fim_end>Pakistan, qui s'est affranchi de la<eos_token>
+<fim_start>En <fim_hole> n'est pas possible d'acheter de nouveaux avions.<fim_end>raison des sanctions internationales, il<eos_token>
+<fim_start>Bien que les archipels côtiers et les plus grands lacs soient effectivement assez grands <fim_hole> kayak offrent une expérience différente.<fim_end>pour un yacht, des bateaux plus petits ou même un<eos_token>
+<fim_start>Le photographe a été transporté au Ronald Reagan UCLA Medical Center, <fim_hole> de ses blessures.<fim_end>où il est mort à la suite<eos_token>
+<fim_start>Les protons ont une charge <fim_hole> de charge. Les électrons ont une charge électrique négative.<fim_end>électrique positive tandis que les neutrons n'ont pas<eos_token>
+<fim_start>Quand la capsule rentrera dans l’atmosphère terrestre, vers 5 heures du matin (heure de l’Est), elle offrira un spectacle lumineux spectaculaire <fim_hole> de la Californie, de l’Oregon, du Nevada et de l’Utah.<fim_end>aux habitants du nord<eos_token>
+<fim_start>Bien sûr, un excellent coureur de demi-fond, un homme capable de battre un <fim_hole> mais surtout une endurance parfaitement cultivée.<fim_end>record de deux minutes doit posséder une bonne pointe de vitesse,<eos_token>
+<fim_start>Voyager en avion <fim_hole> elles n'ont jamais volé auparavant ou ont vécu un événement traumatisant.<fim_end>peut être une expérience effrayante pour les personnes de tous âges et de tous horizons, en particulier si<eos_token>
+<fim_start>Al Gore et le général Tommy Franks énumèrent par hasard leurs gros titres préférés (celui de Gore était lorsque <fim_hole> Tipper et lui avaient eu la meilleure expérience sexuelle de leur vie après sa défaite au Collège électoral en 2000).<fim_end>The Onion avait déclaré que<eos_token>
+<fim_start>La grippe aviaire, ou de manière plus <fim_hole> et les mammifères.<fim_end>formelle l'influenza aviaire, peut infecter à la fois les oiseaux<eos_token>
+<fim_start>Certaines des applications de cette catégorie peuvent même traduire des textes en langue étrangère inscrits sur des <fim_hole> lorsque l'utilisateur pointe son smartphone vers eux.<fim_end>panneaux ou d'autres objets du quotidien<eos_token>
+<fim_start>Aucun autre joueur n'a jamais fait plus d'apparitions ou marqué <fim_hole> pour le club que Bobek.<fim_end>plus de buts<eos_token>
+<fim_start>L'étude a révélé que la dépression, la peur et le catastrophisme étaient <fim_hole> souffrant de douleurs au bas du dos.<fim_end>à l'origine de la relation entre la douleur et le handicap chez les personnes<eos_token>
+<fim_start>Les chirurgiens connaissaient divers sédatifs comme la morphine, ce produit tirée des graines de pavot ainsi que la scopolamine, extraite <fim_hole> de jusquiame noire.<fim_end>de graines<eos_token>
+<fim_start>Il peut permettre d’économiser de l’argent en achetant de nouvelles cartes pour un GPS ou <fim_hole> location de voitures.<fim_end>un appareil GPS autonome, ou bien en en louant un auprès d’une société de<eos_token>
+<fim_start>Lorsqu'ils sont entièrement élevés par des espèces non humaines, les enfants sauvages affichent des comportements (dans les limites de leurs <fim_hole> à ceux des animaux qui les ont élevés, tels que la peur ou l'indifférence envers les humains.<fim_end>dispositions physiques) presque identiques<eos_token>
+<fim_start>En 1683, <fim_hole> de l'Empire Qing en 1885.<fim_end>les forces de la dynastie Qing (1644-1912) prennent le contrôle des zones côtières occidentale et septentrionale de Taïwan et la déclarent province<eos_token>
+<fim_start>Les précipitations, atteignant 6,34 pouces à <fim_hole> ont été décrites comme « bénéfiques ».<fim_end>une jauge sur Oahu,<eos_token>
+<fim_start>La capsule voyagera à <fim_hole> seconde, vitesse qui lui permettrait d’aller de San Francisco à Los Angeles en une minute.<fim_end>environ 8 miles (soit 12,8 km) par<eos_token>
+<fim_start>Il <fim_hole> comportement humain peuvent se trouver chez des animaux tels que les chiens domestiques.<fim_end>suggère même que de telles capacités d’interprétation du<eos_token>
+<fim_start>La plupart <fim_hole> un processus dépassant largement les influences culturelles et politiques, et la technologie a une incidence sur les sociétés conditionnées intrinsèquement plutôt que socialement.<fim_end>des interprétations du déterminisme technologique s’accordent sur deux idées générales : le développement technologique lui-même se déroule selon<eos_token>
+<fim_start>Les candidats peuvent envoyer des représentants pour <fim_hole> bénévoles sous haute surveillance, selon des procédures spécifiques.<fim_end>assister à chaque étape du processus. Le soir, les votes sont comptés par des<eos_token>
+<fim_start>La plupart des petites îles sont des nations indépendantes, <fim_hole> sont connues pour être des stations balnéaires de luxe.<fim_end>ou associées à la France, et<eos_token>
+<fim_start>Si vous voyagez pour la première fois dans un pays en voie de développement ou dans une région du monde que vous <fim_hole> ne prenez pas le possible choc culturel à le légère.<fim_end>ne connaissez pas,<eos_token>
+<fim_start>Les paralympiques se tiendront du 24 août <fim_hole> 2021. Certains événements se tiendront dans d’autres localisations à travers le Japon.<fim_end>au 5 septembre<eos_token>
+<fim_start>Le jeu est basé sur la deuxième bataille de Falloujah, une bataille vicieuse <fim_hole> américaines et irakiennes.<fim_end>entre les forces<eos_token>
+<fim_start>Pour les Springboks, ce fut la <fim_hole> cinq défaites.<fim_end>fin d'une série de<eos_token>
+<fim_start>« Malgré la <fim_hole> continuer à assurer mes fonctions grâce au télétravail.<fim_end>fièvre et le mal de gorge, je me sens suffisamment en forme pour<eos_token>
+<fim_start>« Cela veut dire que tout doit être remis en place », a déclaré Berhane <fim_hole> Service en Éthiopie et co-auteur de l'étude.<fim_end>Asfaw, chercheur au Rift Valley Research<eos_token>
+<fim_start>Initialement, l'émission était uniquement diffusée sur <fim_hole> la radio parlée.<fim_end>le vénérable site de radio Internet TogiNet Radio, un site consacré à<eos_token>
+<fim_start>Les entreprises de médias mentent couramment sur l'objectif de cette <fim_hole> « empêcher le piratage ».<fim_end>mesure, prétendant qu'elle vise à<eos_token>
+<fim_start>Avec seulement dix-huit médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter <fim_hole> des médaillés.<fim_end>sur le podium<eos_token>
+<fim_start>« Elle survolera la côte ouest de la Californie du Nord et illuminera le ciel de l’Oregon, du Nevada, de l’Idaho et de l’Utah », a déclaré <fim_hole> de projet de Stardust, Tom Duxbury.<fim_end>le directeur<eos_token>
+<fim_start>Comme pour tous les parcs nationaux <fim_hole> des droits d’entrée et de conservation quotidiens pour le parc.<fim_end>sud-africains, il existe<eos_token>
+<fim_start>Il y a aussi quelques bus qui se rendent au nord à Hébron, <fim_hole> de sépulture traditionnel des patriarches bibliques, Abraham, Isaac, Jacob et leurs épouses.<fim_end>le lieu<eos_token>
+<fim_start>Le TDA affecte les relations avec les autres <fim_hole> pourquoi ils épellent comme ils le font, ou pourquoi leur niveau de maturité est différent.<fim_end>enfants, qui ne peuvent pas comprendre pourquoi les malades agissent de la sorte,<eos_token>
+<fim_start>La France est le septième pays de l’UE à subir l'impact du virus, faisant suite à l’Autriche, l’Allemagne, la Slovénie, la <fim_hole> et l’Italie.<fim_end>Bulgarie, la Grèce<eos_token>
+<fim_start>L’Allemagne a donné le nom de code « Opération Lion de Mer » à cette attaque. L’armée britannique avait perdu la majeure partie de <fim_hole> était donc assez affaiblie.<fim_end>son artillerie lourde et de ses munitions lors de l’évacuation de Dunkerque, et<eos_token>
+<fim_start>C'est un service <fim_hole> de transmission de données à distance et de téléphonie.<fim_end>souvent utilisé par la navigation, y compris les embarcations de plaisance, ainsi que par les expéditions qui ont des besoins<eos_token>
+<fim_start>Les animaux sont constitués de nombreuses cellules. <fim_hole> plupart des animaux peuvent se déplacer.<fim_end>Ils mangent toutes sortes de choses et les digèrent naturellement. La<eos_token>
+<fim_start>Un peu de cross-country en hiver, combiné à un travail en salle pour la partie supérieure du corps, <fim_hole> préparation pour la saison de course.<fim_end>est la meilleure<eos_token>
+<fim_start>Pendant les années 1980, il a travaillé sur des <fim_hole> que Taxi, Cheers et The Tracy Ullman Show.<fim_end>spectacles tels<eos_token>
+<fim_start>Quant à Lakkha Singh, il a lui aussi présenté <fim_hole> du chanteur Raju Khandelwal.<fim_end>le chhappan bhog bhajan, tout en étant accompagné<eos_token>
+<fim_start>Les voyageurs <fim_hole> de mal à se réadapter à leur culture d'origine.<fim_end>qui ont eu du mal à s'adapter à la nouvelle culture ont parfois beaucoup<eos_token>
+<fim_start>Sur certains sites, ce sont les locaux qui proposent gratuitement des boissons alcoolisées. Néanmoins, l'ivresse altère le <fim_hole> rester sobre.<fim_end>jugement, et tous les bons joueurs sache que c'est crucial de<eos_token>
+<fim_start>CafeNet El Sol propose un service de réservation pour un montant de 30 dollars, ou 10 dollars pour un forfait d'une journée ; <fim_hole> page Corcovado.<fim_end>en savoir plus sur leur<eos_token>
+<fim_start>Ces protestations parfois violentes ont été déclenchées par l’absence d’élections, <fim_hole> en 2011.<fim_end>dont certaines devaient avoir lieu<eos_token>
+<fim_start>La cellule est l'unité de base de tous les êtres vivants, et tous les organismes sont <fim_hole> plusieurs cellules.<fim_end>composés d'une ou<eos_token>
+<fim_start>En hiver, <fim_hole> des meilleurs pistes de skis d'Amérique du Nord et, en été, goûtez à d'authentiques randonnées en VTT.<fim_end>profitez de certaines<eos_token>
+<fim_start>Pas moins <fim_hole> dans les océans provient de l'Amazone.<fim_end>de 20 % de l'eau qui se jette des rivières de la planète<eos_token>
+<fim_start>Il est resté à l'hôtel où <fim_hole> prévu contre Bologne dimanche.<fim_end>étaient logés joueurs avant le match<eos_token>
+<fim_start>« Leur comportement thermique n’est pas aussi stable que celui des grandes grottes de la planète qui maintiennent une température constante, mais ils se ressemblent en ce qu’ils <fim_hole> membre de l’équipage de l'USGS (Centre américain d’études géologiques) et du personnel de l’Université d’Arizona du Nord situé à Flagstaff, en Arizona.<fim_end>sont des trous profonds dans la terre », selon Glen Cushing,<eos_token>
+<fim_start>Alors <fim_hole> passagers se sont vu offrir des bouteilles d'eau.<fim_end>qu'ils patientaient sous une chaleur de 32 ° C, les<eos_token>
+<fim_start>Jeudi, lors de la présentation principale du Tokyo Game Show, le président <fim_hole> console Nintendo Revolution de la société.<fim_end>de Nintendo, Satoru Iwata, a dévoilé le design de la manette de la nouvelle<eos_token>
+<fim_start>L'un des exemples récents les plus remarquables de cette situation a été la campagne North Atlantic pendant la Seconde Guerre mondiale. Les Américains tentaient de faire traverser l'océan <fim_hole> du matériel pour aider la Grande-Bretagne.<fim_end>Atlantique à des soldats et<eos_token>
+<fim_start>Beaucoup d'entre nous se retrouvent donc en train de regarder une émission télévisée qui nous montre un processus ou une expérience à laquelle <fim_hole> participerons jamais ni ne mettrons de connaissances en pratique.<fim_end>nous ne<eos_token>
+<fim_start>Les recherches <fim_hole> siècle ont montré qu’il existe deux réservoirs de variation génétique : caché et exprimé.<fim_end>du vingtième<eos_token>
+<fim_start>L'azote sous forme gazeuse conserve les mêmes propriétés que l'azote liquide. L'état liquide est plus dense, <fim_hole> restent identiques.<fim_end>mais les molécules<eos_token>
+<fim_start>L'Argentine est connue pour avoir une des meilleures équipes <fim_hole> polo dans le monde.<fim_end>et parmi les meilleurs joueurs de<eos_token>
+<fim_start>Cette décision de la NBA fait suite <fim_hole> l'Utah ayant été testé positif au virus COVID-19.<fim_end>à un joueur du  Jazz de<eos_token>
+<fim_start>La visibilité peut également être limitée par des chutes de neige ou de la poudrerie ou par <fim_hole> ou la glace sur les vitres des véhicules.<fim_end>la condensation<eos_token>
+<fim_start>Si vous voulez voir le monde à bas prix, par nécessité, mode de vie ou défi, il existe quelques <fim_hole> le faire.<fim_end>moyens de<eos_token>
+<fim_start>Les troupes de coalition et Afghanes se sont déplacées dans la zone pour <fim_hole> été envoyé pour seconder.<fim_end>sécuriser le site et un avion d’une autre coalition a<eos_token>
+<fim_start>Randonnée à skis : cette activité est aussi appelée ski nordique, ski de fond <fim_hole> de randonnée.<fim_end>ou ski<eos_token>
+<fim_start>Ils ont constaté que le Soleil fonctionnait selon les mêmes principes de base que les autres étoiles. L'activité de toutes les étoiles du <fim_hole> par leur luminosité, leur rotation et rien d'autre.<fim_end>système est déterminée<eos_token>
+<fim_start>L'idée de skier est très ancienne : des peintures rupestres montrant des skieurs datent pour certaines <fim_hole> av. J.-C. !<fim_end>de 5 000 ans<eos_token>
+<fim_start>Ces escarpements ont été trouvés sur toute la surface de la lune et semblent être très peu altérés, ce qui <fim_hole> géologiques qui les ont créés sont assez récents.<fim_end>indique que les phénomènes<eos_token>
+<fim_start>Des nuages sombres sans rapport avec une <fim_hole> été signalés à la base de la montagne.<fim_end>quelconque activité volcanique ont<eos_token>
+<fim_start>Malgré le net avantage de Del Potro pendant le deuxième set, il a fallu passer par un <fim_hole> le score a atteint 6-6.<fim_end>tie-break une fois que<eos_token>
+<fim_start>Parmi les <fim_hole> et la Formule 1.<fim_end>sports populaires figurent le football, le basket-ball, le volley-ball, le water-polo, l'escrime, le rugby, le cyclisme, le hockey sur glace, le roller hockey<eos_token>
+<fim_start>La ville sera la première en Europe du sud-est à accueillir, <fim_hole> événement artistique public au monde.<fim_end>entre juin et août de cette année, le CowParade, le plus grand<eos_token>
+<fim_start>Il dit avoir conçu une <fim_hole> porte Wi-Fi.<fim_end>sonnette de<eos_token>
+<fim_start>Par <fim_hole> autant être malades.<fim_end>ailleurs, le docteur Lee s'est dit préoccupé par les signalements d'enfants turcs qui auraient été infectés par le virus de la grippe aviaire A(H5N1) sans pour<eos_token>
+<fim_start>Ces commentaires, en direct à la télévision, étaient <fim_hole> des sources iraniennes de haut niveau ont admis que les sanctions avaient un effet quelconque.<fim_end>la première fois que<eos_token>
+<fim_start>Après <fim_hole> plus importants. Je suis ici pour essayer de gagner ».<fim_end>le match, le roi de la terre battue a déclaré : « Je suis tout simplement ravi d'être de retour pour les phases finales des événements les<eos_token>
+<fim_start>Le Congrès n’avait pas le pouvoir d’imposer des taxes et, comme il n’y avait pas de pouvoir exécutif ou judiciaire national, il s’en remettait aux <fim_hole> coopératives, pour faire appliquer tous ses actes.<fim_end>autorités de l’État, souvent peu<eos_token>
+<fim_start>Si vous avez réservé vos vols et votre hébergement <fim_hole> vous risquez d'être confronté à une situation délicate.<fim_end>en 2020 avant l'annonce du report,<eos_token>
+<fim_start>La solution est apportée par la technologie sous la forme de sorties éducatives virtuelles. Les élèves peuvent regarder les objets anciens d'un musée, visiter un aquarium, ou admirer une superbe œuvre d'art tout <fim_hole> avec leur classe.<fim_end>en restant assis<eos_token>
+<fim_start>La diva turque Sezen Aksu s'est <fim_hole> grecque Haris Alexiou.<fim_end>produite avec le ténor italien Alessandro Safina et la chanteuse<eos_token>
+<fim_start>Environ trois mille ans plus tard, en 1610, l'astronome italien Galilée utilisa un télescope pour observer que <fim_hole> phases, tout comme la lune.<fim_end>Vénus a des<eos_token>
+<fim_start>Selon les scientifiques, les ocelots traquent et <fim_hole> trajet sur le sol.<fim_end>trouvent les animaux à manger (proies) par l'odorat, en reniflant leur<eos_token>
+<fim_start>Les visites sont moins chères pour les grands groupes, donc si vous êtes seul ou avec un seul ami, essayez de rencontrer d’autres personnes et de former <fim_hole> pour obtenir un meilleur tarif par personne.<fim_end>un groupe de quatre à six personnes<eos_token>
+<fim_start>L'amendement proposé a <fim_hole> chambres en 2011.<fim_end>déjà été adopté par les deux<eos_token>
+<fim_start>Maroochydore a <fim_hole> de la finale préliminaire.<fim_end>ensuite battu Caboolture lors<eos_token>
+<fim_start>Dans certaines localités, les boutiques hors <fim_hole> biens exonérés de taxes et de droits d'accise.<fim_end>taxes présentent une occasion d'acheter des<eos_token>
+<fim_start>L'architecture se rapporte à la conception et à la construction des bâtiments. L'architecture d'un site est <fim_hole> touristique à part entière.<fim_end>souvent une attraction<eos_token>
+<fim_start>Ces exigences peuvent souvent dépendre des pays <fim_hole> qu'il compte visiter.<fim_end>visités par un voyageur, ou<eos_token>
+<fim_start>Le parti au pouvoir, l'Organisation du peuple du Sud-Ouest africain (SWAPO), a lui aussi <fim_hole> élections législatives.<fim_end>réussi à conserver la majorité aux<eos_token>
+<fim_start>Votre hôtel, maison <fim_hole> proposent sûrement une connexion Wi-Fi ou un ordinateur connecté à Internet, tandis que tous les lieux disposent d'un cybercafé ou d'un endroit équipé d'une connexion Wi-Fi publique.<fim_end>d’hôtes ou résidence privée<eos_token>
+<fim_start>Votre passeport doit être valide pendant au moins six mois au-delà de vos dates de voyage. Un billet aller-retour <fim_hole> prouver la durée de votre séjour.<fim_end>est nécessaire pour<eos_token>
+<fim_start>Chaque matin, les gens quittent les petites villes de campagne en <fim_hole> lieu de travail et croisent d'autres gens qui vont travailler dans la campagne qu'ils viennent de quitter.<fim_end>voiture pour se rendre à leur<eos_token>
+<fim_start>Ayant ses racines dans le Running Tours Barcelona de Barcelone et le Running Copenhagen de Copenhague, elle <fim_hole> été rejointe par le Running Tours Prague basé à Prague et d'autres.<fim_end>a rapidement<eos_token>
+<fim_start>Chaque année, des dizaines de visiteurs sont blessés parce qu’ils <fim_hole> grands, sauvages et potentiellement dangereux, alors donnez-leur de l’espace.<fim_end>n’ont pas gardé une distance suffisante. Ces animaux sont<eos_token>
+<fim_start>Israël exige une présence militaire <fim_hole> compter de la signature d'un accord, tandis que l'Autorité palestinienne ne consent qu'à une durée de cinq ans.<fim_end>permanente dans la vallée pour une durée de dix années à<eos_token>
+<fim_start>La principale bière locale <fim_hole> locale, la « Manta ».<fim_end>est la « Number One », une bière assez ordinaire, mais savoureuse et rafraîchissante. Il existe aussi une autre bière<eos_token>
+<fim_start>L'utilisation <fim_hole> souvent qu'ils le souhaitent.<fim_end>d'Internet permet aux apprentis d’accéder à des informations aussi<eos_token>
+<fim_start>Le 17 septembre 1939, la défense polonaise était déjà brisée, et le seul espoir était de battre en retraite et de se réorganiser le long de <fim_hole> pont roumaine.<fim_end>la tête de<eos_token>
+<fim_start>Le porte-parole de Médecins Sans Frontières, Richard Veerman, a déclaré : « L'Angola se dirige vers la pire épidémie jamais connue et la situation reste <fim_hole> Angola », a-t-il déclaré.<fim_end>très mauvaise en<eos_token>
+<fim_start>Buvez des boissons alcoolisées avec modération. L'alcool a des effets différents sur chacun, et il est très <fim_hole> ses limites.<fim_end>important de connaître<eos_token>
+<fim_start>Le pont devrait <fim_hole> achevés les postes de contrôle des douanes brésiliennes.<fim_end>être pleinement opérationnel en septembre 2017, date à laquelle devraient être<eos_token>
+<fim_start>Malgré les larmes versées lors de ses adieux, Oprah Winfrey a clairement dit à ses <fim_hole> serait de retour.<fim_end>fans qu'elle<eos_token>
+<fim_start>Edgar Veguilla a été blessé au bras et à la mâchoire tandis que Kristoffer Schneider a dû <fim_hole> chirurgie reconstructive pour son visage.<fim_end>subir une<eos_token>
+<fim_start>Ces plages, parfois très fréquentées par les familles, disposent de nombreuses boutiques le <fim_hole> est sans danger.<fim_end>long du littoral. La baignade y<eos_token>
+<fim_start>Mais dans d'autres <fim_hole> plus de rencontrer des problèmes.<fim_end>parties du monde, où la faune bactériologique est nouvelle pour vous, vous risquez bien<eos_token>
+<fim_start>Layton avait demandé des changements au sujet du projet de loi environnemental des conservateurs lors de la réunion avec le premier ministre, demandant une « reformulation complète <fim_hole> parti conservateur.<fim_end>et approfondie » du projet de loi environnemental du<eos_token>
+<fim_start>Les scientifiques <fim_hole> se transformera en ouragan d’ici mercredi.<fim_end>du Centre national des ouragans prévoient que Danielle<eos_token>
+<fim_start>Ses recherches ont démontré que si une hormone était administrée, <fim_hole> maturation pulmonaire du bébé.<fim_end>elle accélérerait la<eos_token>
+<fim_start>Cependant, cela ne <fim_hole> remplir les voitures.<fim_end>devrait pas trop vous inquiéter, car les touristes sont souvent mélangés pour<eos_token>
+<fim_start>Le sport <fim_hole> pratique à de nombreux niveaux, depuis les étudiants qui en font l'apprentissage à l'université jusqu'aux compétitions professionnelles et olympiques.<fim_end>moderne qu'est l'escrime se<eos_token>
+<fim_start>Le joueur qui encaisse le moins de coups, ou de swings avec <fim_hole> parcours gagne.<fim_end>le club, pour terminer le<eos_token>
+<fim_start>On ne peut que se demander ce que le clavier <fim_hole> nouveauté arrivera.<fim_end>deviendra quand la prochaine<eos_token>
+<fim_start>Surtout au <fim_hole> de qualité occidentaux pour vous aider à vous acclimater.<fim_end>début, pensez à faire des folies dans les hôtels, la nourriture et les services de style et<eos_token>
+<fim_start>Bien avant le Daily Show et le Colbert Report, Heck et <fim_hole> les reportages — lorsqu’ils étaient étudiants à l’université de Washington en 1988.<fim_end>Johnson envisageaient une publication qui parodierait les nouvelles — et<eos_token>
+<fim_start>En France, le vote est traditionnellement une expérience de faible technicité : les électeurs s’isolent <fim_hole> feuille de papier pré-imprimée indiquant le candidat de leur choix.<fim_end>dans une cabine, mettent dans une enveloppe une<eos_token>
+<fim_start>Les citoyens cubains titulaires d'une carte verte américaine doivent se rendre <fim_hole> consulat équatorien pour obtenir une dérogation à cette exigence.<fim_end>dans un<eos_token>
+<fim_start>Avant d'examiner la victime, <fim_hole> inspectant les lieux.<fim_end>assurez-votre sécurité en<eos_token>
+<fim_start>L’attentat a mis à rude épreuve les relations <fim_hole> le Pakistan.<fim_end>entre l’Inde et<eos_token>
+<fim_start>Parmi les réalisations <fim_hole> de la mise en scène, on peut citer une grève de la faim en 1973 contre ce qu’il considérait comme de la censure politique.<fim_end>de Vautier en dehors<eos_token>
+<fim_start>John Grant, de WNED Buffalo (station diffusant Reading Rainbow) a déclaré : « Reading Rainbow a appris aux enfants pourquoi lire […] leur a donné l’amour de la lecture <fim_hole> encouragé les enfants à prendre un livre et à lire ».<fim_end>— [l’émission] a<eos_token>
+<fim_start>Les articles nécessitaient le consentement unanime de tous les États avant de pouvoir être amendés et les États prenaient le gouvernement central tellement à <fim_hole> que leurs représentants étaient souvent absents.<fim_end>la légère<eos_token>
+<fim_start>Toute modification ou demande doit cependant être adressée à l’agence de voyages <fim_hole> directement à l’hôtel.<fim_end>d’abord et non<eos_token>
+<fim_start>Certains hôtels conservent leur héritage remontant à l'âge d'or des trains à vapeur et des paquebots transatlantiques du XIXe siècle et début <fim_hole> avant la Deuxième guerre mondiale.<fim_end>du XXe,<eos_token>
+<fim_start>Les résultats <fim_hole> élections présidentielles et parlementaires namibiennes indiquent que le président sortant, Hifikepunye Pohamba, a été réélu par une large majorité.<fim_end>définitifs des<eos_token>
+<fim_start>L’annonce a été faite après <fim_hole> eu une conversation téléphonique avec le président turc Recep Tayyip Erdoğan.<fim_end>que M. Trump ait<eos_token>
+<fim_start>Les touristes peuvent visiter <fim_hole> choisir de se concentrer sur une seule région.<fim_end>différents sites d'un pays donné ou<eos_token>
+<fim_start>Quinze de ces roches sont attribuées <fim_hole> juillet dernier.<fim_end>à la pluie de météorites de<eos_token>
+<fim_start>Bien que trois personnes aient été présentes dans la maison quand <fim_hole> l'a percutée, aucune n'a été blessée.<fim_end>la voiture<eos_token>
+<fim_start>Ils incluent les Pays-Bas, avec Anna Jochemsen qui a <fim_hole> hier, et la Finlande, avec Katja Saarinen qui a terminé dixième dans la même épreuve.<fim_end>terminé neuvième dans la catégorie féminine au Super-G<eos_token>
+<fim_start>L'Allemagne était un ennemi commun pendant la Seconde Guerre mondiale, ce qui a conduit à la coopération entre l'URSS et les États-Unis. À la fin de la guerre, les conflits profonds entre leurs différents systèmes, méthodes et cultures ont mis fin <fim_hole> ces deux pays.<fim_end>à l'entente entre<eos_token>
+<fim_start>L’épidémie a incité le gouvernement indien à prendre des mesures telles que le déploiement de collecteurs de porcs dans les <fim_hole> de pesticides.<fim_end>zones gravement touchées, la distribution de milliers de moustiquaires et la pulvérisation<eos_token>
+<fim_start>L'Antarctique intérieur <fim_hole> plateau désolé recouvert de 2 à 3 km de glace.<fim_end>est un<eos_token>
+<fim_start>La vitesse maximale des vents soutenus de cette tempête, qui se produit à environ 4 800 km de Miami, <fim_hole> atteint 64 km/h.<fim_end>en Floride,<eos_token>
+<fim_start>L'éditeur de <fim_hole> journal japonais qu'il ne lancera pas le jeu Six Days in Fallujah.<fim_end>jeux Konami a déclaré aujourd'hui dans un<eos_token>
+<fim_start>Golsling et <fim_hole> Meilleure Actrice.<fim_end>Stone ont respectivement été nominés pour le Meilleur Acteur et la<eos_token>
+<fim_start>C’est tout aussi épuisant que de se réveiller toutes les vingt ou trente minutes et <fim_hole> la télévision.<fim_end>de regarder<eos_token>
+<fim_start>On trouve aussi des <fim_hole> comme le carbone.<fim_end>alliages qui comprennent une petite quantité d’éléments non métalliques,<eos_token>
+<fim_start>Monter dans sa propre voiture et partir pour un long voyage a un attrait <fim_hole> sa simplicité.<fim_end>intrinsèque dans<eos_token>
+<fim_start>Un <fim_hole> 1. Ces nombres sont appelés des chiffres binaires, ou bits pour utiliser le jargon informatique.<fim_end>nombre binaire ne peut avoir qu’une seule de deux valeurs : 0 ou<eos_token>
+<fim_start>L’effet dépend de la fréquence à laquelle votre cerveau <fim_hole> lucidement par nuit.<fim_end>tente de rêver<eos_token>
+<fim_start>Ils le <fim_hole> photon ».<fim_end>font en émettant une minuscule particule de lumière appelée «<eos_token>
+<fim_start>À l'instar d'autres experts, il se montre <fim_hole> applicables aux personnes qui souffrent déjà de diabète de type 1.<fim_end>sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas<eos_token>
+<fim_start>Les lions sont les chats les plus <fim_hole> appelés meutes.<fim_end>sociables, vivant en grands groupes<eos_token>
+<fim_start>Le couple s'était marié au Texas <fim_hole> Buffalo pour fêter l'occasion avec des amis et des parents.<fim_end>il y a un an et était venu à<eos_token>
+<fim_start>La navigation de plaisance est un passe-temps national en Finlande, à raison d'un <fim_hole> sept ou huit personnes.<fim_end>bateau pour<eos_token>
+<fim_start>Les plages du North Shore <fim_hole> de North Harbour) se trouvent sur l'océan Pacifique et s'étendent de Long Bay au nord à Devonport au sud.<fim_end>(dans le district<eos_token>
+<fim_start>Les photons sont <fim_hole> les atomes !<fim_end>même plus petits que les particules formant<eos_token>
+<fim_start>Arias a été testé positif à <fim_hole> virus, a déclaré le ministre présidentiel Rodrigo Arias.<fim_end>un cas bénin du<eos_token>
+<fim_start>Vous devez choisir avec soin <fim_hole> aérienne Frequent Flyer dans le cadre d'une alliance.<fim_end>votre compagnie<eos_token>
+<fim_start>Une <fim_hole> une maladie facilement transmissible lorsqu’on se trouve à proximité d’une personne infectée.<fim_end>maladie contagieuse est<eos_token>
+<fim_start>Le golf <fim_hole> deux être réintégrés aux Jeux olympiques.<fim_end>et le rugby vont tous<eos_token>
+<fim_start>Ce n'est pas un <fim_hole> de 2 millions d'enfants américains.<fim_end>handicap d'apprentissage. C'est un trouble de l'apprentissage qui affecte 3 à 5 % des enfants et concerne près<eos_token>
+<fim_start>Les festivités ont débuté par un spectacle spécial du groupe de <fim_hole> Cirque du Soleil.<fim_end>renommée mondiale<eos_token>
+<fim_start>Dans d'autres <fim_hole> donc il conviendra de se renseigner au préalable.<fim_end>cas, seules les personnes résidant hors hébergements touristiques doivent s'enregistrer. Toutefois, la loi est beaucoup plus obscure,<eos_token>
+<fim_start>Un <fim_hole> la deuxième proposition a d'abord été supprimée par la Chambre des représentants, puis adoptée lundi par le Sénat sous une forme similaire.<fim_end>changement a été apporté au cours de cette session législative lorsque<eos_token>
+<fim_start>Une <fim_hole> à se préparer à envahir l'île de Grande-Bretagne.<fim_end>fois la bataille pour la France terminée, l'Allemagne a commencé<eos_token>
+<fim_start>En 1989, il a participé à la création des Simpsons avec Brooks et Groening et <fim_hole> de la série.<fim_end>a été responsable de l'embauche de la première équipe de scénaristes<eos_token>
+<fim_start>Le Twin Otter avait essayé d'atterrir à <fim_hole> échoué une fois.<fim_end>Kokoda hier sous le nom de vol Airlines PNG CG4684, mais avait déjà<eos_token>
+<fim_start>Les moteurs de traduction se sont considérablement améliorés, et donnent maintenant souvent des traductions plus ou moins <fim_hole> attention, car ils ont peut-être encore tout faux.<fim_end>correctes (et plus rarement du charabia), mais il faut faire<eos_token>
+<fim_start>C'est le moment où les gens se rendent dans <fim_hole> qu'il voit au quotidien, pour se détendre et prendre du bon temps.<fim_end>un endroit, complètement différent de ce<eos_token>
+<fim_start>Faites également attention aux <fim_hole> aucune maladie, leur piqûre peut être irritante.<fim_end>moustiques nordiques pendant l'été. Bien qu'ils ne transmettent<eos_token>
+<fim_start>Les <fim_hole> à la surface qui permet à des objets comme l'aiguille de flotter sur l'eau.<fim_end>molécules d'eau forment une pellicule invisible<eos_token>
+<fim_start>Oliver Sacks, dans son <fim_hole> en raison de lésions cérébrales sont néanmoins en mesure d’évaluer la sincérité avec précision.<fim_end>article Le discours du président, a indiqué comment les personnes ne pouvant pas comprendre le discours<eos_token>
+<fim_start>On pense qu'il se présentera à <fim_hole> en 2016.<fim_end>la présidence<eos_token>
+<fim_start>Des hélicoptères ont secouru les douze membres d'équipage et la seule blessure <fim_hole> un nez cassé.<fim_end>déplorée était<eos_token>
+<fim_start>Une <fim_hole> géographique donnée.<fim_end>population est l'ensemble des organismes d'une espèce particulière dans une zone<eos_token>
+<fim_start>Si vous utilisez un drone, vérifiez bien à l'avance ce que vous êtes autorisé à filmer et quels permis <fim_hole> sont nécessaires.<fim_end>ou licences supplémentaires<eos_token>
+<fim_start>MetroPlus est plus confortable et moins bondé, mais plus cher, tout en restant moins <fim_hole> en Europe.<fim_end>cher que le tarif normal des billets de métro<eos_token>
+<fim_start>L’énergie <fim_hole> une force totalement invisible qui agit constamment sur l’univers.<fim_end>noire est<eos_token>
+<fim_start>Ils ont mené deux expériences pour marquer <fim_hole> phage avec du soufre radioactif.<fim_end>soit l’ADN du phage avec un phosphore radioactif, soit la protéine du<eos_token>
+<fim_start>Les festivals des temples du Kerala sont très intéressants <fim_hole> l'orchestre du temple, et d'autres festivités.<fim_end>à voir, avec de fréquentes processions d'éléphants décorés,<eos_token>
+<fim_start>Porter pour les autres – ne perdez jamais vos sacs de vue, surtout lorsque vous <fim_hole> frontières internationales.<fim_end>traversez des<eos_token>
+<fim_start>Le joueur du jour est <fim_hole> Washington Capitals.<fim_end>Alex Ovechkin des<eos_token>
+<fim_start>Le <fim_hole> longue histoire, mais son indépendance ne date que de 1839.<fim_end>Luxembourg a une<eos_token>
+<fim_start>Les safaris sont peut-être le <fim_hole> attrait touristique en Afrique et le moment le plus marquant pour de nombreux visiteurs.<fim_end>plus grand<eos_token>
+<fim_start>Le jeu se joue sur l'herbe, <fim_hole> qui entoure le trou est coupé plus court et appelé le « green ».<fim_end>et le gazon<eos_token>
+<fim_start>Le <fim_hole> mais le territoire a été occupé par l’Allemagne pendant les Première et Seconde Guerres mondiales.<fim_end>Luxembourg a toujours essayé de rester un pays neutre,<eos_token>
+<fim_start>Cet événement artistique s'inscrit également dans le cadre d'une campagne de la mairie de Bucarest qui vise à relancer l'image <fim_hole> en couleur.<fim_end>de la capitale roumaine en tant que métropole créative et haute<eos_token>
+<fim_start>Le canyoning combine des éléments de natation, d'escalade et de <fim_hole> le ski alpin.<fim_end>saut, mais nécessite relativement peu d'entraînement ou de forme physique pour débuter, par rapport à, par exemple,  l'escalade, la plongée sous-marine ou<eos_token>
+<fim_start>Les comètes ont <fim_hole> eau pour la terre, ainsi qu'en matière organique qui peut former des protéines et favoriser la vie.<fim_end>peut-être été une source d'approvisionnement en<eos_token>
+<fim_start>En 1977, le <fim_hole> corps, qu'il a appelé « l'Indomptable ».<fim_end>Dr. Damadian a achevé la construction du premier scanner IRM pour tout le<eos_token>
+<fim_start>Jesus, <fim_hole> pour un montant annoncé de 27 millions de livres sterling.<fim_end>21 ans, a rejoint Manchester City l’année dernière en janvier 2017, en provenance du club brésilien Palmeiras,<eos_token>
+<fim_start>Le tigre fait partie de la même famille (genre Panthera) que les <fim_hole> sont les seuls capables de rugir.<fim_end>lions, les léopards et les jaguars. Ces quatre félins<eos_token>
+<fim_start>Les glaciers ne sont pas stables, mais se détachent <fim_hole> des fissures, des crevasses, qui peuvent être obscurcies par des ponts de neige.<fim_end>de la montagne. Cela provoque<eos_token>
+<fim_start>Ainsi les fléaux de Delhi Belly, la malédiction <fim_hole> vengeance de Montezuma et leurs nombreux amis.<fim_end>du pharaon, la<eos_token>
+<fim_start>Une cellule <fim_hole> fonctionnelle d'un organisme vivant.<fim_end>est la plus petite unité structurelle et<eos_token>
+<fim_start>Lorsque les individus <fim_hole> particulier, ils sont polymorphes.<fim_end>présentent plusieurs variantes d'un trait<eos_token>
+<fim_start>Les règles concernant la photographie régulière <fim_hole> voire même davantage.<fim_end>s'appliquent également à l'enregistrement vidéo,<eos_token>
+<fim_start>Lorsque tous les individus d'une population sont identiques en ce qui concerne un trait phénotypique <fim_hole> sont monomorphes.<fim_end>particulier, on dit qu'ils<eos_token>
+<fim_start>Dans la catégorie des femmes <fim_hole> n'ont pas réussi à se classer.<fim_end>en ski assis, quatre skieuses ne sont pas parvenues à terminer leur parcours ; en ce qui concerne le slalom géant, 45 skieuses sur un total de 117 dans cette course<eos_token>
+<fim_start>Au <fim_hole> Déclaration d'indépendance originale datée du 4 juillet 1776 ». Le texte se trouve au bas du document, à l'envers.<fim_end>dos de la Déclaration d'indépendance, on pouvait lire les mots «<eos_token>
+<fim_start>Le voyage à Walt Disney <fim_hole> important pour de nombreuses familles américaines.<fim_end>World représente un pèlerinage<eos_token>
+<fim_start>Les taxis collectifs sont un moyen rapide et <fim_hole> endroits proches, tels que Paro (150 Nu) et Punakha (200 Nu).<fim_end>confortable de se rendre dans des<eos_token>
+<fim_start>Un autre inconvénient des objectifs zooms est <fim_hole> de l’objectif est généralement plus faible.<fim_end>que l’ouverture (la vitesse) maximale<eos_token>
+<fim_start>La première de ses 78 <fim_hole> les frontières de l'Irak contre les interventions hostiles et afin de rétablir les relations diplomatiques avec ses voisins.<fim_end>recommandations est qu'une nouvelle initiative diplomatique devrait être prise avant la fin de l'année pour sécuriser<eos_token>
+<fim_start>Si vous allez camper, apportez un lit de camp ou un <fim_hole> et autres.<fim_end>hamac pour vous tenir à l'écart des serpents, scorpions<eos_token>
+<fim_start>Les bus inter-districts sont souvent complets, aussi est-il conseillé d'acheter un ticket <fim_hole> à l'avance.<fim_end>quelques jours<eos_token>
+<fim_start>Pensez à l'itinéraire de ski <fim_hole> de randonnée similaire.<fim_end>comme à un itinéraire<eos_token>
+<fim_start>Le successeur de Global Running Tours, Go Running Tours, met en réseau des dizaines de prestataires de services <fim_hole> sur quatre continents.<fim_end>de jogging touristique<eos_token>
+<fim_start>Les fjords et les <fim_hole> la place à un haut plateau plus ou moins régulier sont typiques de la Norvège.<fim_end>vallées escarpées qui cèdent soudainement<eos_token>
+<fim_start>Les agences de voyage ont souvent des accords avec des hôtels spécifiques, mais vous pouvez également réserver par l'intermédiaire d'agences de <fim_hole> des aires de camping.<fim_end>voyage d'autres types d'hébergement, comme<eos_token>
+<fim_start>Cela peut nécessiter de remplir un <fim_hole> aux bureaux de l'immigration.<fim_end>formulaire auprès de la police locale ou une visite<eos_token>
+<fim_start>Si <fim_hole> vivants sous un microscope, vous verrez qu'ils sont faits de petits carrés ou de boules.<fim_end>vous regardez les êtres<eos_token>
+<fim_start>Il a d'abord été <fim_hole> Paget de Great Yarmouth.<fim_end>hospitalisé à l'hôpital James<eos_token>
+<fim_start>Les dépenses de guerre de l'impérialisme américain dans la conquête des Philippines ont été <fim_hole> le peuple philippin lui-même.<fim_end>payées par<eos_token>
+<fim_start>Nous sommes d'accord <fim_hole> nos athlètes et de nos clubs, ainsi que de leur sport, pourraient être mieux servis. Cela peut être fait en allant de l'avant et en procédant plutôt à des changements significatifs au sein de notre organisation, qu'à la révocation d'accréditation.<fim_end>avec la déclaration de l'USOC (Comité olympique des États-Unis) selon laquelle les intérêts de<eos_token>
+<fim_start>Cela nous donne beaucoup d’informations et de matériel pour construire des modèles de simulation <fim_hole> comprendre les processus dans notre esprit.<fim_end>qui nous aident à<eos_token>
+<fim_start>Pensez à vous faire examiner les yeux à domicile, surtout si votre assurance le couvre, et <fim_hole> sera ensuite déposée ailleurs.<fim_end>à ramener l'ordonnance qui<eos_token>
+<fim_start>Deux ans après la fin de la guerre, les anciens alliés <fim_hole> la guerre froide a commencé.<fim_end>sont devenus des ennemis et<eos_token>
+<fim_start>La marée rouge est causée par une concentration plus élevée que la normale <fim_hole> un organisme marin unicellulaire naturel.<fim_end>de Karenia brevis,<eos_token>
+<fim_start>Il s'agit d'un archipel de 15 <fim_hole> km carrés d'océan.<fim_end>îles réparties sur 2,2 millions de<eos_token>
+<fim_start>Les cas suspects de H5N1 en <fim_hole> pas encore confirmés.<fim_end>Croatie et au Danemark ne sont<eos_token>
+<fim_start>Le satellite a été envoyé dans l'espace par une fusée. Les scientifiques utilisent des télescopes dans l'espace parce que l'atmosphère terrestre déforme <fim_hole> lumière et de notre vision.<fim_end>une partie de notre<eos_token>
+<fim_start>Les voyageurs qui prévoient une opération <fim_hole> pour leur voyage de retour.<fim_end>de changement de sexe à l'étranger doivent s'assurer d'avoir en leur possession des documents valables<eos_token>
+<fim_start>L'objectif principal de la science est de comprendre la façon dont le monde fonctionne grâce à la méthode <fim_hole> guide en fait la plupart des recherches scientifiques.<fim_end>scientifique. Cette méthode<eos_token>
+<fim_start>Une maladie infectieuse est celle causée par un agent pathogène, tel qu'un virus, une bactérie, un <fim_hole> d’autres parasites.<fim_end>champignon ou<eos_token>
+<fim_start>Cela ressemble au ski de randonnée de type alpin, ainsi qu'à l'alpinisme, sans toutefois incorporer en général ces activités, qui se pratiquent sur des terrains accidentés et qui exigent <fim_hole> beaucoup plus rigides.<fim_end>l'utilisation de skis et de bottes<eos_token>
+<fim_start>Leur défense bien disciplinée, leur adresse dans le contrôle du ballon et <fim_hole> ont permis de se distinguer et il est évident que c’était l’équipe à battre.<fim_end>leur formidable travail d’équipe leur<eos_token>
+<fim_start>Lors de son discours sur <fim_hole> directeur de Commons, a exprimé sa frustration quant aux suppressions qui avaient été faites.<fim_end>Wikinews le mois dernier, Adam Cuerden,<eos_token>
+<fim_start>Environ trois minutes après le lancement, une caméra embarquée montrait de nombreux morceaux de mousse isolante en train de <fim_hole> réservoir de carburant.<fim_end>se détacher du<eos_token>
+<fim_start>Perry a déclaré qu'il « retournerait au Texas pour évaluer les résultats du caucus de ce soir, et déterminer s'il y a une voie à <fim_hole> en Caroline du Sud.<fim_end>suivre pour moi dans cette course », mais il a affirmé plus tard qu'il resterait dans la course et participerait aux primaires du 21 janvier<eos_token>
+<fim_start>À travers les siècles, l'empire romain a grandement œuvré dans le domaine de la médecine, et est à l'origine <fim_hole> des connaissances que nous possédons aujourd'hui.<fim_end>de la plupart<eos_token>
+<fim_start>En sa qualité de président de <fim_hole> si les impôts servent à financer les avortements par le biais de la planification familiale.<fim_end>la sous-commission de surveillance et d'enquête, qui relève de la commission de l'énergie et du commerce de la Chambre des représentants, M. Stearns cherche à savoir<eos_token>
+<fim_start>Si le pays dans lequel vous vous rendez fait l'objet d'un avertissement aux voyageurs <fim_hole> assurance annulation voyage peuvent en être affectées.<fim_end>émis par votre gouvernement, votre assurance santé à l'étranger ou votre<eos_token>
+<fim_start>Des chercheurs de l'université de Princeton aux États-Unis et de l'université d'Uppsala en Suède ont indiqué que la nouvelle espèce avait évolué en seulement deux générations, bien que ce processus ait été estimé beaucoup plus long, suite à la reproduction entre un pinson de Darwin endémique, Geospiza fortis, et le pinson immigrant <fim_hole> conique, Geospiza conirostris.<fim_end>à bec<eos_token>
+<fim_start>Huhne a démissionné et il sera remplacé au sein du cabinet par le député <fim_hole> député Norman Lamb devrait prendre le poste de ministre des Affaires auquel Davey se désiste.<fim_end>Ed Davey. Le<eos_token>
+<fim_start>Lors de certains festivals de musique, la grande majorité des participants décident de camper sur place, et la plupart considèrent que <fim_hole> intégrante de l'expérience.<fim_end>cela fait partie<eos_token>
+<fim_start>Bien qu’en fin de compte, Kroutchev ait envoyé des chars pour rétablir l’ordre, il <fim_hole> accepté de nommer le populaire Wladyslaw Gomulka comme nouveau premier ministre.<fim_end>a cédé à certaines exigences économiques et a<eos_token>
+<fim_start>Pour ceux qui sont prêts à sacrifier le confort, le temps <fim_hole> dépenses à près de zéro, consultez le voyage à budget minimum.<fim_end>et la prévisibilité pour réduire les<eos_token>
+<fim_start>Il indique que l'endroit le plus efficace pour le sujet principal se trouve à l'intersection des lignes divisant l'image <fim_hole> (voir exemple).<fim_end>en tiers verticalement et horizontalement<eos_token>
+<fim_start>Avec une population de 3,7 millions d'habitants, Izmir est la troisième plus grande ville de Turquie, le deuxième port après Istanbul, <fim_hole> plateforme de correspondance.<fim_end>et une excellente<eos_token>
+<fim_start>En dehors des plages de sable blanc et des paysages de montagne, le pays héberge la <fim_hole> aujourd'hui partie de Saint-Domingue.<fim_end>plus ancienne ville européenne des Amériques, qui font<eos_token>
+<fim_start>L’Australien <fim_hole> 16e au Super-G assis homme.<fim_end>Mitchell Gourley est arrivé 11e du Super-G debout homme. Le Tchèque Oldrich Jelinek s'est classé<eos_token>
+<fim_start>Il s’agirait de la cinquième fois dans l'histoire de l’humanité que l'on aurait observé la chute sur la Terre de matières, <fim_hole> chimique aurait confirmé qu'elles seraient originaires de Mars.<fim_end>dont l'analyse<eos_token>
+<fim_start>Hamilton a confirmé que <fim_hole> admis le patient dans un état stable.<fim_end>l’hôpital universitaire d’Howard a<eos_token>
+<fim_start>En revanche, le service mobile est curieusement beaucoup <fim_hole> exemple les Pennsylvania Wilds.<fim_end>plus fort ici que sur beaucoup d'autres parties de la route, par<eos_token>
+<fim_start>Le patient s'était <fim_hole> de virus Ebola se sont produits.<fim_end>rendu au Nigeria, où certains cas<eos_token>
+<fim_start>Avec moins de sommeil paradoxal par nuit, cet état <fim_hole> devenir problématique.<fim_end>dans lequel vous profitez d'un vrai sommeil réparateur devient suffisamment rare pour<eos_token>
+<fim_start>Les agences de voyage existent depuis le XIXe siècle. Un voyagiste est généralement une bonne option pour un périple qui dépasse le cadre des expériences précédentes du voyageur en matière de nature, culture, <fim_hole> faible revenu.<fim_end>langue, ou pays à<eos_token>
+<fim_start>Mais <fim_hole> courses et perdu sept guichets jusqu'à la fin de la manche.<fim_end>après avoir perdu le guichet de son capitaine, l'Inde n'a réalisé que 36<eos_token>
+<fim_start>La cause du <fim_hole> du canal cholédoque intrahépatique.<fim_end>décès a été annoncée comme étant un cancer<eos_token>
+<fim_start>Le déterminisme technologique est un terme qui englobe un large éventail d'idées dans la pratique, allant de la poussée technologique ou de l'impératif technologique à un sens strict selon lequel le destin de l'humanité est dicté <fim_hole> les technologies.<fim_end>par une logique sous-jacente liée aux lois scientifiques et à leur manifestation dans<eos_token>
+<fim_start>Ce sport se <fim_hole> un format de duel, un escrimeur se battant contre un autre.<fim_end>pratique principalement dans<eos_token>
+<fim_start>Zayat est <fim_hole> de l'accident.<fim_end>sorti indemne<eos_token>
+<fim_start>Elles définissent <fim_hole> cyclables populaires.<fim_end>également les itinéraires pour les sentiers de randonnée et les pistes<eos_token>
+<fim_start>Ceci, cependant, est un problème très difficile à résoudre et il faudra de nombreuses années <fim_hole> fusion fructueux.<fim_end>avant de voir construire des réacteurs à<eos_token>
+<fim_start>L'île de Hong Kong donne son nom au territoire de Hong Kong et représente <fim_hole> d'intérêt pour de nombreux touristes.<fim_end>le principal centre<eos_token>
+<fim_start>USA <fim_hole> l'USOC ont le même objectif : rendre la gymnastique, ainsi que d'autres sports, aussi sûrs que possible pour que les athlètes puissent poursuivre leurs rêves dans un environnement sûr, positif et responsabilisant.<fim_end>Gymnastics et<eos_token>
+<fim_start>Nous n'en sommes pas sûrs, mais il se peut qu'il ait eu la langue fourchue. Son régime alimentaire comprenait des tortues, de gros poissons, d'autres <fim_hole> il se peut même qu'il ait été cannibale.<fim_end>mosasaures, et<eos_token>
+<fim_start>L'avion se dirigeait vers <fim_hole> était manœuvré par des troupes domestiques.<fim_end>Irkoutsk et<eos_token>
+<fim_start>Le voyageur <fim_hole> tour du monde en avion, entrecoupé de séjours dans nombre de ces hôtels.<fim_end>qui dispose de sommes considérables peut envisager un<eos_token>
+<fim_start>Il a été accueilli par Wong Kan Seng, le vice-premier ministre de Singapour, <fim_hole> Hsien Loong, le Premier ministre de Singapour.<fim_end>et a discuté de commerce et de terrorisme avec Lee<eos_token>
+<fim_start>Malgré ces accusations, Ma a gagné haut la main sur une plateforme prônant des liens <fim_hole> la Chine continentale.<fim_end>plus étroits avec<eos_token>
+<fim_start>L'équipe nationale italienne de football est, avec l'équipe nationale allemande, la deuxième équipe la plus titrée du monde et elle a remporté la <fim_hole> en 2006.<fim_end>Coupe du monde de la FIFA<eos_token>
+<fim_start>Le Congrès <fim_hole> actuellement légaux que dans le Rio Grande do Sul.<fim_end>national du Brésil débat de la légalisation depuis 10 ans, et ces mariages civils ne sont<eos_token>
+<fim_start>Le camping en voiture est possible si <fim_hole> d'un break avec des sièges qui s'allongent.<fim_end>vous disposez d'un grand monospace, d'un SUV, d'une berline ou<eos_token>
+<fim_start>Le bras principal du Fleuve Amazone est long de 6 387 km (3 980 miles). Il collecte <fim_hole> petites rivières.<fim_end>l'eau des milliers de<eos_token>
+<fim_start>D’autres scientifiques affirment que ces plantes sont très toxiques, <fim_hole> paresseux et d’autres animaux comme le perroquet (un descendant des dinosaures) peuvent manger des feuilles ou des fruits toxiques.<fim_end>il est donc peu probable qu’un dinosaure les ait mangées, même si aujourd’hui, le<eos_token>
+<fim_start>Les scientifiques ont découvert des reliefs parsemés sur toute la surface de <fim_hole> apparemment du fait que la lune rétrécisse progressivement.<fim_end>la lune, appelés escarpements lobés, qui résulteraient<eos_token>
+<fim_start>L’IRM est basée sur un phénomène physique appelé résonance magnétique nucléaire (RMN), découvert dans les années 1930 par Felix Bloch (travaillant à <fim_hole> Stanford) et Edward Purcell (de l’université de Harvard).<fim_end>l’université de<eos_token>
+<fim_start>Avec le soutien de l'Arménie, une <fim_hole> créée. Cependant, aucune nation établie, pas même l'Arménie, ne la reconnaît officiellement.<fim_end>nouvelle république a été<eos_token>
+<fim_start>Les diverses constructions ont des capacités différentes, sont sensibles à des longueurs d’onde distinctes et ont des <fim_hole> pour l’interprétation des données reçues et les nombres qu’il leur faut pour fonctionner de manière optimale diffèrent aussi.<fim_end>degrés d’acuité différents. Elles nécessitent également des traitements distincts<eos_token>
+<fim_start>Schumacher, qui a pris sa retraite en 2006 après avoir <fim_hole> Formule 1, devait remplacer Felipe Massa, blessé.<fim_end>remporté sept fois le championnat de<eos_token>
+<fim_start>Pendant son temps au sein de la NSA, il a aidé Carter à <fim_hole> la Chine à la fin des années 1970, la révolution iranienne et ses conséquences comme la prise d'otages en Iran, en 1979, et l'invasion des forces soviétiques en Afghanistan, en 1979.<fim_end>résoudre diplomatiquement des questions internationales telles que les accords de Camp David, en 1978, la normalisation des relations entre les États-Unis et<eos_token>
+<fim_start>Cela peut se faire dans <fim_hole> et de nombreux endroits ne sont accessibles qu'avec un 4x4 à empattement long.<fim_end>une voiture normale avec une planification minutieuse, mais un 4x4 est fortement conseillé<eos_token>
+<fim_start>Au cours de son passage au sein de l'équipe, <fim_hole> de 468 rencontres.<fim_end>il a marqué 403 buts en l'espace<eos_token>
+<fim_start>Les sous-marins ont été utilisés pendant la Première et la Deuxième Guerre mondiale. À l’époque, ils étaient très lents et avaient une <fim_hole> très limitée.<fim_end>portée de tir<eos_token>
+<fim_start>Si vous <fim_hole> ou les pubs des quartiers que vous ne fréquentez pas.<fim_end>vivez dans une ville où la culture de la boisson est variée, allez dans les bars<eos_token>
+<fim_start>L'eau est un autre exemple. L'eau est <fim_hole> atome d'oxygène.<fim_end>composée de deux atomes d'hydrogène et d'un<eos_token>
+<fim_start>Si vous n’avez pas de connexion de données sur votre téléphone, ou s’il est hors de portée, ses performances peuvent <fim_hole> ou indisponibles.<fim_end>être limitées<eos_token>
+<fim_start>Par exemple, « l'apprentissage » et <fim_hole> favorisant l'utilisation d'Internet (James et al., 1995).<fim_end>« la socialisation » sont considérés comme de grands facteurs<eos_token>
+<fim_start>La ville de Berlin, en Allemagne, est mentionnée dans certaines brochures pour des croisières. Comme vous pouvez le constater en consultant la carte ci-dessus, <fim_hole> tout située près du bord de la mer et aucune visite de cette ville n'est comprise dans le prix de la croisière.<fim_end>Berlin n'est pas du<eos_token>
+<fim_start>Vidal, 28 ans, avait rejoint le Barça il y a <fim_hole> en provenance de Séville.<fim_end>trois saisons,<eos_token>
+<fim_start>Le design interactif exige que les éléments d'un projet soient reliés entre eux, mais également qu'ils aient un <fim_hole> qu'entité indépendante.<fim_end>sens en tant<eos_token>

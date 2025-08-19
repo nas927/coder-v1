@@ -11,19 +11,39 @@ Place all your data in datasets folder
 The extension must be txt
 Each line should contain 1 data
 
-## First
+> # Download dataset
 
-python dataset_process.py
+> Open file dataset_downloader.py
+> Change the dataset_name and column name in function download_dataset
+> Search the data in [huggingface](https://huggingface.co/datasets)
+> Repeat that for each dataset you want to have 
+> And then launch
+> ```sh
+> python dataset_downloader.py
+> ```
 
-That will put all your data formated in a file named all-in-one.txt
+> # Transform whole dataset in one file
+> ```sh
+> python dataset_process.py
+> ```
+> That will put all your data formated in a file named all-in-one.txt
 
-after that, you can launch :
+> # Fit tokenizer
+> ```sh
+> python tokenizer.py
+>
+
+# Fit the model
+```sh
 python train.py
+```
 You can change epochs in the file or in the command
---epochs 100
+- --epochs 100
 
 You can use arg --help to help you
-python inference.py --help
+```sh
+python train.py --help
+```
 
 # To infer
 
@@ -32,11 +52,14 @@ python inference.py
 output will be the prediction
 
 You can now define the text and top_k, top_p, temperature and max_tokens to generate
---text you "Your text"
---top_k 20
---top_p 1.0
---temperature 1.0
---max_tokens 100
+- --text you "Your text"
+- --top_k 20
+- --top_p 1.0
+- --temperature 1.0
+- --max_tokens 100
 
 You can use arg --help to help you
+
+```sh
 python inference.py --help
+```
