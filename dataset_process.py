@@ -2,7 +2,8 @@ from datasets import load_dataset, DatasetDict
 import random
 import os
 
-FOLDER_DATASETS = "./datasets/"
+DATASETS_DIR = "./datasets/"
+OTHER_DATASETS_DIR = "./other_datasets/"
 OUTPUT_FILE = "all-in-one.txt"
 
 
@@ -29,13 +30,82 @@ def make_fim_examples(lines: list[str]) -> None:
         lines[index] = formatted_line
 
 
+def convert_to_txt(columns: list[str], extension: str) -> None:
+    """
+    Take your files extension in other_datasets transform to txt 
+    Columns is a list of column in json, jsonl or csv file specified
+    each column while be in a row for each line of dataset
+    """
+    if extension.count('.') <= 0:
+        extension = '.' + extension
+
+    files: list[str] = os.listdir(OTHER_DATASETS_DIR)
+    jsonl_files: list[str] = []
+
+    for file in files:
+        if file.endswith(extension):
+            jsonl_files.append(OTHER_DATASETS_DIR + file)
+
+    if len(jsonl_files) <= 0:
+        print(f"No files with extension '{extension}' found")
+        return
+
+    dataset = load_dataset(extension.replace('jsonl', 'json'), data_files=jsonl_files)
+    lines_to_write: list[str] = []
+
+    for data in dataset["train"]:
+        for column in columns:
+            if column in data:
+                text = data[column].strip().replace('\n', "\\n")
+                if text:
+                    lines_to_write.append(text.strip())
+
+    counter = 1
+    base_filepath = DATASETS_DIR + os.path.splitext(extension)[0].replace('.', '')
+    output_filename = f"{base_filepath}_{counter:04}.txt"
+    while os.path.exists(output_filename):
+        output_filename = f"{base_filepath}_{counter:04}.txt"
+        counter += 1
+
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        for row in lines_to_write:
+            f.write(row + '\n')
+
+
+# Take your file name in other_datasets transform to txt 
+# Columns is a list of column in json, jsonl or csv file specified
+# each column while be in a row for each line of dataset
+def convert_each_file(file: str, columns: list[str]) -> None:
+    extension = os.path.splitext(file)[1].replace('.', '')
+    lines_to_write = []
+
+    dataset = load_dataset(extension.replace("jsonl", "json"), data_files=(OTHER_DATASETS_DIR + file))
+    for data in dataset["train"]:
+        for column in columns:
+            if column in data:
+                text = data[column].strip().replace('\n', "\\n")
+                if text:
+                    lines_to_write.append(text.strip())
+
+    counter = 1
+    base_filepath = DATASETS_DIR + file
+    output_filename = f"{base_filepath}_{counter:04}.txt"
+    while os.path.exists(output_filename):
+        output_filename = f"{base_filepath}_{counter:04}.txt"
+        counter += 1
+
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        for row in lines_to_write:
+            f.write(row + '\n')
+
+
 def transform_dataset() -> None:
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        listDirDataset: list[str] = os.listdir(FOLDER_DATASETS)
+        listDirDataset: list[str] = os.listdir(DATASETS_DIR)
         for file in listDirDataset:
             dataset: DatasetDict = load_dataset(
                 "text",
-                data_files={'train': os.path.join(FOLDER_DATASETS, file)},
+                data_files={'train': os.path.join(DATASETS_DIR, file)},
                 sample_by='document'
             )
             dataset = dataset.map(split_data, batched=True)
@@ -50,4 +120,8 @@ def transform_dataset() -> None:
 
 if __name__ == "__main__":
     random.seed(42)
+    # convert_to_txt(["French"], "csv")
+    # convert_to_txt(["English"], "csv")
+    # convert_to_txt(["prompt"], "csv")
     transform_dataset()
+    convert_each_file("humaneval-js.jsonl", ["prompt"])
