@@ -17,16 +17,21 @@ special_tokens = {
         '<fim_end>',    # Fin de la séquence FIM
     ]
 }
+
 tokenizer.add_special_tokens(special_tokens)
 tokenizer.pad_token = "<unk>"
+
+# Maintenant récupérer tous les IDs
+special_tokens_list = [
+    ("<s>", tokenizer.convert_tokens_to_ids("<s>")),
+    ("</s>", tokenizer.convert_tokens_to_ids("</s>"))
+]
+
+print(special_tokens_list)
 tokenizer._tokenizer.post_processor = TemplateProcessing(
-    single="<s> <fim_start> $A </s>",
-    pair="<s> <fim_start> $A </s> <s> <fim_start> $B </s>",
-    special_tokens=[
-        ("<fim_start>", tokenizer.convert_tokens_to_ids("<fim_start>")),
-        ("<s>", tokenizer.convert_tokens_to_ids("<s>")),
-        ("</s>", tokenizer.convert_tokens_to_ids("</s>"))
-    ]
+    single="<s> $A </s>",
+    pair="<s> $A </s> $B </s>",
+    special_tokens=special_tokens_list
 )
 
 print("Vocab size : ", len(tokenizer))
