@@ -12,7 +12,7 @@ def split_data(batch):
 # 2. Transformer en FIM
 def make_fim_examples(lines):
     for index, line in enumerate(lines):
-        line = "<fim_start>" + line
+        line = "<s><fim_start>" + line
         line = line.split(' ')
         lenLine = len(line)
         if lenLine >= 4:
@@ -23,7 +23,7 @@ def make_fim_examples(lines):
         else:
             fim_hole = ""
         lenLine = len(line)
-        line[lenLine - 1] = line[lenLine - 1] + "<fim_end>" + fim_hole + "<eos_token>"
+        line[lenLine - 1] = line[lenLine - 1] + "<fim_end>" + fim_hole + "</s>"
         line = ' '.join(line)
         line = line.replace(fim_hole, "<fim_hole>", 1)
         lines[index] = line

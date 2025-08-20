@@ -3,6 +3,7 @@ from transformers import LlamaForCausalLM
 import argparse
 import torch
 import torch.nn.functional as F
+from transformers.utils.attention_visualizer import AttentionMaskVisualizer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--text", type=str, default="Aujourd’hui, les chercheurs en intelligence artificielle ", help="Texte à prédire")

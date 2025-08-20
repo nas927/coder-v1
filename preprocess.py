@@ -47,7 +47,6 @@ def load_data():
 def tokenize():
     # mistral qui utilise BPE sur notre vocabulaire
     tokenizer = AutoTokenizer.from_pretrained("huggingf_compatible")
-    tokenizer.pad_token = "<unk>"
 
     return tokenizer
 

@@ -19,27 +19,17 @@ def save_as_hf_model(model_path, save_directory):
         model_state_dict = checkpoint.state_dict()
     
     # Créer une configuration Llama standard
-    config = LlamaConfig(
-        vocab_size=32000,
-        hidden_size=768,           # votre d_model
-        num_attention_heads=32,    # votre num_heads
-        num_hidden_layers=32,      # votre num_layers
+    config = LlamaConfig(     
+        vocab_size=32003,    
         intermediate_size=4096,    # votre d_ff
         max_position_embeddings=4096, # votre max_seq_len
-        torch_dtype="float32",
+        hidden_size=768,           # votre d_model
         # Paramètres Llama standards
-        rms_norm_eps=1e-5,
-        rope_theta=10000.0,
-        attention_dropout=0.0,
-        hidden_dropout=0.2,
-        tie_word_embeddings=False
+        attention_dropout=0.2,
     )
     
     # Créer un modèle Llama vide
     model = LlamaForCausalLM(config)
-    
-    # IMPORTANT: Mapper vos poids vers l'architecture Llama
-    # Vous devrez adapter cette partie selon votre architecture exacte
     
     # Debug: voir les clés disponibles
     print("Clés dans votre modèle:")
@@ -64,15 +54,16 @@ def save_as_hf_model(model_path, save_directory):
             new_key = f"model.{key}"  # Préfixer avec "model."
             
         new_state_dict[new_key] = value
+
     
     # Charger les poids adaptés
     model.load_state_dict(new_state_dict, strict=False)
     
-    # Sauvegarder
+    # # Sauvegarder
     model.save_pretrained(save_directory)
     config.save_pretrained(save_directory)
     
-    # Sauvegarder le tokenizer
+    # # Sauvegarder le tokenizer
     try:
         tokenizer = AutoTokenizer.from_pretrained(save_directory)
         tokenizer.save_pretrained(save_directory)
