@@ -30,6 +30,7 @@ def save_as_hf_model(model_path, save_directory):
         hidden_size=768,           # votre d_model
         # Paramètres Llama standards
         attention_dropout=0.2,
+        max_new_tokens=512,        # nombre maximum de tokens à générer
     )
     
     # Créer un modèle Llama vide
