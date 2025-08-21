@@ -1,6 +1,9 @@
 from datasets import load_dataset, DatasetDict
 import random
 import os
+from colorama import init, Style, Back, Fore
+
+init(autoreset=True)
 
 DATASETS_DIR = "./datasets/"
 OTHER_DATASETS_DIR = "./other_datasets/"
@@ -10,7 +13,6 @@ OUTPUT_FILE = "all-in-one.txt"
 def split_data(batch: DatasetDict) -> dict[str, list[str]]:
     # batch['text'] est une liste de documents
     return {'lines': [doc.split('\n') for doc in batch['text']]}
-
 
 # 2. Transformer en FIM
 def make_fim_examples(lines: list[str]) -> None:
@@ -28,7 +30,6 @@ def make_fim_examples(lines: list[str]) -> None:
             fim_hole = ""
         formatted_line = "<fim_start>" + ' '.join(splitted_line) + "<fim_end>" + fim_hole
         lines[index] = formatted_line
-
 
 def convert_to_txt(columns: list[str], extension: str) -> None:
     """
@@ -76,8 +77,7 @@ def convert_to_txt(columns: list[str], extension: str) -> None:
                 f.write(row + '\n')
 
     except Exception as e:
-        print(f"convert_to_txt() : {type(e).__name__} : {e}")
-
+        print(Fore.RED + f"convert_to_txt() : {type(e).__name__} : {e}")
 
 def convert_each_file(file: str, columns: list[str]) -> None:
     """
@@ -112,10 +112,10 @@ def convert_each_file(file: str, columns: list[str]) -> None:
                 f.write(row + '\n')
 
     except Exception as e:
-        print(f"convert_each_file() : {type(e).__name__} : {e}")
-
+        print(Fore.RED + f"convert_each_file() : {type(e).__name__} : {e}")
 
 def transform_dataset() -> None:
+    print(Fore.GREEN + f"Tout mettre dans un seul fichier : {OUTPUT_FILE}")
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             listDirDataset: list[str] = os.listdir(DATASETS_DIR)
@@ -136,7 +136,6 @@ def transform_dataset() -> None:
 
     except Exception as e:
         print(f"transform_dataset() : {type(e).__name__} : {e}")
-
 
 if __name__ == "__main__":
     random.seed(42)

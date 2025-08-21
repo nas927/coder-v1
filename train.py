@@ -31,8 +31,6 @@ def early_stopping(epochs: int, average_loss: float, best_loss: float, patience:
         return False
     return True
 
-
-
 def init_model():
     tokenizer = preprocess.tokenize()
     vocab_size: int = len(tokenizer)  # Taille du vocabulaire Mistral + data token spéciaux
@@ -89,8 +87,10 @@ def launch_training(model, optimizer, scheduler, tokenizer):
             print(f"Predictions shape: {predictions.shape}")
             # Perplexity comme métrique doit être entre 1 et 300 pour un modèle raisonnable
             perplexity = torch.exp(loss)
-            print("Perplexity : ", perplexity.item())
-
+            if perplexity > 300:
+                print(Fore.RED + "Perplexity : ", perplexity.item(), Style.RESET_ALL)
+            else:
+                print(Fore.GREEN + "Perplexity : ", perplexity.item(), Style.RESET_ALL)
 
             total_loss += loss.item()
             num_batches += 1

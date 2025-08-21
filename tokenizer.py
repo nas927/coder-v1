@@ -47,6 +47,8 @@ def tokenize():
 
     # Sauvegarder
     print(Back.WHITE + Fore.BLACK + f"Sauvagarde tokenizer" + Style.RESET_ALL)
+    if not os.path.exists(OUTPUT_FOLER):
+        os.makedirs(OUTPUT_FOLER)
     tokenizer.save_pretrained(OUTPUT_FOLER)
 
     return len_tokenizer
