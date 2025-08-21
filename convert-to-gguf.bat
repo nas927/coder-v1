@@ -10,7 +10,7 @@ python convert_hf_to_gguf.py %PATH_HUGGING_COMPATIBLE% --outfile %PATH_GGUF%/%MO
 cd %PATH_GGUF%
 start "" ollama serve
 timeout /t 6 /nobreak
-ollama create coder
+ollama create coderhey
 ollama run coder
 
 pause

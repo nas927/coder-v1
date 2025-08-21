@@ -97,7 +97,7 @@ python convert_to_hf.py --help
 
 # Convert to gguf
 
-Check here to see how you can do that : (https://github.com/ggml-org/llama.cpp/discussions/2948)[https://github.com/ggml-org/llama.cpp/discussions/2948]
+Check here to see how you can do that : https://github.com/ggml-org/llama.cpp/discussions/2948
 
 # Use it in ollama
 
