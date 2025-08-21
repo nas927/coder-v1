@@ -91,6 +91,10 @@ def launch_training(model, optimizer, scheduler, tokenizer):
             perplexity = torch.exp(loss)
             print("Perplexity : ", perplexity.item())
 
+
+            total_loss += loss.item()
+            num_batches += 1
+
             # Pas d'intérêt je fournis le batch entier
             # last_logits = logits[0, -1, :]   # shape = [vocab_size]
             # pred_id = torch.argmax(last_logits).item()
