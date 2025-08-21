@@ -1,0 +1,28 @@
+{
+  "replaceTextInSheet": {
+    "description": "Remplacer un texte dans toute la feuille",
+    "function_code": [
+      "function replaceTextInSheet() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const data = sheet.getDataRange();",
+      "  data.createTextFinder(\"{oldText}\").replaceAllWith(\"{newText}\");",
+      "}"
+    ],
+    "examples": [
+      {
+        "input_data": {"oldText": "Brouillon", "newText": "Validé"},
+        "table_data": "",
+        "prompts": [
+          "Remplace tous les \"Brouillon\" par \"Validé\" dans ma feuille.",
+          "Peux-tu remplacer 'Brouillon' par 'Validé' partout dans la feuille active ?"
+        ]
+      },
+      {
+        "input_data": {"oldText": "En attente", "newText": "Traitée"},
+        "prompts": [
+          "Peux-tu écrire une fonction qui remplace toutes les occurrences de \"En attente\" par \"Traitée\" ?"
+        ]
+      }
+    ]
+  }
+}

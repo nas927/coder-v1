@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer
 import argparse
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = "cpu"  # torch.device("cuda" if torch.cuda.is_available() else "cpu")
 parser = argparse.ArgumentParser()
 parser.add_argument("--text", type=str, default="Aujourd’hui, les chercheurs en intelligence artificielle ", help="Texte à prédire")
 parser.add_argument("--top_k", type=int, default=10, help="Le nombre de tokens les plus probables à garder")

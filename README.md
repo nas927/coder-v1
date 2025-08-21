@@ -1,32 +1,37 @@
-# python 3.12 minimum is required
+# python 3.10 minimum is required
 
+```sh
 git clone https://github.com/nas927/coder-v1.git
-
 cd coder-v1
+
+python3 -m venv .venv && source .venv/bin/activate
+
+pip install --upgrade pip
 pip install -r requirements.txt
+```
 
 # To train the model 
 
-Place all your data in datasets folder
-The extension must be txt
+Place all your data in datasets folder<br>
+The extension must be txt<br>
 Each line should contain 1 data
 
 > # Download dataset
 >
-> Open file dataset_downloader.py
-> Change the path, dataset_name and column name in function download_dataset
-> Search the data in [huggingface](https://huggingface.co/datasets)
-> Repeat that for each dataset you want to have 
+> Open file dataset_downloader.py<br>
+> Change the path, dataset_name and column name in function download_dataset<br>
+> Search the data in [huggingface](https://huggingface.co/datasets)<br>
+> Repeat that for each dataset you want to have <br>
 > And then launch
 > ```sh
 > python dataset_downloader.py
 > ```
 
 > # Transform whole dataset in one file
-> Open file dataset_process.py
-> Uncomment transform_dataset only if your datasets is in the good format txt and all in datasets folder
-> else
-> Put your datasets in other_datasets folder if you are sure that every file with the same extension have same columns name then use convert_to_txt specify first arg is all the column you want to put in a line second arg is the extension name 
+> Open file dataset_process.py<br>
+> Uncomment transform_dataset only if your datasets is in the good format txt and all in datasets folder<br>
+> else<br>
+> Put your datasets in other_datasets folder if you are sure that every file with the same extension have same columns name then use convert_to_txt specify first arg is all the column you want to put in a line second arg is the extension name
 > ```sh
 > python dataset_process.py
 > ```
@@ -35,16 +40,18 @@ Each line should contain 1 data
 > # Fit tokenizer
 > ```sh
 > python tokenizer.py
->
+> ```
 
 # Fit the model
 ```sh
 python train.py
 ```
+
 You can change epochs in the file or in the command
 - --epochs 100
 
 You can use arg --help to help you
+
 ```sh
 python train.py --help
 ```
@@ -52,7 +59,11 @@ python train.py --help
 # To infer
 
 Open the file inference.py and change the text
+
+```sh
 python inference.py
+```
+
 output will be the prediction
 
 You can now define the text and top_k, top_p, temperature and max_tokens to generate
@@ -93,13 +104,11 @@ Check here to see how you can do that : (https://github.com/ggml-org/llama.cpp/d
 ```sh
 ollama serve
 ```
+
 On an other terminal
+
 ```sh
-cd folder where is Modelfile
-```
-```sh
-ollama create name
-```
-```sh
-ollama run name
+cd ./your_folder/Modelfile
+ollama create YourModelName
+ollama run YourModelName
 ```

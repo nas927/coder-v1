@@ -1,3 +1,4 @@
+from typing import Any
 from transformers import AutoTokenizer
 from datasets import load_dataset
 import unicodedata
@@ -42,8 +43,8 @@ def decode_data(tokenizer, tokens_ids) -> str:
 
     return decode
 
-def ret_batch(dataset: dict, batch_size: int=3) -> list[list[any]]:
-    batches: list[list[any]] = []
+def ret_batch(dataset: dict, batch_size: int=3) -> list[list[Any]]:
+    batches: list[list[Any]] = []
     datasetLength: int = len(dataset["input_ids"])
 
     print("La taille du dataset est de : ", datasetLength)
