@@ -4,6 +4,7 @@ __pycache__/
 other_datasets/*.csv
 datasets/
 *.txt
+gguf/
 coder-v1.json
 huggingf/*
 !huggingf/CoderConfig.py
