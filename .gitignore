@@ -1,5 +1,11 @@
 __pycache__/
+.venv/
 checkpoint.pt
+all-in-one.txt
+datasets/
 other_datasets/*.csv
+coder-v1.json
+huggingf/*
+!huggingf/CoderConfig.py
 huggingf_compatible/
 *.gguf

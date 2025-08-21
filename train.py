@@ -39,8 +39,8 @@ def launch_training(model, optimizer, scheduler, tokenizer):
         for index_batch, batch in enumerate(batches):
             print("batch n° : ", index_batch)
             for index_data, data in enumerate(batch['input']):
-                input_tensor = torch.tensor([batch['input'][index_data].ids]).to(device)
-                output_tensor = torch.tensor([batch['input'][index_data].ids]).to(device)
+                input_tensor = torch.tensor([data.ids]).to(device)
+                output_tensor = torch.tensor([data.ids]).to(device)
 
                 outputs = model(input_tensor, output_tensor)
                 loss = outputs['loss']
