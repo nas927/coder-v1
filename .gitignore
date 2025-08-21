@@ -1,5 +1,6 @@
 __pycache__/
 checkpoint.pt
+best_model.pt
 other_datasets/*.csv
 huggingf_compatible/
 *.gguf
