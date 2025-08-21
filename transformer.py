@@ -43,7 +43,7 @@ class MultiHeadAttention(nn.Module):
         self.v_proj = nn.Linear(d_model, d_model, bias=False)
         self.out_proj = nn.Linear(d_model, d_model, bias=False)
         
-        self.rope = RoPEPositionalEncoding(self.head_dim, 4096)
+        self.rope = RoPEPositionalEncoding(self.head_dim)
         
     def forward(self, x, mask=None):
         batch_size, seq_len, d_model = x.shape
@@ -160,16 +160,16 @@ class TransformerDecoder(nn.Module):
         
     def _init_weights(self, module):
         if isinstance(module, nn.Linear):
-            torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+            torch.nn.init.xavier_uniform_(module.weight)
             if module.bias is not None:
                 torch.nn.init.zeros_(module.bias)
         elif isinstance(module, nn.Embedding):
-            torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+            torch.nn.init.xavier_uniform_(module.weight)
         elif isinstance(module, nn.LayerNorm):
             torch.nn.init.zeros_(module.bias)
             torch.nn.init.ones_(module.weight)
     
-    def forward(self, input_ids, labels=None):
+    def forward(self, input_ids, target=None):
         batch_size, seq_len = input_ids.shape
         
         # Embedding des tokens
@@ -186,13 +186,13 @@ class TransformerDecoder(nn.Module):
         logits = self.lm_head(x)
         
         loss = None
-        if labels is not None:
+        if target is not None:
             # Calcul de la loss pour l'entraînement
             shift_logits = logits[..., :-1, :].contiguous()
-            shift_labels = labels[..., 1:].contiguous()
+            shift_target = target[..., 1:].contiguous()
             loss = F.cross_entropy(
                 shift_logits.view(-1, shift_logits.size(-1)), 
-                shift_labels.view(-1),
+                shift_target.view(-1),
                 ignore_index=-100
             )
         
@@ -202,7 +202,7 @@ class TransformerDecoder(nn.Module):
             'predictions': torch.argmax(logits, dim=-1)
         }
     
-    def generate(self, input_ids, max_new_tokens=50, temperature=1.0, top_k=1, top_p=0.5):
+    def generate(self, input_ids: torch.Tensor, max_new_tokens: int=50, temperature: float=1.0, top_k: int=1, top_p: float=0.5):
         """Génération de texte"""
         self.eval()
         with torch.no_grad():

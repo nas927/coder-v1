@@ -1,5 +1,6 @@
-from transformers import LlamaForCausalLM, LlamaConfig, AutoTokenizer
+from transformers import LlamaForCausalLM, LlamaConfig
 import torch
+import tokenizer
 
 def save_as_hf_model(model_path, save_directory):
     # Charger votre modèle existant
@@ -20,7 +21,7 @@ def save_as_hf_model(model_path, save_directory):
     
     # Créer une configuration Llama standard
     config = LlamaConfig(     
-        vocab_size=32003,    
+        vocab_size=tokenizer.tokenize(),    
         intermediate_size=4096,    # votre d_ff
         max_position_embeddings=4096, # votre max_seq_len
         hidden_size=768,           # votre d_model
@@ -62,17 +63,10 @@ def save_as_hf_model(model_path, save_directory):
     # # Sauvegarder
     model.save_pretrained(save_directory)
     config.save_pretrained(save_directory)
-    
-    # # Sauvegarder le tokenizer
-    try:
-        tokenizer = AutoTokenizer.from_pretrained(save_directory)
-        tokenizer.save_pretrained(save_directory)
-    except:
-        print("Attention: Tokenizer non trouvé, vous devrez l'ajouter manuellement")
 
 # Utilisation
 if __name__ == "__main__":
     save_as_hf_model(
-        model_path="./checkpoint.pt",
+        model_path="./best_model.pt",
         save_directory="./huggingf_compatible"
     )

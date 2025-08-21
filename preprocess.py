@@ -2,37 +2,20 @@ from transformers import AutoTokenizer
 from datasets import load_dataset
 import unicodedata
 
-def normalize_text(text):
+def normalize_text(text) -> str:
     return unicodedata.normalize("NFKC", text)
 
-def split_data(batch):
+def split_data(batch) -> dict:
     return {"lines": [doc.split("\n") for doc in batch["text"]]}
 
-def split_input_prediction(dataset):
-    fim_end_token = "<fim_end>"
-    eos_token = "<eos_token>"
-    input_output = []
-
-    for line in dataset:
-        idx = line.index(fim_end_token) + len(fim_end_token)  # inclure fim_end
-        inp = line[:idx]   # tout avant fim_end inclus
-        out = line[idx:]  # tout après fim_end
-
-        input_output.append({
-            "input": inp,
-            "output": out
-        })
-
-    return input_output
-
-def check_data(dataset):
+def check_data(dataset) -> None:
     for data in dataset:
         if not data:
             raise("error")
         if not isinstance(data, str):
             raise("error")
 
-def load_data():
+def load_data() -> list[str]:
     dataset = load_dataset(            
         "text",
         data_files={"all-in-one.txt"},
@@ -50,44 +33,32 @@ def tokenize():
 
     return tokenizer
 
-def encode_data(tokenizer, dataset):
-    input_output = split_input_prediction(dataset)
-    input_output_tokenized = {}
-    inp = []
-    out = []
+def encode_data(tokenizer, dataset) -> dict:
+    
+    return tokenizer(dataset, padding=True, return_tensors="pt", padding_side="right")
 
-    for in_out in input_output:
-        inp.append(str(in_out["input"]))
-        out.append(str(in_out["output"]))
-
-    check_data(inp)
-    check_data(out)
-
-    if len(inp) != len(out):
-        raise("Erreur les deux listes ne sont pas de même taille !") 
-    all_strings = inp + out
-    max_length = len(max(all_strings, key=len))
-    # Configurer le padding
-    input_output_tokenized["input"] = tokenizer(inp, padding='max_length', max_length=max_length, return_tensors="pt")
-    input_output_tokenized["output"] = tokenizer(out, padding='max_length', max_length=max_length, return_tensors="pt")
-
-    return input_output_tokenized
-
-def decode_data(tokenizer, tokens_ids):
+def decode_data(tokenizer, tokens_ids) -> str:
     decode = tokenizer.decode(tokens_ids)
 
     return decode
 
-def ret_batch(input_output_tokenized, batch_size=3):
-    batches = []
-    inputs = input_output_tokenized["input"]
-    outputs = input_output_tokenized["output"]
+def ret_batch(dataset: dict, batch_size: int=3) -> list[list[any]]:
+    batches: list[list[any]] = []
+    datasetLength: int = len(dataset["input_ids"])
+
+    print("La taille du dataset est de : ", datasetLength)
     
-    for i in range(0, len(inputs), batch_size):
-        batch = {
-            "input": inputs[i:i + batch_size],
-            "output": outputs[i:i + batch_size]
-        }
-        batches.append(batch)
+    for i in range(0, len(dataset["input_ids"]), batch_size):
+        batches.append(dataset["input_ids"][i:i + batch_size])
+
+    print(f"La taille du batch est de : {datasetLength}/{batch_size} = ", len(batches))
     
     return batches
+
+
+# Pour tester
+# encoded = encode_data(tokenize(), load_data())
+# batches = ret_batch(encoded)
+# print(batches[0][0])
+# decoded = decode_data(tokenize(), batches[0][0])
+# print(decoded)

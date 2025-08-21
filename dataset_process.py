@@ -2,8 +2,8 @@ from datasets import load_dataset
 import random
 import os
 
-DATASET_DIR = './datasets/'
-OTHER_DATASETS_DIR = './other_datasets/'
+DATASET_DIR: str = './datasets/'
+OTHER_DATASETS_DIR: str = './other_datasets/'
 
 def split_data(batch):
     # batch['text'] est une liste de documents
@@ -12,14 +12,14 @@ def split_data(batch):
 # 2. Transformer en FIM
 def make_fim_examples(lines):
     for index, line in enumerate(lines):
-        line = "<fim_start>" + line
-        line = line.split(' ')
-        lenLine = len(line)
+        line: str = "<fim_start>" + line
+        line: list[str] = line.split(' ')
+        lenLine: int = len(line)
         if lenLine >= 4:
-            middle_start = random.randint(1, lenLine-4)
-            middle_end = random.randint(middle_start+2, lenLine-2)
-            fim_hole = line[middle_start:middle_end]
-            fim_hole = ' '.join(fim_hole)
+            middle_start: int = random.randint(1, lenLine-4)
+            middle_end: int = random.randint(middle_start+2, lenLine-2)
+            fim_hole: list[str] = line[middle_start:middle_end]
+            fim_hole: str = ' '.join(fim_hole)
         else:
             fim_hole = ""
         lenLine = len(line)
@@ -31,21 +31,21 @@ def make_fim_examples(lines):
 # Take your files extension in other_datasets transform to txt 
 # Columns is a list of column in json, jsonl or csv file specified
 # each column while be in a row for each line of dataset
-def convert_to_txt(columns, extension):
-    folder = OTHER_DATASETS_DIR
-    files = os.listdir(folder)
-    jsonl_files = []
-    lines_to_write = []
+def convert_to_txt(columns: list[str], extension: str):
+    folder: str = OTHER_DATASETS_DIR
+    files: list[str] = os.listdir(folder)
+    jsonl_files: list[str] = []
+    lines_to_write: list[str] = []
 
     for file in files:
         if file.endswith(extension):
             jsonl_files.append(folder + file)
 
-    dataset = load_dataset(extension.replace('jsonl', 'json'), data_files=jsonl_files)
+    dataset: dict = load_dataset(extension.replace('jsonl', 'json'), data_files=jsonl_files)
 
     for data in dataset["train"]:
         for column in columns:
-            temp = ''
+            temp: str = ''
             if column in data:
                 temp += data[column].strip().replace('\n', ' ')
 
@@ -62,7 +62,7 @@ def convert_to_txt(columns, extension):
 # Take your file name in other_datasets transform to txt 
 # Columns is a list of column in json, jsonl or csv file specified
 # each column while be in a row for each line of dataset
-def convert_each_file(file, columns):
+def convert_each_file(file, columns) -> None:
     extension = os.path.splitext(file)[1].replace('.', '')
     lines_to_write = []
 
@@ -81,9 +81,9 @@ def convert_each_file(file, columns):
             for row in lines_to_write:
                 f.write(row + '\n')
 
-def transform_dataset():
+def transform_dataset() -> None:
     folderDatasets: str = './datasets/'
-    listDirDataset = os.listdir(folderDatasets)
+    listDirDataset: list[str] = os.listdir(folderDatasets)
     for file in listDirDataset:
         dataset = load_dataset(
             "text",

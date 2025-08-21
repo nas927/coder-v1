@@ -11,7 +11,7 @@ parser.add_argument("--temperature", type=float, default=1.0, help="Si c'est < 1
 parser.add_argument("--max_tokens", type=int, default=1, help="Le nombre maximum de tokens à générer")
 args = parser.parse_args()
 
-model = torch.load("checkpoint.pt", weights_only=False)
+model = torch.load("best_model.pt", weights_only=False)
 model.to(device)
 
 tokenizer = AutoTokenizer.from_pretrained("huggingf_compatible")

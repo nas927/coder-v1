@@ -2,39 +2,45 @@ import os
 from transformers import AutoTokenizer
 from tokenizers.processors import TemplateProcessing
 
-# Créer le tokenizer BPE
-tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1", token="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")
+def tokenize():
+    # Créer le tokenizer BPE
+    tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1", token="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")
 
-# Préparer les fichiers
-folder = "./datasets/"
-files = [os.path.join(folder, f) for f in os.listdir(folder)]
+    # Préparer les fichiers
+    folder = "./datasets/"
+    files = [os.path.join(folder, f) for f in os.listdir(folder)]
 
-# Ajouter les tokens spéciaux FIM
-special_tokens = {
-    'additional_special_tokens': [
-        '<fim_start>',  # Début de la séquence FIM
-        '<fim_hole>',   # Trou à remplir
-        '<fim_end>',    # Fin de la séquence FIM
+    # Ajouter les tokens spéciaux FIM
+    special_tokens = {
+        'additional_special_tokens': [
+            '<fim_start>',  # Début de la séquence FIM
+            '<fim_hole>',   # Trou à remplir
+            '<fim_end>',    # Fin de la séquence FIM
+            '<table_tokens>',
+            '</table_tokens>'
+        ]
+    }
+
+    tokenizer.add_special_tokens(special_tokens)
+    tokenizer.pad_token = "<unk>"
+
+    # Maintenant récupérer tous les IDs
+    special_tokens_list = [
+        ("<s>", tokenizer.convert_tokens_to_ids("<s>")),
+        ("</s>", tokenizer.convert_tokens_to_ids("</s>"))
     ]
-}
 
-tokenizer.add_special_tokens(special_tokens)
-tokenizer.pad_token = "<unk>"
+    print(special_tokens_list)
+    tokenizer._tokenizer.post_processor = TemplateProcessing(
+        single="<s> $A </s>",
+        pair="<s> $A </s> $B </s>",
+        special_tokens=special_tokens_list
+    )
 
-# Maintenant récupérer tous les IDs
-special_tokens_list = [
-    ("<s>", tokenizer.convert_tokens_to_ids("<s>")),
-    ("</s>", tokenizer.convert_tokens_to_ids("</s>"))
-]
+    len_tokenizer = len(tokenizer)
+    print("Vocab size : ", len_tokenizer)
 
-print(special_tokens_list)
-tokenizer._tokenizer.post_processor = TemplateProcessing(
-    single="<s> $A </s>",
-    pair="<s> $A </s> $B </s>",
-    special_tokens=special_tokens_list
-)
+    # Sauvegarder
+    tokenizer.save_pretrained("huggingf_compatible")
 
-print("Vocab size : ", len(tokenizer))
-
-# Sauvegarder
-tokenizer.save_pretrained("huggingf_compatible")
+    return len_tokenizer
