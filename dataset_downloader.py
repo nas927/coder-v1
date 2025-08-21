@@ -57,4 +57,4 @@ if __name__ == "__main__":
     #     "CC-MAIN-2019-30-fra",
     #     limit=100
     # )
-    download_dataset("sib200_french", "mteb/sib200", "fra_Latn", limit=10)
+    download_dataset("sib200_french", "mteb/sib200", "fra_Latn", limit=100)

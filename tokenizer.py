@@ -1,23 +1,40 @@
 import os
-from tokenizers import Tokenizer
-from tokenizers.models import BPE
-from tokenizers.trainers import BpeTrainer
-from tokenizers.pre_tokenizers import Whitespace
+from transformers import AutoTokenizer
+from tokenizers.processors import TemplateProcessing
 
 # Créer le tokenizer BPE
-tokenizer = Tokenizer(BPE(unk_token="<unk>"))
-tokenizer.pre_tokenizer = Whitespace()
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1", token="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")
 
-# Entraîner
-trainer = BpeTrainer(vocab_size=32000, 
-                    special_tokens=["<fim_start>", "<fim_hole>", "<fim_end>", "<eos_token>", "<PAD>"])
-
-# Sur tes fichiers texte
+# Préparer les fichiers
 folder = "./datasets/"
-files = os.listdir(folder)
-for file in files:
-    files[files.index(file)] = folder + file
-tokenizer.train(files, trainer)
+files = [os.path.join(folder, f) for f in os.listdir(folder)]
+
+# Ajouter les tokens spéciaux FIM
+special_tokens = {
+    'additional_special_tokens': [
+        '<fim_start>',  # Début de la séquence FIM
+        '<fim_hole>',   # Trou à remplir
+        '<fim_end>',    # Fin de la séquence FIM
+    ]
+}
+
+tokenizer.add_special_tokens(special_tokens)
+tokenizer.pad_token = "<unk>"
+
+# Maintenant récupérer tous les IDs
+special_tokens_list = [
+    ("<s>", tokenizer.convert_tokens_to_ids("<s>")),
+    ("</s>", tokenizer.convert_tokens_to_ids("</s>"))
+]
+
+print(special_tokens_list)
+tokenizer._tokenizer.post_processor = TemplateProcessing(
+    single="<s> $A </s>",
+    pair="<s> $A </s> $B </s>",
+    special_tokens=special_tokens_list
+)
+
+print("Vocab size : ", len(tokenizer))
 
 # Sauvegarder
-tokenizer.save("coder-v1.json")
+tokenizer.save_pretrained("huggingf_compatible")

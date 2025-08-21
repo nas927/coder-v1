@@ -1,4 +1,4 @@
-from tokenizers import Tokenizer
+from transformers import AutoTokenizer
 from datasets import load_dataset
 import unicodedata
 
@@ -27,8 +27,10 @@ def split_input_prediction(dataset):
 
 def check_data(dataset):
     for data in dataset:
-        print(type(data))
-        print(data)
+        if not data:
+            raise("error")
+        if not isinstance(data, str):
+            raise("error")
 
 def load_data():
     dataset = load_dataset(            
@@ -43,8 +45,8 @@ def load_data():
     return dataset
 
 def tokenize():
-    # coderv1 qui utilise BPE sur notre vocabulaire
-    tokenizer = Tokenizer.from_file("./coder-v1.json")
+    # mistral qui utilise BPE sur notre vocabulaire
+    tokenizer = AutoTokenizer.from_pretrained("huggingf_compatible")
 
     return tokenizer
 
@@ -58,19 +60,21 @@ def encode_data(tokenizer, dataset):
         inp.append(str(in_out["input"]))
         out.append(str(in_out["output"]))
 
+    check_data(inp)
+    check_data(out)
+
     if len(inp) != len(out):
         raise("Erreur les deux listes ne sont pas de même taille !") 
     all_strings = inp + out
     max_length = len(max(all_strings, key=len))
     # Configurer le padding
-    tokenizer.enable_padding(length=max_length, pad_id=tokenizer.token_to_id("<PAD>"), pad_token="<PAD>")
-    input_output_tokenized["input"] = tokenizer.encode_batch(inp)
-    input_output_tokenized["output"] = tokenizer.encode_batch(out)
+    input_output_tokenized["input"] = tokenizer(inp, padding='max_length', max_length=max_length, return_tensors="pt")
+    input_output_tokenized["output"] = tokenizer(out, padding='max_length', max_length=max_length, return_tensors="pt")
 
     return input_output_tokenized
 
 def decode_data(tokenizer, tokens_ids):
-    decode = tokenizer.decode_batch(tokens_ids)
+    decode = tokenizer.decode(tokens_ids)
 
     return decode
 

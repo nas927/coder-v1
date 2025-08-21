@@ -26,7 +26,7 @@ def make_fim_examples(lines: list[str]) -> None:
             splitted_line[middle_start:middle_end] = ["<fim_hole>"]
         else:
             fim_hole = ""
-        formatted_line = "<fim_start>" + ' '.join(splitted_line) + "<fim_end>" + fim_hole + "<eos_token>"
+        formatted_line = "<fim_start>" + ' '.join(splitted_line) + "<fim_end>" + fim_hole
         lines[index] = formatted_line
 
 

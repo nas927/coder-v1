@@ -13,25 +13,25 @@ pip install -r requirements.txt
 # To train the model 
 
 Place all your data in datasets folder<br>
-The extension must be **.txt**<bt>
+The extension must be txt<br>
 Each line should contain 1 data
 
 > # Download dataset
 >
-> Open file dataset_downloader.py
-> Change the path, dataset_name and column name in function download_dataset
-> Search the data in [huggingface](https://huggingface.co/datasets)
-> Repeat that for each dataset you want to have 
+> Open file dataset_downloader.py<br>
+> Change the path, dataset_name and column name in function download_dataset<br>
+> Search the data in [huggingface](https://huggingface.co/datasets)<br>
+> Repeat that for each dataset you want to have <br>
 > And then launch
 > ```sh
 > python dataset_downloader.py
 > ```
 
 > # Transform whole dataset in one file
-Open file dataset_process.py
-Uncomment transform_dataset only if your datasets is in the good format txt and all in datasets folder
-else
-Put your datasets in other_datasets folder if you are sure that every file with the same extension have same columns name then use convert_to_txt specify first arg is all the column you want to put in a line second arg is the extension name 
+> Open file dataset_process.py<br>
+> Uncomment transform_dataset only if your datasets is in the good format txt and all in datasets folder<br>
+> else<br>
+> Put your datasets in other_datasets folder if you are sure that every file with the same extension have same columns name then use convert_to_txt specify first arg is all the column you want to put in a line second arg is the extension name
 > ```sh
 > python dataset_process.py
 > ```
@@ -46,10 +46,12 @@ Put your datasets in other_datasets folder if you are sure that every file with 
 ```sh
 python train.py
 ```
+
 You can change epochs in the file or in the command
 - --epochs 100
 
 You can use arg --help to help you
+
 ```sh
 python train.py --help
 ```
@@ -59,7 +61,7 @@ python train.py --help
 Open the file inference.py and change the text
 
 ```sh
-python3 inference.py
+python inference.py
 ```
 
 output will be the prediction
@@ -96,3 +98,17 @@ python convert_to_hf.py --help
 # Convert to gguf
 
 Check here to see how you can do that : (https://github.com/ggml-org/llama.cpp/discussions/2948)[https://github.com/ggml-org/llama.cpp/discussions/2948]
+
+# Use it in ollama
+
+```sh
+ollama serve
+```
+
+On an other terminal
+
+```sh
+cd ./your_folder/Modelfile
+ollama create YourModelName
+ollama run YourModelName
+```

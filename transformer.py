@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import math
 
 class RoPEPositionalEncoding(nn.Module):
-    def __init__(self, head_dim, max_seq_len=2048):
+    def __init__(self, head_dim):
         super().__init__()
         self.head_dim = head_dim
         
@@ -137,7 +137,7 @@ class TransformerBlock(nn.Module):
 
 class TransformerDecoder(nn.Module):
 
-    def __init__(self, vocab_size, d_model=512, num_heads=8, num_layers=6, d_ff=2048, max_seq_len=2048, dropout=0.1):
+    def __init__(self, vocab_size, d_model=512, num_heads=8, num_layers=6, d_ff=2048, dropout=0.1):
         super().__init__()
         self.d_model = d_model
         self.vocab_size = vocab_size
