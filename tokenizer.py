@@ -1,6 +1,11 @@
 import os
 from transformers import AutoTokenizer
 from tokenizers.processors import TemplateProcessing
+from colorama import init, Fore, Style, Back
+
+init(autoreset=True)
+
+OUTPUT_FOLER = "huggingf_compatible"
 
 def tokenize():
     # Créer le tokenizer BPE
@@ -38,9 +43,13 @@ def tokenize():
     )
 
     len_tokenizer = len(tokenizer)
-    print("Vocab size : ", len_tokenizer)
+    print(Fore.GREEN + "Vocab size : ", len_tokenizer)
 
     # Sauvegarder
-    tokenizer.save_pretrained("huggingf_compatible")
+    print(Back.WHITE + Fore.BLACK + f"Sauvagarde tokenizer" + Style.RESET_ALL)
+    tokenizer.save_pretrained(OUTPUT_FOLER)
 
     return len_tokenizer
+
+if __name__ == "__main__":
+    tokenize()

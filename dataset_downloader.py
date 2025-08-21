@@ -1,6 +1,10 @@
 import os, gc
 from typing import Any, Generator
 from datasets import load_dataset, IterableDataset
+from colorama import init, Fore, Style
+
+init(autoreset=True)
+
 
 OUTDIR = "datasets"
 
@@ -31,6 +35,7 @@ def download_dataset(
         streaming=True,
     )
 
+    print(Fore.GREEN + f"Dowloading {path}")
     try:
         if column not in dataset.column_names:
             raise KeyError(f"The dataset doesn't have a column named '{column}'")

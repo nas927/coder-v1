@@ -3,11 +3,15 @@ import torch.optim as optim
 import torch.nn.functional as F
 from transformer import *
 import argparse
+from colorama import init, Style, Back, Fore
 
+
+init()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 parser = argparse.ArgumentParser()
 parser.add_argument("--epochs", type=int, default=3, help="Nombre d'epochs default 3")
 parser.add_argument("--batch_size", type=int, default=5, help="Nombre de batch dans 1 epoch default 5")
+parser.add_argument("--model_path", type=str, default="best_model.pt", help="Chemin de sauvegarde du model")
 args = parser.parse_args()
 
 def early_stopping(epochs: int, average_loss: float, best_loss: float, patience: int, patience_counter: int, model: TransformerDecoder):
@@ -16,14 +20,14 @@ def early_stopping(epochs: int, average_loss: float, best_loss: float, patience:
         best_loss = average_loss
         patience_counter = 0
         # Sauvegarder le meilleur modèle
-        print("Sauvegarde du meilleur modèle")
-        torch.save(model, "best_model.pt")
+        print(Fore.GREEN + "Sauvegarde du meilleur modèle" + Style.RESET_ALL)
+        torch.save(model, args.model_path)
     else:
         patience_counter += 1
         print(f"Patience: {patience_counter}/{patience}")
     if patience_counter >= patience:
-        print(f"Early stopping après {epochs} epochs")
-        print(f"Meilleure loss: {best_loss:.4f}")
+        print(Fore.YELLOW + f"Early stopping après {epochs} epochs")
+        print(Fore.Green + f"Meilleure loss: {best_loss:.4f}" + Style.RESET_ALL)
         return False
     return True
 
@@ -51,7 +55,9 @@ def launch_training(model, optimizer, scheduler, tokenizer):
     datas: dict = preprocess.encode_data(tokenizer, dataset)
     batches: list[torch.Tensor] = preprocess.ret_batch(datas, batch_size=args.batch_size)
 
-    print(f"Nombre de paramètres: {sum(p.numel() for p in model.parameters()):,}")
+    print(Back.GREEN + Fore.WHITE + f"Nombre de paramètres: {sum(p.numel() for p in model.parameters()):,}" + Style.RESET_ALL)
+    print(f"Nombre d'epochs: {args.epochs}")
+    print(f"Nombre de paramètres: {args.batch_size}")
 
     # Early stopping parameters
     # Stopper si pas d'évolution durant 10 epochs
@@ -64,9 +70,9 @@ def launch_training(model, optimizer, scheduler, tokenizer):
         total_loss: float = 0
         num_batches: int = 0
 
-        print("Epochs : ", epochs)
+        print(Back.WHITE + Fore.BLACK + "Epochs : ", epochs, Style.RESET_ALL)
         for index_batch, batch in enumerate(batches):
-            print("batch n° : ", index_batch)
+            print(Back.WHITE + Fore.BLACK + "batch n° : ", index_batch, Style.RESET_ALL)
             input_tensor: torch.Tensor = batch.to(device)
             output_tensor: torch.Tensor = input_tensor.clone().to(device)
 
@@ -81,6 +87,9 @@ def launch_training(model, optimizer, scheduler, tokenizer):
             print(f"Loss: {loss.item():.4f}")
             print(f"Logits shape: {outputs['logits'].shape}")
             print(f"Predictions shape: {predictions.shape}")
+            # Perplexity comme métrique doit être entre 1 et 300 pour un modèle raisonnable
+            perplexity = torch.exp(loss)
+            print("Perplexity : ", perplexity.item())
 
             # Pas d'intérêt je fournis le batch entier
             # last_logits = logits[0, -1, :]   # shape = [vocab_size]

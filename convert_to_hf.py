@@ -1,6 +1,9 @@
 from transformers import LlamaForCausalLM, LlamaConfig
 import torch
 import tokenizer
+from colorama import Fore, Style
+
+MODEL_PATH = "./best_model.pt"
 
 def save_as_hf_model(model_path, save_directory):
     # Charger votre modèle existant
@@ -61,12 +64,13 @@ def save_as_hf_model(model_path, save_directory):
     model.load_state_dict(new_state_dict, strict=False)
     
     # # Sauvegarder
+    print(Fore.WHITE + f"Sauvegarde du modèle dans {save_directory}")
     model.save_pretrained(save_directory)
     config.save_pretrained(save_directory)
 
 # Utilisation
 if __name__ == "__main__":
     save_as_hf_model(
-        model_path="./best_model.pt",
+        model_path=MODEL_PATH,
         save_directory="./huggingf_compatible"
     )
