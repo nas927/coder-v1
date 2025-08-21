@@ -112,3 +112,17 @@ cd ./your_folder/Modelfile
 ollama create YourModelName
 ollama run YourModelName
 ```
+
+or Open the file in gguf folder
+see the (llama cpp Makefile doc)[https://github.com/ollama/ollama/blob/main/docs/modelfile.md#parameter]
+To see what you have to do
+Open the file convert-to-gguf.bat 
+- PATH_LLAMA_CPP location of llama.cpp
+- PATH_HUGGING_COMPATIBLE location of huggingface converted model with convert_to_hf.py
+- PATH_GGUF gguf folder in this folder
+- MODEL_NAME if you change if change model name after "FROM" in your Modelfile
+
+When everything is ok launch
+```sh
+./convert-to-gguf.bat
+```
