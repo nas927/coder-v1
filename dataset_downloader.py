@@ -40,6 +40,9 @@ def download_dataset(
         if column not in dataset.column_names:
             raise KeyError(f"The dataset doesn't have a column named '{column}'")
 
+        if not os.path.exists(OUTDIR):
+            os.mkdir(OUTDIR)
+
         with open(os.path.join(OUTDIR, name + ".txt"), 'w', encoding='utf-8') as f:
             for example in stream_dataset(dataset, limit):
                 text = example[column].strip().replace('\n', "\\n")
@@ -59,4 +62,4 @@ if __name__ == "__main__":
     #     "CC-MAIN-2019-30-fra",
     #     limit=100
     # )
-    download_dataset(name="sib200_french", path="mteb/sib200", dataset_name="fra_Latn", column="text")
+    download_dataset("sib200_french", "mteb/sib200", "fra_Latn", limit=100)
