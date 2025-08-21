@@ -11,10 +11,6 @@ def tokenize():
     # Créer le tokenizer BPE
     tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1", token="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")
 
-    # Préparer les fichiers
-    folder = "./datasets/"
-    files = [os.path.join(folder, f) for f in os.listdir(folder)]
-
     # Ajouter les tokens spéciaux FIM
     special_tokens = {
         'additional_special_tokens': [
