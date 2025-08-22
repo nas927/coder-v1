@@ -23,7 +23,8 @@ parser.add_argument("--d_ff", type=int, default=5504, help="feed forward size")
 parser.add_argument("--device", type=str, default="cpu", help="Vous voulez utilisez quoi comme matériel pour l'entrainement")
 args = parser.parse_args()
 device = torch.device("cuda" if torch.cuda.is_available() else args.device)
-print(Fore.GREEN + "Device : " + Style.RESET_ALL)
+print(Fore.GREEN + "Device : " + torch.cuda.get_device_name(torch.cuda.current_device()) if torch.cuda.is_available() else "Device : CPU")
+print(Style.RESET_ALL)
 
 def early_stopping(epochs: int, average_loss: float, best_loss: float, patience: int, patience_counter: int, model: TransformerDecoder):
     # Early stopping check
