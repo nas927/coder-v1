@@ -2,8 +2,14 @@ from transformers import LlamaForCausalLM, LlamaConfig
 import torch
 import tokenizer
 from colorama import Fore, Style
+import argparse
 
-MODEL_PATH = "./best_model.pt"
+parser = argparse.ArgumentParser()
+parser.add_argument("--model_path", type=str, default="best_model.pt", help="Chemin de sauvegarde du model")
+parser.add_argument("--d_model", type=int, default=2048, help="d_model size  doit être multiple de num_heads")
+parser.add_argument("--d_ff", type=int, default=5504, help="feed forward size")
+args = parser.parse_args()
+MODEL_PATH = args.model_path
 
 def save_as_hf_model(model_path, save_directory):
     # Charger votre modèle existant
@@ -25,12 +31,10 @@ def save_as_hf_model(model_path, save_directory):
     # Créer une configuration Llama standard
     config = LlamaConfig(     
         vocab_size=tokenizer.tokenize(),    
-        intermediate_size=4096,    # votre d_ff
-        max_position_embeddings=4096, # votre max_seq_len
-        hidden_size=768,           # votre d_model
-        # Paramètres Llama standards
+        intermediate_size=args.d_ff,    # votre d_ff
+        max_position_embeddings=4096,   # votre max_seq_len
+        hidden_size=args.d_model,       # votre d_model
         attention_dropout=0.2,
-        max_new_tokens=512,        # nombre maximum de tokens à générer
     )
     
     # Créer un modèle Llama vide
@@ -43,7 +47,7 @@ def save_as_hf_model(model_path, save_directory):
     
     print("\nClés attendues par Llama:")
     for key in model.state_dict().keys():
-        print(f"  {key}: {model.state_dict()[key].shape}")
+        print(f" {key}: {model.state_dict()[key].shape}")
     
     # Exemple de mapping (à adapter selon votre TransformerDecoder) :
     new_state_dict = {}
@@ -64,7 +68,7 @@ def save_as_hf_model(model_path, save_directory):
     # Charger les poids adaptés
     model.load_state_dict(new_state_dict, strict=False)
     
-    # # Sauvegarder
+    # Sauvegarder
     print(Fore.WHITE + f"Sauvegarde du modèle dans {save_directory}")
     model.save_pretrained(save_directory)
     config.save_pretrained(save_directory)

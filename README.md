@@ -56,6 +56,23 @@ You can use arg --help to help you
 python train.py --help
 ```
 
+# Fit the model with lora
+
+```sh
+python train.py --lora 1 --lora-path model.pt
+```
+- --lora is between 0 and 1 for true
+- --lora-only default 1 if you want to train only lora not all model with lora
+- --lora-r for low rank default 8
+- --lora-alpha alpha default 2 * low rank
+- --lora-path is the path where you want to save lora defaut is ./best_model_lora.pt
+
+You can use arg --help to help you
+
+```sh
+python train.py --help
+```
+
 # To infer
 
 Open the file inference.py and change the text
@@ -63,6 +80,13 @@ Open the file inference.py and change the text
 ```sh
 python inference.py
 ```
+
+Only for inference.py you can load lora 
+```sh
+python inference.py --lora path_model.pt
+```
+Among options you have
+- --lora-path where you want to save your lora if lora-only is true
 
 output will be the prediction
 
@@ -126,3 +150,18 @@ When everything is ok launch
 ```sh
 ./convert-to-gguf.bat
 ```
+
+# Change d_model
+
+- The model paratemeter have 1.7b for now you can change it
+- Go to train.py and change d_model and d_ff.
+- Or 
+```sh
+python train.py --d_model 512 --d_ff 2048
+```
+When converting to hf 
+```sh
+python convert_to_hf.py --d_model 512 --d_ff 2048
+```
+- d_ff should be 2.7 times bigger than d_model.
+- d_model should be a multiple of num_heads as d_model % num_heads == 0

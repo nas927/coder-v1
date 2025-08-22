@@ -4,6 +4,7 @@ import argparse
 import torch
 import torch.nn.functional as F
 from transformers.utils.attention_visualizer import AttentionMaskVisualizer
+from peft import PeftModel
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--text", type=str, default="Aujourd’hui, les chercheurs en intelligence artificielle ", help="Texte à prédire")
@@ -11,12 +12,16 @@ parser.add_argument("--top_k", type=int, default=10, help="Le nombre de tokens l
 parser.add_argument("--top_p", type=float, default=0.9, help="Compris entre 0.0 et 1.0 On prend les tokens les plus probable jusqu'à ce que leur sommes de probabilité arrive à top_p")
 parser.add_argument("--temperature", type=float, default=1.0, help="Si c'est < 1.0 les tokens seront plus prédictif sinon ça sera plus créatif")
 parser.add_argument("--max_tokens", type=int, default=2, help="Le nombre maximum de tokens à générer")
+parser.add_argument("--lora", type=str, default="", help="activer un modèle lora")
 args = parser.parse_args()
 
 Huggin_face_MODEL = "./huggingf_compatible/"
 # chemin vers ton tokenizer.json
 
 model = LlamaForCausalLM.from_pretrained(Huggin_face_MODEL)
+if args.lora != "":
+    model = PeftModel.from_pretrained(model, args.lora)
+
 tokenizer = AutoTokenizer.from_pretrained(Huggin_face_MODEL)
 encoded = tokenizer(args.text, return_tensors="pt")
 output = model(**encoded).logits

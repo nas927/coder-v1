@@ -3,6 +3,25 @@ import torch.nn as nn
 import torch.nn.functional as F
 import math
 
+class LoRALinear(nn.Module):
+    def __init__(self, in_features, out_features, r=8, alpha=16):
+        super().__init__()
+        self.r = r
+        self.alpha = alpha
+        self.weight = nn.Parameter(torch.randn(out_features, in_features) * 0.02)
+
+        # Matrices LoRA
+        self.lora_A = nn.Parameter(torch.zeros((r, in_features)))
+        self.lora_B = nn.Parameter(torch.zeros((out_features, r)))
+
+        # Scaling
+        self.scaling = alpha / r
+
+    def forward(self, x):
+        base = torch.matmul(x, self.weight.T)
+        lora = (x @ self.lora_A.T) @ self.lora_B.T * self.scaling
+        return base + lora
+
 class RoPEPositionalEncoding(nn.Module):
     def __init__(self, head_dim):
         super().__init__()
@@ -30,18 +49,23 @@ class SwiGLU(nn.Module):
         return self.w2(F.silu(self.w1(x)) * self.w3(x))
 
 class MultiHeadAttention(nn.Module):
-    def __init__(self, d_model, num_heads):
+    def __init__(self, d_model, num_heads, lora=False):
         super().__init__()
         assert d_model % num_heads == 0
         
         self.d_model = d_model
         self.num_heads = num_heads
         self.head_dim = d_model // num_heads
-        
-        self.q_proj = nn.Linear(d_model, d_model, bias=False)
-        self.k_proj = nn.Linear(d_model, d_model, bias=False)
-        self.v_proj = nn.Linear(d_model, d_model, bias=False)
-        self.out_proj = nn.Linear(d_model, d_model, bias=False)
+        if not lora["enabled"]:
+            self.q_proj = nn.Linear(d_model, d_model, bias=False)
+            self.k_proj = nn.Linear(d_model, d_model, bias=False)
+            self.v_proj = nn.Linear(d_model, d_model, bias=False)
+            self.out_proj = nn.Linear(d_model, d_model, bias=False)
+        else:
+            self.q_proj = LoRALinear(d_model, d_model, r=lora["r"], alpha=lora['alpha'])
+            self.k_proj = LoRALinear(d_model, d_model, r=lora["r"], alpha=lora['alpha'])
+            self.v_proj = LoRALinear(d_model, d_model, r=lora["r"], alpha=lora['alpha'])
+            self.out_proj = LoRALinear(d_model, d_model, r=lora["r"], alpha=lora['alpha'])
         
         self.rope = RoPEPositionalEncoding(self.head_dim)
         
@@ -116,9 +140,9 @@ class MultiHeadAttention(nn.Module):
         return rotated_x
 
 class TransformerBlock(nn.Module):
-    def __init__(self, d_model, num_heads, d_ff, dropout=0.1):
+    def __init__(self, d_model, num_heads, d_ff, dropout=0.1, lora: bool | dict = False):
         super().__init__()
-        self.attention = MultiHeadAttention(d_model, num_heads)
+        self.attention = MultiHeadAttention(d_model, num_heads, lora)
         self.feed_forward = SwiGLU(d_model, d_ff)
         self.norm1 = nn.LayerNorm(d_model)
         self.norm2 = nn.LayerNorm(d_model)
@@ -137,7 +161,7 @@ class TransformerBlock(nn.Module):
 
 class TransformerDecoder(nn.Module):
 
-    def __init__(self, vocab_size, d_model=512, num_heads=8, num_layers=6, d_ff=2048, dropout=0.1):
+    def __init__(self, vocab_size, d_model=512, num_heads=8, num_layers=6, d_ff=2048, dropout=0.1, lora=False):
         super().__init__()
         self.d_model = d_model
         self.vocab_size = vocab_size
@@ -147,7 +171,7 @@ class TransformerDecoder(nn.Module):
         
         # Couches du transformer
         self.layers = nn.ModuleList([
-            TransformerBlock(d_model, num_heads, d_ff, dropout)
+            TransformerBlock(d_model, num_heads, d_ff, dropout, lora)
             for _ in range(num_layers)
         ])
         
