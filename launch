@@ -1,2 +1,2 @@
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-python train.py --dataset "datasets/AppScript_dataset.txt" --lora 1 --batch_size 1
+python train.py --dataset "datasets/AppScript_dataset.txt" --lora 1 --batch_size 1 --max_length 512

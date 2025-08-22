@@ -143,9 +143,9 @@ def launch_training(model, optimizer, scheduler, tokenizer):
             # Mise à jour des poids
             print("Mise à jour des gradients")
             scaler.step(optimizer)
-            scaler.step()
-        scheduler.step()
+            scaler.update()
 
+        scheduler.step()
         average_loss: float = total_loss / num_batches
         print(f"Loss moyenne de l'epoch {epochs}: {average_loss:.4f}")
 
