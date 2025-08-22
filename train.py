@@ -87,7 +87,7 @@ def launch_training(model, optimizer, scheduler, tokenizer):
 
     print(Back.GREEN + Fore.WHITE + f"Nombre de paramètres: {sum(p.numel() for p in model.parameters()):,}" + Style.RESET_ALL)
     print(f"Nombre d'epochs: {args.epochs}")
-    print("Taille des séquences : ", len(datas["input_ids"][0]))
+    print(Fore.BLUE + "Taille des séquences : ", len(datas["input_ids"][0]), Style.RESET_ALL)
 
     # Early stopping parameters
     # Stopper si pas d'évolution durant 10 epochs
