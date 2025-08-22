@@ -2,6 +2,8 @@ __pycache__/
 .venv/
 *.pt
 other_datasets/*.csv
+!other_datasets/AppScript_dataset_csv/*.csv
+other_datasets/AppScript_dataset_csv/.*.csv#
 datasets/
 *.txt
 coder-v1.json

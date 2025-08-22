@@ -1,0 +1,11 @@
+Ville,Département,N° Dépt,Région,Population,Superficie (km²),Code postal,Particularité locale
+Paris,Paris,75,Île-de-France,2 100 000,105,75000,"Capitale, Tour Eiffel, musées mondialement connus"
+Lyon,Rhône,69,Auvergne-Rhône-Alpes,530 000,48,69000,"Ville gastronomique, fête des Lumières"
+Marseille,Bouches-du-Rhône,13,Provence-Alpes-Côte d’Azur,870 000,240,13000,"Vieux-Port, accent chantant, calanques"
+Bordeaux,Gironde,33,Nouvelle-Aquitaine,260 000,49,33000,"Capitale du vin, architecture classique"
+Lille,Nord,59,Hauts-de-France,235 000,35,59000,"Ville étudiante, influence flamande"
+Nantes,Loire-Atlantique,44,Pays de la Loire,310 000,65,44000,"Machines de l’île, château des ducs de Bretagne"
+Strasbourg,Bas-Rhin,67,Grand Est,285 000,78,67000,"Siège du Parlement européen, maisons à colombages"
+Toulouse,Haute-Garonne,31,Occitanie,480 000,118,31000,"Capitale de l’aéronautique, ville rose"
+Nice,Alpes-Maritimes,6,Provence-Alpes-Côte d’Azur,340 000,72,6000,"Promenade des Anglais, climat méditerranéen"
+Rennes,Ille-et-Vilaine,35,Bretagne,220 000,50,35000,"Ville dynamique, forte identité bretonne"

@@ -3,3 +3,4 @@ tokenizers>=0.21.2
 datasets>=3.6
 colorama>=0.4.6
 transformers>=4.55.3
+pandas>=2.3.1

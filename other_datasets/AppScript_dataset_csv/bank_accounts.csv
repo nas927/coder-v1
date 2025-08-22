@@ -1,0 +1,21 @@
+ID Client,Nom,Prénom,Type de compte,Solde (€),Date ouverture,Dernière opération,Statut du compte,Risque client,Conseiller référent
+C001,Dupont,Jean,Courant,3 250.45,12/03/2020,21/08/2025,Actif,Faible,M. Lemoine
+C002,Martin,Claire,Épargne,15 000.00,05/06/2018,20/08/2025,Actif,Moyen,Mme Durand
+C003,Leroy,Thomas,Courant,-120.75,01/02/2022,19/08/2025,Découvert,Élevé,M. Lefèvre
+C004,Bernard,Sophie,Épargne,8 750.00,23/11/2019,18/08/2025,Actif,Faible,Mme Rousseau
+C005,Moreau,Julien,Courant,520,10/01/2021,21/08/2025,Actif,Moyen,M. Garnier
+C006,Petit,Laura,Épargne,22 300.00,15/07/2017,17/08/2025,Actif,Faible,Mme Noël
+C007,Garnier,Hugo,Courant,0,03/05/2023,20/08/2025,Inactif,Moyen,M. Colin
+C008,Rousseau,Emma,Épargne,5 600.00,29/09/2020,16/08/2025,Actif,Faible,Mme Marchand
+C009,Fabre,Nicolas,Courant,-350,08/12/2021,20/08/2025,Découvert,Élevé,M. Roy
+C010,Lambert,Camille,Épargne,12 000.00,14/04/2016,15/08/2025,Actif,Faible,Mme Perrot
+C011,Colin,Alice,Courant,1 200.00,02/02/2020,21/08/2025,Actif,Faible,Mme Perret
+C012,Noël,Vincent,Épargne,9 850.00,18/06/2019,20/08/2025,Actif,Moyen,M. Blanchard
+C013,Roy,Isabelle,Courant,-75,11/11/2021,19/08/2025,Découvert,Élevé,Mme Lefevre
+C014,Marchand,Luc,Épargne,6 400.00,07/09/2018,18/08/2025,Actif,Faible,M. Garnier
+C015,Perrot,Chloé,Courant,2 300.00,25/01/2023,21/08/2025,Actif,Moyen,Mme Noël
+C016,Blanchard,Éric,Épargne,17 200.00,30/03/2017,17/08/2025,Actif,Faible,M. Colin
+C017,Lefevre,Anaïs,Courant,0,12/05/2022,20/08/2025,Inactif,Moyen,Mme Durand
+C018,Perret,Maxime,Épargne,4 950.00,19/10/2020,16/08/2025,Actif,Faible,M. Lemoine
+C019,Blin,Julie,Courant,-220,03/12/2021,20/08/2025,Découvert,Élevé,Mme Rousseau
+C020,Chevalier,Hugo,Épargne,10 500.00,22/04/2016,15/08/2025,Actif,Faible,M. Roy
