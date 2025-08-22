@@ -6,6 +6,8 @@ from colorama import init, Fore, Style
 init(autoreset=True)
 
 OUTDIR = "datasets"
+if not os.path.exists(OUTDIR):
+    os.mkdir(OUTDIR)
 
 def stream_dataset(dataset: IterableDataset, limit: int) -> Generator[dict[str, str], Any, None]:
     if limit < 0:

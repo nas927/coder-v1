@@ -8,6 +8,10 @@ init(autoreset=True)
 DATASETS_DIR = "./datasets/"
 OTHER_DATASETS_DIR = "./other_datasets/"
 OUTPUT_FILE = "all-in-one.txt"
+if not os.path.exists(DATASETS_DIR):
+    os.mkdir(DATASETS_DIR)
+if not os.path.exists(OTHER_DATASETS_DIR):
+    os.mkdir(OTHER_DATASETS_DIR)
 
 
 def split_data(batch: DatasetDict) -> dict[str, list[str]]:
@@ -96,9 +100,6 @@ def convert_each_file(file: str, columns: list[str]) -> None:
                     text = data[column].strip().replace('\n', "\\n")
                     if text:
                         lines_to_write.append(text.strip())
-
-        if not os.path.exists(DATASETS_DIR):
-            os.mkdir(DATASETS_DIR)
 
         counter = 1
         base_filepath = DATASETS_DIR + file
