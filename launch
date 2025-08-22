@@ -1,0 +1,1 @@
+python train.py --dataset "datasets/AppScript_dataset.txt" --lora 1 --batch_size 16

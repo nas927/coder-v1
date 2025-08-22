@@ -12,3 +12,5 @@ huggingf/*
 huggingf_compatible/
 *.gguf
 launch.bat
+sample_data/
+.config/

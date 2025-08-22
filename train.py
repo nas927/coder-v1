@@ -7,7 +7,6 @@ from colorama import init, Style, Back, Fore
 
 
 init()
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 parser = argparse.ArgumentParser()
 parser.add_argument("--epochs", type=int, default=3, help="Nombre d'epochs default 3")
 parser.add_argument("--batch_size", type=int, default=5, help="Nombre de batch dans 1 epoch default 5")
@@ -21,7 +20,10 @@ parser.add_argument("--lora-alpha", type=int, default=16, help="Alpha lora")
 parser.add_argument("--lora-path", type=str, default="best_model_lora.pt", help="Chemin de sauvegarde du model lora")
 parser.add_argument("--d_model", type=int, default=2048, help="d_model size  doit être multiple de num_heads")
 parser.add_argument("--d_ff", type=int, default=5504, help="feed forward size")
+parser.add_argument("--device", type=str, default="cpu", help="Vous voulez utilisez quoi comme matériel pour l'entrainement")
 args = parser.parse_args()
+device = torch.device("cuda" if torch.cuda.is_available() else args.device)
+print(Fore.GREEN + "Device : " + Style.RESET_ALL)
 
 def early_stopping(epochs: int, average_loss: float, best_loss: float, patience: int, patience_counter: int, model: TransformerDecoder):
     # Early stopping check
