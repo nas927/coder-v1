@@ -80,7 +80,7 @@ def init_model():
         filter(lambda p: p.requires_grad, model.parameters()), 
         lr=4.2e-4, weight_decay=0.01
     )
-    scheduler: torch.optim.lr_scheduler.CosineAnnealingLR = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=1000)
+    scheduler: torch.optim.lr_scheduler.CosineAnnealingLR = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=args.epochs)
 
     return model, optimizer, scheduler, tokenizer
 
@@ -88,6 +88,7 @@ def launch_training(model, optimizer, scheduler, tokenizer):
     dataset: list[str] = preprocess.load_data(args.dataset)
     datas: dict = preprocess.encode_data(tokenizer, dataset, max_length=args.max_length)
     batches: list[torch.Tensor] = preprocess.ret_batch(datas, batch_size=args.batch_size)
+    scaler = torch.amp.GradScaler()
 
     print(Back.GREEN + Fore.WHITE + f"Nombre de paramètres: {sum(p.numel() for p in model.parameters()):,}" + Style.RESET_ALL)
     print(f"Nombre d'epochs: {args.epochs}")
@@ -108,13 +109,14 @@ def launch_training(model, optimizer, scheduler, tokenizer):
         for index_batch, batch in enumerate(batches):
             print(Back.WHITE + Fore.BLACK + "batch n° : ", index_batch, Style.RESET_ALL)
             input_tensor: torch.Tensor = batch.to(device)
-            output_tensor: torch.Tensor = input_tensor.clone().to(device)
+            output_tensor: torch.Tensor = input_tensor.clone()
 
             # Remplacer les tokens de padding par -100
             pad_mask: torch.Tensor = (output_tensor == tokenizer.pad_token_id)
             output_tensor[pad_mask] = -100
-
-            outputs: dict = model(input_tensor, input_tensor)
+            optimizer.zero_grad()
+            with torch.autocast(device_type='cuda', dtype=torch.float16):
+              outputs: dict = model(input_tensor, output_tensor)
             loss = outputs['loss']
             predictions = outputs['predictions']
             logits = outputs['logits']
@@ -137,12 +139,12 @@ def launch_training(model, optimizer, scheduler, tokenizer):
             # print("Token décodé : ", preprocess.decode_data(tokenizer, pred_id))
 
             # Backward pass
-            optimizer.zero_grad()
-            loss.backward()
+            scaler.scale(loss).backward()
             # Mise à jour des poids
             print("Mise à jour des gradients")
-            optimizer.step()
-            scheduler.step()
+            scaler.step(optimizer)
+            scaler.step()
+        scheduler.step()
 
         average_loss: float = total_loss / num_batches
         print(f"Loss moyenne de l'epoch {epochs}: {average_loss:.4f}")
