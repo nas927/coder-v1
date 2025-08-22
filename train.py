@@ -76,7 +76,7 @@ def init_model():
         filter(lambda p: p.requires_grad, model.parameters()), 
         lr=4.2e-4, weight_decay=0.01
     )
-    scheduler: torch.optim.lr_scheduler.CosineAnnealingLR = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=1000)
+    scheduler: torch.optim.lr_scheduler.CosineAnnealingLR = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=args.epochs)
 
     return model, optimizer, scheduler, tokenizer
 
@@ -110,6 +110,7 @@ def launch_training(model, optimizer, scheduler, tokenizer):
             pad_mask: torch.Tensor = (output_tensor == tokenizer.pad_token_id)
             output_tensor[pad_mask] = -100
 
+            optimizer.zero_grad()
             outputs: dict = model(input_tensor, input_tensor)
             loss = outputs['loss']
             predictions = outputs['predictions']
@@ -133,13 +134,12 @@ def launch_training(model, optimizer, scheduler, tokenizer):
             # print("Token décodé : ", preprocess.decode_data(tokenizer, pred_id))
 
             # Backward pass
-            optimizer.zero_grad()
             loss.backward()
             # Mise à jour des poids
             print("Mise à jour des gradients")
             optimizer.step()
-            scheduler.step()
-
+            
+        scheduler.step()
         average_loss: float = total_loss / num_batches
         print(f"Loss moyenne de l'epoch {epochs}: {average_loss:.4f}")
 
