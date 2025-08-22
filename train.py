@@ -12,6 +12,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--epochs", type=int, default=3, help="Nombre d'epochs default 3")
 parser.add_argument("--batch_size", type=int, default=5, help="Nombre de batch dans 1 epoch default 5")
 parser.add_argument("--model_path", type=str, default="best_model.pt", help="Chemin de sauvegarde du model")
+parser.add_argument("--dataset", type=str, default="./all-in-one.txt", help="Chemin du dataset.txt")
+parser.add_argument("--max_length", type=int, default=0, help="Maximum de séquence avant de couper")
 parser.add_argument("--lora", type=int, default=0, help="Entrainer avec lora activé")
 parser.add_argument("--lora-only", type=int, default=1, help="Entrainer seulement les couches d'attentions")
 parser.add_argument("--lora-r", type=int, default=8, help="low rank lora")
@@ -79,13 +81,13 @@ def init_model():
     return model, optimizer, scheduler, tokenizer
 
 def launch_training(model, optimizer, scheduler, tokenizer):
-    dataset: list[str] = preprocess.load_data()
-    datas: dict = preprocess.encode_data(tokenizer, dataset)
+    dataset: list[str] = preprocess.load_data(args.dataset)
+    datas: dict = preprocess.encode_data(tokenizer, dataset, max_length=args.max_length)
     batches: list[torch.Tensor] = preprocess.ret_batch(datas, batch_size=args.batch_size)
 
     print(Back.GREEN + Fore.WHITE + f"Nombre de paramètres: {sum(p.numel() for p in model.parameters()):,}" + Style.RESET_ALL)
     print(f"Nombre d'epochs: {args.epochs}")
-    print(f"Nombre de paramètres: {args.batch_size}")
+    print("Taille des séquences : ", len(datas["input_ids"][0]))
 
     # Early stopping parameters
     # Stopper si pas d'évolution durant 10 epochs

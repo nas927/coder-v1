@@ -11,3 +11,4 @@ huggingf/*
 !huggingf/CoderConfig.py
 huggingf_compatible/
 *.gguf
+launch.bat

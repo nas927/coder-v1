@@ -16,10 +16,10 @@ def check_data(dataset) -> None:
         if not isinstance(data, str):
             raise("error")
 
-def load_data() -> list[str]:
+def load_data(file: str = "all-in-one.txt") -> list[str]:
     dataset = load_dataset(            
         "text",
-        data_files={"all-in-one.txt"},
+        data_files={file},
         sample_by="document"
     )
 
@@ -34,9 +34,11 @@ def tokenize():
 
     return tokenizer
 
-def encode_data(tokenizer, dataset) -> dict:
-    
-    return tokenizer(dataset, padding=True, return_tensors="pt", padding_side="right")
+def encode_data(tokenizer, dataset: list[any], max_length: int = 0) -> dict:
+    if max_length > 0:
+        return tokenizer(dataset, padding="max_length", max_length=max_length, truncation=True, return_tensors="pt", padding_side="right")
+    else:
+        return tokenizer(dataset, padding=True, return_tensors="pt", padding_side="right")
 
 def decode_data(tokenizer, tokens_ids) -> str:
     decode = tokenizer.decode(tokens_ids)
