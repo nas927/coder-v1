@@ -2,6 +2,7 @@ from datasets import load_dataset, DatasetDict
 import random
 import os
 from colorama import init, Style, Back, Fore
+import dataset_downloader
 
 init(autoreset=True)
 
@@ -34,6 +35,8 @@ def make_fim_examples(lines: list[str]) -> None:
             fim_hole = ""
         formatted_line = "<fim_start>" + ' '.join(splitted_line) + "<fim_end>" + fim_hole
         lines[index] = formatted_line
+
+    return lines
 
 def convert_to_txt(columns: list[str], extension: str) -> None:
     """
@@ -83,7 +86,7 @@ def convert_to_txt(columns: list[str], extension: str) -> None:
     except Exception as e:
         print(Fore.RED + f"convert_to_txt() : {type(e).__name__} : {e}")
 
-def convert_each_file(file: str, columns: list[str]) -> None:
+def convert_each_file(file: str, columns: list[str] | bool, separator: str) -> None:
     """
     Take your file name in other_datasets transform to txt
     Columns is a list of column in json, jsonl or csv file specified
@@ -94,54 +97,84 @@ def convert_each_file(file: str, columns: list[str]) -> None:
         lines_to_write: list[str] = []
 
         dataset = load_dataset(extension.replace("jsonl", "json"), data_files=(OTHER_DATASETS_DIR + file))
+        if not columns:
+            columns = dataset.column_names["train"]
+
         for data in dataset["train"]:
+            text: str = ""
             for column in columns:
                 if column in data:
-                    text = data[column].strip().replace('\n', "\\n")
-                    if text:
-                        lines_to_write.append(text.strip())
+                    sep: str = separator if text != "" else ""
+                    text += sep + str(data[column]).strip().replace('\n', " ")
 
-        counter = 1
-        base_filepath = DATASETS_DIR + file
-        output_filename = f"{base_filepath}_{counter:04}.txt"
-        while os.path.exists(output_filename):
-            output_filename = f"{base_filepath}_{counter:04}.txt"
-            counter += 1
+            if text != "":
+                lines_to_write.append(text.strip())
+            text = ""
 
-        with open(output_filename, 'w', encoding='utf-8') as f:
+        if os.path.exists(DATASETS_DIR + os.path.basename(file) + ".txt"):
+            file = str(random.randint(1000, 9999)) + "_" + os.path.basename(file)
+
+        lines_to_write = make_fim_examples(lines_to_write)
+        with open(DATASETS_DIR + os.path.basename(file) + ".txt", 'w', encoding='utf-8') as f:
             for row in lines_to_write:
                 f.write(row + '\n')
 
     except Exception as e:
         print(Fore.RED + f"convert_each_file() : {type(e).__name__} : {e}")
 
-def transform_dataset() -> None:
-    print(Fore.GREEN + f"Tout mettre dans un seul fichier : {OUTPUT_FILE}")
+def transform_dataset(file: str) -> None:
+    dataset_lines: list[str] = []
+    output_file = OUTPUT_FILE if not file else file
+    if os.path.exists(DATASETS_DIR + output_file):
+        output_file = str(random.randint(1000, 9999)) + "_" + output_file
+    print(Fore.GREEN + f"Tout mettre dans un seul fichier : {DATASETS_DIR + output_file}")
     try:
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            listDirDataset: list[str] = os.listdir(DATASETS_DIR)
-            for file in listDirDataset:
-                dataset: DatasetDict = load_dataset(
-                    "text",
-                    data_files={'train': os.path.join(DATASETS_DIR, file)},
-                    sample_by='document'
-                )
-                dataset = dataset.map(split_data, batched=True)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            if not file:
+                listDirDataset: list[str] = os.listdir(DATASETS_DIR)
+                for file in listDirDataset:
+                    dataset: DatasetDict = load_dataset(
+                        "text",
+                        data_files={'train': os.path.join(DATASETS_DIR, file)},
+                        sample_by='document'
+                    )
+                    dataset = dataset.map(split_data, batched=True)
+                    dataset_lines: list[str] = dataset['train']['lines']
+                    dataset_lines = [line.strip() for line in dataset_lines[0] if line.strip() != ""]
 
-                dataset_lines: list[str] = dataset['train']['lines']
-                dataset_lines = [line.strip() for line in dataset_lines[0] if line.strip() != ""]
-                make_fim_examples(dataset_lines)
+            else:
+                with(open(OTHER_DATASETS_DIR + file, 'r', encoding='utf-8') as file):
+                    dataset_lines= [line.strip() for line in file if line.strip() != ""] 
 
-                for row in dataset_lines:
-                    f.write(row + '\n')
+            make_fim_examples(dataset_lines)
+            for row in dataset_lines:
+                f.write(row + '\n')
 
     except Exception as e:
         print(f"transform_dataset() : {type(e).__name__} : {e}")
 
+def all_in_one() -> None:
+    print(Fore.GREEN + f"Tout mettre dans un seul fichier : {OUTPUT_FILE}")
+    try:
+        with open(OUTPUT_FILE, 'a', encoding='utf-8') as f:
+            listDirDataset: list[str] = os.listdir(DATASETS_DIR)
+            for file in listDirDataset:
+                f.write(open(DATASETS_DIR + file, 'r', encoding='utf-8').read())
+
+    except Exception as e:
+        print(f"all_in_one() : {type(e).__name__} : {e}")
+
 if __name__ == "__main__":
-    random.seed(42)
     # convert_to_txt(["French"], "csv")
     # convert_to_txt(["English"], "csv")
-    # convert_to_txt(["prompt"], "csv")
-    # convert_each_file("humaneval-js.jsonl", ["prompt"])
-    transform_dataset()
+    os.system("python AppScript_dataset_converter.py")
+    convert_each_file("prog_language/humaneval-js.jsonl", ["task_id", "prompt"], ' : ')
+    math_dataset = "maths/PAL-Math/datasets/"
+    for dir in os.listdir(OTHER_DATASETS_DIR + math_dataset):
+        for file in os.listdir(OTHER_DATASETS_DIR + math_dataset + dir):
+            print(OTHER_DATASETS_DIR + math_dataset + dir + "/" +file)
+            convert_each_file(math_dataset + dir + "/" + file , False, " : ")
+    sib_french = dataset_downloader.download_dataset("sib200_french", "mteb/sib200", "fra_Latn")
+    print(sib_french)
+    transform_dataset(sib_french)
+    all_in_one()
