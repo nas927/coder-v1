@@ -1,0 +1,1 @@
+python .\train.py --dataset ".\datasets\AppScript_dataset.txt" --lora 1 --lora-only 1 --lora-alpha 8 --lora-r 4 --d_model 512 --d_ff 2048 --max_length 50

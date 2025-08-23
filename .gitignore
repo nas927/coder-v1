@@ -4,13 +4,12 @@ __pycache__/
 other_datasets/*.csv
 !other_datasets/AppScript_dataset_csv/*.csv
 other_datasets/AppScript_dataset_csv/.*.csv#
-datasets/
+./datasets/
 *.txt
 coder-v1.json
 huggingf/*
 !huggingf/CoderConfig.py
 huggingf_compatible/
 *.gguf
-launch.bat
 sample_data/
 .config/

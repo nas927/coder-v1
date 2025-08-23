@@ -5,7 +5,7 @@ from colorama import init, Fore, Style
 
 init(autoreset=True)
 
-OUTDIR = "datasets"
+OUTDIR = "other_datasets"
 if not os.path.exists(OUTDIR):
     os.mkdir(OUTDIR)
 
@@ -43,7 +43,8 @@ def download_dataset(
         if not os.path.exists(OUTDIR):
             os.mkdir(OUTDIR)
 
-        with open(os.path.join(OUTDIR, name + ".txt"), 'w', encoding='utf-8') as f:
+        filename = os.path.join(OUTDIR, name + ".txt")
+        with open(filename, 'w', encoding='utf-8') as f:
             for example in stream_dataset(dataset, limit):
                 text = example[column].strip().replace('\n', "\\n")
                 if text:  # Only write non-empty text
@@ -53,6 +54,8 @@ def download_dataset(
         print(f"{name} : {type(e).__name__} : {e}")
     finally:
         gc.collect()  # DON'T REMOVE, else python segfault
+    
+    return os.path.basename(filename)
 
 
 if __name__ == "__main__":
@@ -62,4 +65,4 @@ if __name__ == "__main__":
     #     "CC-MAIN-2019-30-fra",
     #     limit=100
     # )
-    download_dataset("sib200_french", "mteb/sib200", "fra_Latn", limit=100)
+    download_dataset("sib200_french", "mteb/sib200", "fra_Latn")
