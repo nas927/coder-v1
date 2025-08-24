@@ -45,18 +45,20 @@ def decode_data(tokenizer, tokens_ids) -> str:
 
     return decode
 
-def ret_batch(dataset: dict, batch_size: int=3) -> list[list[Any]]:
+def ret_batch(tokenizer, dataset: dict, batch_size: int=3, max_length: int=0) -> list[list[Any]]:
     batches: list[list[Any]] = []
-    datasetLength: int = len(dataset["input_ids"])
+    datasetLength: int = len(dataset)
 
     print("La taille du dataset est de : ", datasetLength)
     
-    for i in range(0, len(dataset["input_ids"]), batch_size):
-        batches.append(dataset["input_ids"][i:i + batch_size])
+    for i in range(0, len(dataset), batch_size):
+        batches.append(encode_data(tokenizer, dataset[i:i + batch_size], max_length=max_length))
 
     print(f"La taille du batch est de : {datasetLength}/{batch_size} = ", len(batches))
     
     return batches
+
+
 
 
 # Pour tester
@@ -65,3 +67,7 @@ def ret_batch(dataset: dict, batch_size: int=3) -> list[list[Any]]:
 # print(batches[0][0])
 # decoded = decode_data(tokenize(), batches[0][0])
 # print(decoded)
+# tokenizer = tokenize()
+# dataset = load_data()
+# batches = ret_batch(tokenizer, dataset)
+# print(batches[0][2].ids)

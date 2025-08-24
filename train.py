@@ -87,13 +87,11 @@ def init_model():
 
 def launch_training(model, optimizer, scheduler, tokenizer):
     dataset: list[str] = preprocess.load_data(args.dataset)
-    datas: dict = preprocess.encode_data(tokenizer, dataset, max_length=args.max_length)
-    batches: list[torch.Tensor] = preprocess.ret_batch(datas, batch_size=args.batch_size)
+    batches: list[torch.Tensor] = preprocess.ret_batch(tokenizer, dataset, batch_size=args.batch_size, max_length=args.max_length)
     scaler = torch.amp.GradScaler()
 
     print(Back.GREEN + Fore.WHITE + f"Nombre de paramètres: {sum(p.numel() for p in model.parameters()):,}" + Style.RESET_ALL)
     print(f"Nombre d'epochs: {args.epochs}")
-    print(Fore.BLUE + "Taille des séquences : ", len(datas["input_ids"][0]), Style.RESET_ALL)
 
     # Early stopping parameters
     # Stopper si pas d'évolution durant 10 epochs
@@ -109,8 +107,10 @@ def launch_training(model, optimizer, scheduler, tokenizer):
         print(Back.WHITE + Fore.BLACK + "Epochs : ", epochs, Style.RESET_ALL)
         for index_batch, batch in enumerate(batches):
             print(Back.WHITE + Fore.BLACK + "batch n° : ", index_batch, Style.RESET_ALL)
-            input_tensor: torch.Tensor = batch.to(device)
+            print(Fore.BLUE + "Taille des séquences du batch : ", len(batch[0]), Style.RESET_ALL)
+            input_tensor: torch.Tensor = torch.tensor(batch.ids).to(device)
             output_tensor: torch.Tensor = input_tensor.clone()
+            
 
             # Remplacer les tokens de padding par -100
             pad_mask: torch.Tensor = (output_tensor == tokenizer.pad_token_id)
