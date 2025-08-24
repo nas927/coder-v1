@@ -58,16 +58,14 @@ def ret_batch(tokenizer, dataset: dict, batch_size: int=3, max_length: int=0) ->
     
     return batches
 
-
-
-
 # Pour tester
-# encoded = encode_data(tokenize(), load_data())
-# batches = ret_batch(encoded)
-# print(batches[0][0])
-# decoded = decode_data(tokenize(), batches[0][0])
-# print(decoded)
 # tokenizer = tokenize()
 # dataset = load_data()
 # batches = ret_batch(tokenizer, dataset)
-# print(batches[0][2].ids)
+# for batch in batches:
+#     print("Taille de chaque batch : ", len(batch["input_ids"]))
+#     print(batch['input_ids'])
+#     for sentence in batch["input_ids"]:
+#         decoded = decode_data(tokenizer, sentence)
+#         print(decoded + "\n")
+#     break

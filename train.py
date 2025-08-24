@@ -108,7 +108,7 @@ def launch_training(model, optimizer, scheduler, tokenizer):
         for index_batch, batch in enumerate(batches):
             print(Back.WHITE + Fore.BLACK + "batch n° : ", index_batch, Style.RESET_ALL)
             print(Fore.BLUE + "Taille des séquences du batch : ", len(batch[0]), Style.RESET_ALL)
-            input_tensor: torch.Tensor = torch.tensor(batch.ids).to(device)
+            input_tensor: torch.Tensor = torch.tensor(torch.as_tensor(batch['input_ids']).detach().clone().ids).to(device)
             output_tensor: torch.Tensor = input_tensor.clone()
             
 
