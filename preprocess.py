@@ -35,8 +35,16 @@ def tokenize():
     return tokenizer
 
 def encode_data(tokenizer, dataset: list[any], max_length: int = 0) -> dict:
+    max: int = 0
+    for data in dataset:
+        if len(data) > max:
+            max = len(data)
+            
     if max_length > 0:
-        return tokenizer(dataset, padding="max_length", max_length=max_length, truncation=True, return_tensors="pt", padding_side="right")
+        if max < max_length:
+            return tokenizer(dataset, padding="max_length", max_length=max, truncation=True, return_tensors="pt", padding_side="right")
+        else:
+            return tokenizer(dataset, padding="max_length", max_length=max_length, truncation=True, return_tensors="pt", padding_side="right")
     else:
         return tokenizer(dataset, padding=True, return_tensors="pt", padding_side="right")
 
@@ -61,11 +69,12 @@ def ret_batch(tokenizer, dataset: dict, batch_size: int=3, max_length: int=0) ->
 # Pour tester
 # tokenizer = tokenize()
 # dataset = load_data()
-# batches = ret_batch(tokenizer, dataset)
+# batches = ret_batch(tokenizer, dataset, 3, 512)
 # for batch in batches:
 #     print("Taille de chaque batch : ", len(batch["input_ids"]))
 #     print(batch['input_ids'])
 #     for sentence in batch["input_ids"]:
+#         print(len(sentence))
 #         decoded = decode_data(tokenizer, sentence)
 #         print(decoded + "\n")
 #     break
