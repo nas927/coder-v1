@@ -472,5 +472,414 @@
         "Gère l’ajout d’un événement avec comme titre la valeur de A2, début C2, fin D2."
       ]}
     ]
+  },
+  "addColumnsAndStoreInNew": {
+    "description": "Ajoute les valeurs de deux colonnes et stocke le résultat dans une nouvelle colonne.",
+    "function_code": [
+      "function addColumnsAndStoreInNew() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const data = sheet.getDataRange();",
+      "  const numRows = data.getNumRows();",
+      "  for (let i = 2; i <= numRows; i++) {",
+      "      const col{column_A} = data.getRange(i, {column_A}).getValue();",
+      "      const col{column_B} = data.getRange(i, {column_B}).getValue();",
+      "      const result = col{column_A} + col{column_B};",
+      "      data.getRange(i, {column_result}).setValue(result);",
+      "  }",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"column_A": "1", "column_B": "5", "column_result": "4"},
+        "prompts": [
+            "Je veux afficher le resultat de la multiplication de la 1er colonne par la 5e dans la 4e colonne.",
+            "Ajoute les colonnes 1 et 5 et écris le résultat dans la colonne 4.",
+            "Calcule le produit de la colonne A et de la colonne E, puis mets-le dans la colonne D.",
+            "Pour chaque ligne, ajoute la première colonne par la troisième et stocke le résultat dans la cinquième colonne.",
+            "Remplis la colonne D avec le résultat de A + E pour chaque ligne."
+        ]
+      },
+      {"input_data": {"column_A": "1", "column_B": "2", "column_result": "4"},
+        "prompts": [
+            "Je veux afficher le resultat de la multiplication de la 1er colonne par la 2e dans la 4e colonne.",
+            "Ajoute les colonnes 1 et 2 et écris le résultat dans la colonne 4.",
+            "Calcule le produit de la colonne A et de la colonne B, puis mets-le dans la colonne D.",
+            "Pour chaque ligne, ajoute la première colonne par la troisième et stocke le résultat dans la deuxième colonne.",
+            "Remplis la colonne D avec le résultat de A + B pour chaque ligne."
+        ]
+      }
+    ]
+  },
+  "multiplyColumnsAndStoreInNew": {
+    "description": "Multiplie les valeurs de deux colonnes et stocke le résultat dans une nouvelle colonne.",
+    "function_code": [
+      "function multiplyColumnsAndStoreInNew() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const data = sheet.getDataRange();",
+      "  const numRows = data.getNumRows();",
+      "  for (let i = 2; i <= numRows; i++) {",
+      "      const col{column_A} = data.getRange(i, {column_A}).getValue();",
+      "      const col{column_B} = data.getRange(i, {column_B}).getValue();",
+      "      const result = col{column_A} * col{column_B};",
+      "      data.getRange(i, {column_result}).setValue(result);",
+      "  }",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"column_A": "1", "column_B": "5", "column_result": "4"},
+        "prompts": [
+            "Je veux afficher le resultat de la multiplication de la 1er colonne par la 5e dans la 4e colonne.",
+            "Multiplie les colonnes 1 et 5 et écris le résultat dans la colonne 4.",
+            "Calcule le produit de la colonne A et de la colonne E, puis mets-le dans la colonne D.",
+            "Pour chaque ligne, multiplie la première colonne par la troisième et stocke le résultat dans la cinquième colonne.",
+            "Remplis la colonne D avec le résultat de A * E pour chaque ligne."
+        ]
+      },
+      {"input_data": {"column_A": "1", "column_B": "3", "column_result": "4"},
+        "prompts": [
+            "Je veux afficher le resultat de la multiplication de la 1er colonne par la 3e dans la 4e colonne.",
+            "Multiplie les colonnes 1 et 3 et écris le résultat dans la colonne 4.",
+            "Calcule le produit de la colonne A et de la colonne C, puis mets-le dans la colonne D.",
+            "Pour chaque ligne, multiplie la première colonne par la troisième et stocke le résultat dans la quatrième colonne.",
+            "Remplis la colonne D avec le résultat de A * C pour chaque ligne."
+        ]
+      }
+    ]
+  },
+  "averageColumnsAndStoreInNew": {
+    "description": "Calcule la moyenne de deux colonnes et stocke le résultat dans une nouvelle colonne.",
+    "function_code": [
+      "function averageColumnsAndStoreInNew() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const data = sheet.getDataRange();",
+      "  const numRows = data.getNumRows();",
+      "  for (let i = 2; i <= numRows; i++) {",
+      "      const col{column_A} = data.getRange(i, {column_A}).getValue();",
+      "      const col{column_B} = data.getRange(i, {column_B}).getValue();",
+      "      const result = (col{column_A} + col{column_B}) / 2;",
+      "      data.getRange(i, {column_result}).setValue(result);",
+      "  }",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"column_A": "2", "column_B": "3", "column_result": "5"},
+        "prompts": [
+          "Calcule la moyenne des colonnes 2 et 3 et écris le résultat dans la colonne 5.",
+          "Pour chaque ligne, fais la moyenne de la colonne B et de la colonne C, puis mets-la dans la colonne E.",
+          "Remplis la colonne E avec la moyenne de B et C pour chaque ligne.",
+          "Fais la moyenne des colonnes 2 et 3 et stocke le résultat dans la 5e colonne."
+        ]
+      }
+    ]
+  },
+  "duplicateActiveSheet": {
+    "description": "Duplique la feuille active sous un nouveau nom.",
+    "function_code": [
+      "function duplicateActiveSheet() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const newSheet = sheet.copyTo(SpreadsheetApp.getActiveSpreadsheet());",
+      "  newSheet.setName({newSheetName});",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"newSheetName": "sheet.getName() + ' Copie'"},
+        "prompts": [
+          "Duplique la feuille active.",
+          "Crée une copie de la feuille actuelle.",
+          "Fais un duplicata de l’onglet actif.",
+          "Copie la feuille actuel vers une nouvelle feuille."
+        ]
+      },
+      {"input_data": {"newSheetName": "'Copie Feuille'"},
+        "prompts": [
+          "Duplique la feuille active et nomme la nouvelle feuille 'Copie Feuille'.",
+          "Crée une copie de la feuille actuelle sous le nom 'Copie Feuille'.",
+          "Fais un duplicata de l’onglet actif et appelle-le 'Copie Feuille'.",
+          "Copie la feuille actuel vers une nouvelle feuille nomme 'Copie Feuille'."
+        ]
+      },
+      {"input_data": {"newSheetName": "'Factures Copie'"},
+        "prompts": [
+          "Duplique la feuille active et nomme la nouvelle feuille 'Factures Copie'.",
+          "Crée une copie de la feuille actuelle sous le nom 'Factures Copie'.",
+          "Fais un duplicata de l’onglet actif et appelle-le 'Factures Copie'.",
+          "Copie la feuille actuel vers une nouvelle feuille nomme 'Factures Copie'."
+        ]
+      }
+    ]
+  },
+  "protectActiveSheet": {
+    "description": "Protège la feuille active contre l’édition.",
+    "function_code": [
+      "function protectActiveSheet() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  sheet.protect().setDescription('Feuille protégée');",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {},
+        "prompts": [
+          "Protège la feuille active contre toute modification.",
+          "Empêche l’édition de la feuille actuelle.",
+          "Rends la feuille active non modifiable.",
+          "Désactive les modifications de la feuille actuelle.",
+          "Empêche tout changement sur l'onglet actif."
+        ]
+      }
+    ]
+  },
+  "boldIfAboveThreshold": {
+    "description": "Met en gras toutes les cellules d’une colonne si leur valeur dépasse un seuil.",
+    "function_code": [
+      "function boldIfAboveThreshold() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const column = {column};",
+      "  const threshold = {threshold};",
+      "  const numRows = sheet.getLastRow();",
+      "  for (let i = 1; i <= numRows; i++) {",
+      "    const cell = sheet.getRange(i, column);",
+      "    if (cell.getValue() > threshold) {",
+      "      cell.setFontWeight('bold');",
+      "    }",
+      "  }",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"column": "4", "threshold": "1000"},
+        "prompts": [
+          "Mets en gras toutes les cellules de la colonne 4 si leur valeur est supérieure à 1000.",
+          "Pour chaque ligne, si la valeur de la colonne D dépasse 1000, mets-la en gras.",
+          "Gras les montants supérieurs à 1000 dans la colonne D.",
+          "Mets du gras dans toutes cellules de la 4e colonne avec une valeur supérieure à 1000."
+        ]
+      },
+      {"input_data": {"column": "2", "threshold": "240"},
+        "prompts": [
+          "Mets en gras toutes les cellules de la colonne 2 si leur valeur est supérieure à 240.",
+          "Pour chaque ligne, si la valeur de la colonne B dépasse 240, mets-la en gras.",
+          "Gras les montants supérieurs à 240 dans la colonne B.",
+          "Mets du gras dans toutes cellules de la 2e colonne avec une valeur supérieure à 240."
+        ]
+      }
+    ]
+  },
+  "alternateRowColors": {
+    "description": "Colore les lignes alternées pour améliorer la lisibilité.",
+    "function_code": [
+      "function alternateRowColors() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const range = sheet.getDataRange();",
+      "  const numRows = range.getNumRows();",
+      "  for (let i = 2; i <= numRows; i += 2) {",
+      "    sheet.getRange(i, 1, 1, range.getNumColumns()).setBackground('#f2f2f2');",
+      "  }",
+      "}"
+    ],
+    "examples": [
+      {"prompts": [
+          "Colore les lignes paires pour améliorer la lisibilité.",
+          "Mets un fond gris sur une ligne sur deux.",
+          "Alterner la couleur de fond des lignes du tableau."
+        ]
+      }
+    ]
+  },
+  "convertDateFormat": {
+    "description": "Convertit toutes les dates d’un format à un autre dans une colonne donnée.",
+    "function_code": [
+      "function convertDateFormat() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const numRows = sheet.getLastRow();",
+      "  for (let i = 2; i <= numRows; i++) {",
+      "    const cell = sheet.getRange(i, {column});",
+      "    const date = cell.getValue();",
+      "    if (date instanceof Date) {",
+      "      const formatted = Utilities.formatDate(date, Session.getScriptTimeZone(), '{newFormat}');",
+      "      cell.setValue(formatted);",
+      "    }",
+      "  }",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"column": "3", "newFormat": "dd/MM/yyyy"},
+        "prompts": [
+          "Convertis toutes les dates de la colonne 3 au format jj/MM/aaaa.",
+          "Change le format des dates de la colonne C en jour/mois/année.",
+          "Reformate toutes les dates de la colonne C en dd/MM/yyyy."
+        ]
+      },
+      {"input_data": {"column": "6", "newFormat": "yyyy/MM/dd"},
+        "prompts": [
+          "Convertis toutes les dates de la colonne 6 au format aaaa/MM/jj.",
+          "Change le format des dates de la colonne F en année/mois/jour.",
+          "Reformate toutes les dates de la colonne F en yyyy/MM/dd."
+        ]
+      }
+    ]
+  },
+  "createChartFromRange": {
+    "description": "Génère un graphique à partir des données d’une plage.",
+    "function_code": [
+      "function createChartFromRange() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const range = sheet.getRange({range});",
+      "  const chart = sheet.newChart()",
+      "    .setChartType(Charts.ChartType.{chartType})",
+      "    .addRange(range)",
+      "    .setPosition(2, 5, 0, 0)",
+      "    .build();",
+      "  sheet.insertChart(chart);",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"range": "A1:B10", "chartType": "COLUMN"},
+        "prompts": [
+          "Génère un graphique en colonnes à partir des données de A1 à B10.",
+          "Crée un graphique colonne pour la plage A1:B10.",
+          "Ajoute un graphique basé sur les valeurs de A1 à B10."
+        ]
+      },
+      {"input_data": {"range": "C2:D20", "chartType": "LINE"},
+        "prompts": [
+          "Crée un graphique en courbes pour les données de C2 à D20.",
+          "Ajoute un graphique ligne pour la plage C2:D20.",
+          "Génère un graphique à partir des colonnes C et D."
+        ]
+      }
+    ]
+  },
+  "sumColumnAtBottom": {
+    "description": "Ajoute le total de toutes les valeurs d'une colonne en bas de celle-ci.",
+    "function_code": [
+      "function sumColumnAtBottom() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const numRows = sheet.getLastRow();",
+      "  let sum = 0;",
+      "  for (let i = 2; i <= numRows; i++) {",
+      "    const value = sheet.getRange(i, {column}).getValue();",
+      "    if (!isNaN(value)) sum += Number(value);",
+      "  }",
+      "  sheet.getRange(numRows + 1, {column}).setValue(sum);",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"column": "4"},
+        "prompts": [
+          "Ajoute le total de la colonne 4 en bas de celle-ci.",
+          "Calcule la somme de la colonne D et écris-la à la fin.",
+          "Insère le total des montants de la colonne D sous les données.",
+          "Calcule moi le total de la 4e colonne et ajoute le résultat en desssous de celle-ci."
+        ]
+      },
+      {"input_data": {"column": "2"},
+        "prompts": [
+          "Ajoute le total de la colonne 2 en bas de celle-ci.",
+          "Calcule la somme de la colonne B et écris-la à la fin.",
+          "Insère le total des valeurs de la colonne B sous les données.",
+          "Calcule moi le total de la 2e colonne et ajoute le résultat en desssous de celle-ci."
+        ]
+      }
+    ]
+  },
+  "findRowsWithValue": {
+    "description": "Recherche toutes les lignes contenant une valeur spécifique dans une colonne.",
+    "function_code": [
+      "function findRowsWithValue() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const column = {column};",
+      "  const value = '{value}';",
+      "  const numRows = sheet.getLastRow();",
+      "  for (let i = 2; i <= numRows; i++) {",
+      "    if (sheet.getRange(i, column).getValue() == value) {",
+      "      sheet.getRange(i, 1, 1, sheet.getLastColumn()).setBackground('#ffff00');",
+      "    }",
+      "  }",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"column": "3", "value": "Urgent"},
+        "prompts": [
+          "Surligne toutes les lignes où la colonne 3 contient 'Urgent'.",
+          "Trouve les lignes avec 'Urgent' dans la colonne C et mets-les en jaune.",
+          "Recherche les lignes contenant 'Urgent' dans la colonne C."
+        ]
+      }
+    ]
+  },
+  "deleteEmptyRows": {
+    "description": "Supprime toutes les lignes vides de la feuille.",
+    "function_code": [
+      "function deleteEmptyRows() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const data = sheet.getDataRange().getValues();",
+      "  for (let i = data.length; i >= 1; i--) {",
+      "    if (data[i-1].every(cell => cell === '' || cell === null)) {",
+      "      sheet.deleteRow(i);",
+      "    }",
+      "  }",
+      "}"
+    ],
+    "examples": [
+      {"prompts": [
+          "Supprime toutes les lignes vides de la feuille.",
+          "Efface les lignes sans données.",
+          "Nettoie la feuille en retirant les lignes entièrement vides."
+        ]
+      }
+    ]
+  },
+  "concatColumns": {
+    "description": "Concatène deux colonnes et stocke le résultat dans une nouvelle colonne.",
+    "function_code": [
+      "function concatColumns() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const numRows = sheet.getLastRow();",
+      "  for (let i = 2; i <= numRows; i++) {",
+      "    const valA = sheet.getRange(i, {column_A}).getValue();",
+      "    const valB = sheet.getRange(i, {column_B}).getValue();",
+      "    sheet.getRange(i, {column_result}).setValue(valA + ' ' + valB);",
+      "  }",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"column_A": "1", "column_B": "2", "column_result": "5"},
+        "prompts": [
+          "Concatène les colonnes 1 et 2 et écris le résultat dans la colonne 5.",
+          "Pour chaque ligne, fusionne la colonne A et la colonne B dans la colonne E.",
+          "Ajoute une colonne E avec la concaténation de A et B."
+        ]
+      },
+      {"input_data": {"column_A": "3", "column_B": "4", "column_result": "5"},
+        "prompts": [
+          "Concatène les colonnes 3 et 4 et écris le résultat dans la colonne 5.",
+          "Pour chaque ligne, fusionne la colonne C et la colonne D dans la colonne E.",
+          "Ajoute une colonne E avec la concaténation de C et D."
+        ]
+      }
+    ]
+  },
+  "conditionalFormat": {
+    "description": "Applique une mise en forme conditionnelle à une colonne selon une règle.",
+    "function_code": [
+      "function conditionalFormat() {",
+      "  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();",
+      "  const range = sheet.getRange(2, {column}, sheet.getLastRow()-1, 1);",
+      "  range.setConditionalFormatRules([",
+      "    SpreadsheetApp.newConditionalFormatRule()",
+      "      .whenNumberGreaterThan({threshold})",
+      "      .setBackground('#ffcccc')",
+      "      .setRanges([range])",
+      "      .build()",
+      "  ]);",
+      "}"
+    ],
+    "examples": [
+      {"input_data": {"column": "4", "threshold": "500"},
+        "prompts": [
+          "Mets en rouge les cellules de la colonne 4 si leur valeur dépasse 500.",
+          "Applique une mise en forme conditionnelle sur la colonne D pour les valeurs > 500.",
+          "Colore en rouge les montants supérieurs à 500 dans la colonne D."
+        ]
+      }
+    ]
   }
 }
