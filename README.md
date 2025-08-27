@@ -8,6 +8,8 @@ python3 -m venv .venv && source .venv/bin/activate
 
 pip install --upgrade pip
 pip install -r requirements.txt
+pip uninstall torch torchvision -y
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu129
 ```
 
 # To train the model 

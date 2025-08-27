@@ -1,3 +1,5 @@
+# Don't forget to install pip install torch torchvision --index-url https://download.pytorch.org/whl/cu129
+
 from colorama.initialise import reset_all
 import preprocess
 import torch.optim as optim
@@ -23,6 +25,9 @@ parser.add_argument("--d_model", type=int, default=2048, help="d_model size  doi
 parser.add_argument("--d_ff", type=int, default=5504, help="feed forward size")
 parser.add_argument("--device", type=str, default="cpu", help="Vous voulez utilisez quoi comme matériel pour l'entrainement")
 args = parser.parse_args()
+print(torch.cuda.is_available())  # True si CUDA est utilisable
+print(torch.version.cuda)         # Version CUDA utilisée par PyTorch
+print(torch.cuda.get_device_name(0))  # Nom du GPU
 device = torch.device("cuda" if torch.cuda.is_available() else args.device)
 print(Fore.GREEN + "Device : " + torch.cuda.get_device_name(torch.cuda.current_device()) if torch.cuda.is_available() else "Device : CPU")
 print(Style.RESET_ALL)
