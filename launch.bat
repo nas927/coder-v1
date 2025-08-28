@@ -1,1 +1,1 @@
-python .\train.py --lora 1 --lora-only 0 --lora-alpha 64 --lora-r 32
+python .\train.py --lora 1 --lora-only 1 --lora-alpha 128 --lora-r 64

@@ -25,7 +25,7 @@ parser.add_argument("--d_model", type=int, default=2048, help="d_model size  doi
 parser.add_argument("--d_ff", type=int, default=5504, help="feed forward size")
 parser.add_argument("--device", type=str, default="cpu", help="Vous voulez utilisez quoi comme matériel pour l'entrainement")
 args = parser.parse_args()
-print("Cuda is available ", torch.cuda.is_available())  # True si CUDA est utilisable
+print("Cuda is available :", torch.cuda.is_available())  # True si CUDA est utilisable
 print("Version de cuda " + torch.version.cuda)         # Version CUDA utilisée par PyTorch
 print("Nom du gpu " + torch.cuda.get_device_name(0))  # Nom du GPU
 device = torch.device("cuda" if torch.cuda.is_available() else args.device)
