@@ -86,7 +86,7 @@ def convert_to_txt(columns: list[str], extension: str) -> None:
     except Exception as e:
         print(Fore.RED + f"convert_to_txt() : {type(e).__name__} : {e}")
 
-def convert_each_file(file: str, columns: list[str] | bool, separator: str) -> None:
+def convert_each_file(file: str, columns: list[str] | bool, separator: str, with_fim: bool=False) -> None:
     """
     Take your file name in other_datasets transform to txt
     Columns is a list of column in json, jsonl or csv file specified
@@ -114,7 +114,8 @@ def convert_each_file(file: str, columns: list[str] | bool, separator: str) -> N
         if os.path.exists(DATASETS_DIR + os.path.basename(file) + ".txt"):
             file = str(random.randint(1000, 9999)) + "_" + os.path.basename(file)
 
-        lines_to_write = make_fim_examples(lines_to_write)
+        if with_fim:
+            lines_to_write = make_fim_examples(lines_to_write)
         with open(DATASETS_DIR + os.path.basename(file) + ".txt", 'w', encoding='utf-8') as f:
             for row in lines_to_write:
                 f.write(row + '\n')
